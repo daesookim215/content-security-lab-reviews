@@ -1,0 +1,8 @@
+images/
+outputs/
+__pycache__/
+.venv/
+*.png
+*.tiff
+*.tif
+*.jpg

@@ -1,0 +1,121 @@
+{
+  "seed": 200603,
+  "size": [
+    512,
+    512
+  ],
+  "grayscale_bits": 8,
+  "pair_counts": [
+    1,
+    2
+  ],
+  "difference_factor": 64,
+  "rows": [
+    {
+      "image": "Airplane",
+      "pairs": 1,
+      "points": [
+        {
+          "peak": 210,
+          "zero": 232
+        }
+      ],
+      "minimum_counts": [
+        0
+      ],
+      "gross_bits": 8312,
+      "overhead_bits": 0,
+      "capacity_bits": 8312,
+      "squared_error": 68899,
+      "mse": 0.2628288269042969,
+      "psnr_db": 53.93407364215771,
+      "changed_pixels": 68899,
+      "max_abs_change": 1,
+      "restoration_errors": 0,
+      "bit_errors": 0,
+      "source_sha256": "ae9eba12b80df955e47585bf4a16332ea0dadc753668d3457c509564934dbd40"
+    },
+    {
+      "image": "Airplane",
+      "pairs": 2,
+      "points": [
+        {
+          "peak": 210,
+          "zero": 15
+        },
+        {
+          "peak": 211,
+          "zero": 232
+        }
+      ],
+      "minimum_counts": [
+        0,
+        0
+      ],
+      "gross_bits": 16040,
+      "overhead_bits": 0,
+      "capacity_bits": 16040,
+      "squared_error": 254084,
+      "mse": 0.9692535400390625,
+      "psnr_db": 48.266429649966355,
+      "changed_pixels": 254084,
+      "max_abs_change": 1,
+      "restoration_errors": 0,
+      "bit_errors": 0,
+      "source_sha256": "ae9eba12b80df955e47585bf4a16332ea0dadc753668d3457c509564934dbd40"
+    },
+    {
+      "image": "Boat",
+      "pairs": 1,
+      "points": [
+        {
+          "peak": 148,
+          "zero": 254
+        }
+      ],
+      "minimum_counts": [
+        0
+      ],
+      "gross_bits": 5796,
+      "overhead_bits": 0,
+      "capacity_bits": 5796,
+      "squared_error": 108257,
+      "mse": 0.4129676818847656,
+      "psnr_db": 51.97164294994312,
+      "changed_pixels": 108257,
+      "max_abs_change": 1,
+      "restoration_errors": 0,
+      "bit_errors": 0,
+      "source_sha256": "6bc7319b1e3b44ce0b2a571ac39a28bac94437d812057d1afb2cf78ea3a9a35f"
+    },
+    {
+      "image": "Boat",
+      "pairs": 2,
+      "points": [
+        {
+          "peak": 147,
+          "zero": 4
+        },
+        {
+          "peak": 148,
+          "zero": 254
+        }
+      ],
+      "minimum_counts": [
+        3,
+        0
+      ],
+      "gross_bits": 11473,
+      "overhead_bits": 81,
+      "capacity_bits": 11392,
+      "squared_error": 256347,
+      "mse": 0.9778861999511719,
+      "psnr_db": 48.227920435127054,
+      "changed_pixels": 256347,
+      "max_abs_change": 1,
+      "restoration_errors": 0,
+      "bit_errors": 0,
+      "source_sha256": "6bc7319b1e3b44ce0b2a571ac39a28bac94437d812057d1afb2cf78ea3a9a35f"
+    }
+  ]
+}

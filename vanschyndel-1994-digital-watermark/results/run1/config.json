@@ -1,0 +1,24 @@
+{
+  "seed": 199409,
+  "width": 512,
+  "height": 512,
+  "grayscale_bits": 8,
+  "sequence_length": 512,
+  "payload_bits_per_row": 9,
+  "jpeg_qualities": [
+    100,
+    95,
+    85,
+    75,
+    50
+  ],
+  "difference_factor": 32,
+  "filter": [
+    -1,
+    -1,
+    4,
+    -1,
+    -1
+  ],
+  "histogram_groups": 128
+}

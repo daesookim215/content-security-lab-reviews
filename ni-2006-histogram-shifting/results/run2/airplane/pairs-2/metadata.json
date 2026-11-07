@@ -1,0 +1,29 @@
+{
+  "image": "Airplane",
+  "pairs": 2,
+  "points": [
+    {
+      "peak": 210,
+      "zero": 15
+    },
+    {
+      "peak": 211,
+      "zero": 232
+    }
+  ],
+  "minimum_counts": [
+    0,
+    0
+  ],
+  "gross_bits": 16040,
+  "overhead_bits": 0,
+  "capacity_bits": 16040,
+  "squared_error": 254084,
+  "mse": 0.9692535400390625,
+  "psnr_db": 48.266429649966355,
+  "changed_pixels": 254084,
+  "max_abs_change": 1,
+  "restoration_errors": 0,
+  "bit_errors": 0,
+  "source_sha256": "ae9eba12b80df955e47585bf4a16332ea0dadc753668d3457c509564934dbd40"
+}

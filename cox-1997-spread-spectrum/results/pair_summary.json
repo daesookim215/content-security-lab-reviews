@@ -1,0 +1,325 @@
+{
+  "images": {
+    "sipi_airplane": {
+      "cases": {
+        "uniqueness": {
+          "embedded_responses": [
+            30.535690561389156
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 35.89993502006595,
+          "unrelated_max": 2.852462810935288,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 32.0
+        },
+        "scaling": {
+          "embedded_responses": [
+            20.60794087007552
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 27.8719641020081,
+          "unrelated_max": 2.878608838233435,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 13.4
+        },
+        "jpeg10": {
+          "embedded_responses": [
+            17.14011081283575
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 26.50627694694259,
+          "unrelated_max": 3.1245895327295354,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 22.8
+        },
+        "jpeg5": {
+          "embedded_responses": [
+            9.48825552578319
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 24.095046359021634,
+          "unrelated_max": 3.50907395019818,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 13.9
+        },
+        "dither_raw": {
+          "embedded_responses": [
+            17.929294205503776
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 7.641304380361311,
+          "unrelated_max": 3.1808171534481176,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 5.2
+        },
+        "dither_centered": {
+          "embedded_responses": [
+            18.16749158470449
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 7.641304380361311,
+          "unrelated_max": 3.28825841297156,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 10.5
+        },
+        "crop": {
+          "embedded_responses": [
+            13.553030559774301
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 42.201073542764796,
+          "unrelated_max": 3.4448935907681646,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 14.6
+        },
+        "jpeg10_crop": {
+          "embedded_responses": [
+            8.183401798787646
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 30.980291345198697,
+          "unrelated_max": 3.441003688625337,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 10.6
+        },
+        "rewatermark": {
+          "embedded_responses": [
+            12.95155771176608,
+            14.697514157593488,
+            14.3027528061741,
+            13.962284525600479,
+            12.803634460273578
+          ],
+          "embedded_indices": [
+            99,
+            299,
+            499,
+            699,
+            899
+          ],
+          "psnr_db": 28.496457707494383,
+          "unrelated_max": 2.8522983401349538,
+          "unrelated_count": 995,
+          "unrelated_above_6": 0,
+          "paper_response": null
+        },
+        "collusion": {
+          "embedded_responses": [
+            13.094002341558681,
+            14.896926216557164,
+            14.306206703986655,
+            14.051660397708446,
+            12.887656893141786
+          ],
+          "embedded_indices": [
+            99,
+            299,
+            499,
+            699,
+            899
+          ],
+          "psnr_db": 42.65893793203469,
+          "unrelated_max": 2.8182275863301904,
+          "unrelated_count": 995,
+          "unrelated_above_6": 0,
+          "paper_response": null
+        }
+      },
+      "unrelated_count": 9982,
+      "unrelated_max": 3.50907395019818,
+      "unrelated_above_6": 0
+    },
+    "sipi_boat": {
+      "cases": {
+        "uniqueness": {
+          "embedded_responses": [
+            32.41237569738172
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 34.76021329859585,
+          "unrelated_max": 2.691981056503799,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 32.0
+        },
+        "scaling": {
+          "embedded_responses": [
+            23.7290112830349
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 27.173778388933076,
+          "unrelated_max": 4.1478870070375695,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 13.4
+        },
+        "jpeg10": {
+          "embedded_responses": [
+            18.36092905285758
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 25.79369144291232,
+          "unrelated_max": 3.4051615153329924,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 22.8
+        },
+        "jpeg5": {
+          "embedded_responses": [
+            9.32540883718443
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 23.7389398750442,
+          "unrelated_max": 3.0323188563218775,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 13.9
+        },
+        "dither_raw": {
+          "embedded_responses": [
+            18.319301570287482
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 6.693463054674003,
+          "unrelated_max": 3.482859737678083,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 5.2
+        },
+        "dither_centered": {
+          "embedded_responses": [
+            18.690758218266136
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 6.693463054674003,
+          "unrelated_max": 3.5536622663974575,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 10.5
+        },
+        "crop": {
+          "embedded_responses": [
+            12.191009293637865
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 40.040420625199715,
+          "unrelated_max": 3.4086923463644587,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 14.6
+        },
+        "jpeg10_crop": {
+          "embedded_responses": [
+            8.125958165311822
+          ],
+          "embedded_indices": [
+            199
+          ],
+          "psnr_db": 30.601983222124435,
+          "unrelated_max": 3.144008650207019,
+          "unrelated_count": 999,
+          "unrelated_above_6": 0,
+          "paper_response": 10.6
+        },
+        "rewatermark": {
+          "embedded_responses": [
+            14.289544908061952,
+            13.184282710532731,
+            13.917997242557307,
+            14.355943676923104,
+            13.22050089514134
+          ],
+          "embedded_indices": [
+            99,
+            299,
+            499,
+            699,
+            899
+          ],
+          "psnr_db": 27.72027161169714,
+          "unrelated_max": 3.5544941353580795,
+          "unrelated_count": 995,
+          "unrelated_above_6": 0,
+          "paper_response": null
+        },
+        "collusion": {
+          "embedded_responses": [
+            14.298211663329605,
+            13.284764953081565,
+            14.169206651809636,
+            14.623883741732604,
+            13.277256118512602
+          ],
+          "embedded_indices": [
+            99,
+            299,
+            499,
+            699,
+            899
+          ],
+          "psnr_db": 41.90259183863179,
+          "unrelated_max": 3.775044811792341,
+          "unrelated_count": 995,
+          "unrelated_above_6": 0,
+          "paper_response": null
+        }
+      },
+      "unrelated_count": 9982,
+      "unrelated_max": 4.1478870070375695,
+      "unrelated_above_6": 0
+    }
+  },
+  "threshold": 6.0,
+  "shape": [
+    256,
+    256
+  ],
+  "difference_amplification": 4,
+  "unrelated_count": 19964,
+  "unrelated_max": 4.1478870070375695,
+  "unrelated_above_6": 0,
+  "response_count": 20000,
+  "jpeg_quality": {
+    "jpeg10": 10,
+    "jpeg5": 5,
+    "jpeg10_crop": 10
+  }
+}

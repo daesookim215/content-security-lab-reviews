@@ -1,0 +1,29 @@
+{
+  "image": "Boat",
+  "pairs": 2,
+  "points": [
+    {
+      "peak": 147,
+      "zero": 4
+    },
+    {
+      "peak": 148,
+      "zero": 254
+    }
+  ],
+  "minimum_counts": [
+    3,
+    0
+  ],
+  "gross_bits": 11473,
+  "overhead_bits": 81,
+  "capacity_bits": 11392,
+  "squared_error": 256347,
+  "mse": 0.9778861999511719,
+  "psnr_db": 48.227920435127054,
+  "changed_pixels": 256347,
+  "max_abs_change": 1,
+  "restoration_errors": 0,
+  "bit_errors": 0,
+  "source_sha256": "6bc7319b1e3b44ce0b2a571ac39a28bac94437d812057d1afb2cf78ea3a9a35f"
+}

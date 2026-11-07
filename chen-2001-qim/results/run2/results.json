@@ -1,0 +1,675 @@
+{
+  "seed": 2001,
+  "steps": [
+    8,
+    16,
+    32,
+    64
+  ],
+  "jpeg_qualities": [
+    90,
+    70,
+    50,
+    30
+  ],
+  "noise_sigmas": [
+    1,
+    3,
+    6
+  ],
+  "size": [
+    512,
+    512
+  ],
+  "block": [
+    8,
+    8
+  ],
+  "coefficient": [
+    2,
+    3
+  ],
+  "payload_bits": 4096,
+  "rows": [
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "clean",
+      "file": "Airplane-d8-clean.png",
+      "errors": 231,
+      "bits": 4096,
+      "ber": 0.056396484375,
+      "psnr_db": 57.99099941460642
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "jpeg90",
+      "file": "Airplane-d8-jpeg90.jpg",
+      "errors": 1177,
+      "bits": 4096,
+      "ber": 0.287353515625,
+      "psnr_db": 41.9449869489765
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "jpeg70",
+      "file": "Airplane-d8-jpeg70.jpg",
+      "errors": 2176,
+      "bits": 4096,
+      "ber": 0.53125,
+      "psnr_db": 37.84960114128143
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "jpeg50",
+      "file": "Airplane-d8-jpeg50.jpg",
+      "errors": 2058,
+      "bits": 4096,
+      "ber": 0.50244140625,
+      "psnr_db": 35.98909978986618
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "jpeg30",
+      "file": "Airplane-d8-jpeg30.jpg",
+      "errors": 2036,
+      "bits": 4096,
+      "ber": 0.4970703125,
+      "psnr_db": 34.18555550823227
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "noise1",
+      "file": "Airplane-d8-noise1.png",
+      "errors": 685,
+      "bits": 4096,
+      "ber": 0.167236328125,
+      "psnr_db": 47.39592248259985
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "noise3",
+      "file": "Airplane-d8-noise3.png",
+      "errors": 1911,
+      "bits": 4096,
+      "ber": 0.466552734375,
+      "psnr_db": 38.50051822320697
+    },
+    {
+      "image": "Airplane",
+      "step": 8,
+      "attack": "noise6",
+      "file": "Airplane-d8-noise6.png",
+      "errors": 2050,
+      "bits": 4096,
+      "ber": 0.50048828125,
+      "psnr_db": 32.5482330692036
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "clean",
+      "file": "Airplane-d16-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 52.15222145909242
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "jpeg90",
+      "file": "Airplane-d16-jpeg90.jpg",
+      "errors": 31,
+      "bits": 4096,
+      "ber": 0.007568359375,
+      "psnr_db": 41.66924994037121
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "jpeg70",
+      "file": "Airplane-d16-jpeg70.jpg",
+      "errors": 1853,
+      "bits": 4096,
+      "ber": 0.452392578125,
+      "psnr_db": 37.71399505193523
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "jpeg50",
+      "file": "Airplane-d16-jpeg50.jpg",
+      "errors": 2307,
+      "bits": 4096,
+      "ber": 0.563232421875,
+      "psnr_db": 35.94969330976193
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "jpeg30",
+      "file": "Airplane-d16-jpeg30.jpg",
+      "errors": 1960,
+      "bits": 4096,
+      "ber": 0.478515625,
+      "psnr_db": 34.17019200706959
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "noise1",
+      "file": "Airplane-d16-noise1.png",
+      "errors": 9,
+      "bits": 4096,
+      "ber": 0.002197265625,
+      "psnr_db": 46.41619328370293
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "noise3",
+      "file": "Airplane-d16-noise3.png",
+      "errors": 815,
+      "bits": 4096,
+      "ber": 0.198974609375,
+      "psnr_db": 38.35677402153465
+    },
+    {
+      "image": "Airplane",
+      "step": 16,
+      "attack": "noise6",
+      "file": "Airplane-d16-noise6.png",
+      "errors": 1890,
+      "bits": 4096,
+      "ber": 0.46142578125,
+      "psnr_db": 32.50943208919111
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "clean",
+      "file": "Airplane-d32-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 46.61638084761093
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "jpeg90",
+      "file": "Airplane-d32-jpeg90.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 40.75168358917551
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "jpeg70",
+      "file": "Airplane-d32-jpeg70.jpg",
+      "errors": 22,
+      "bits": 4096,
+      "ber": 0.00537109375,
+      "psnr_db": 37.28606715134063
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "jpeg50",
+      "file": "Airplane-d32-jpeg50.jpg",
+      "errors": 1591,
+      "bits": 4096,
+      "ber": 0.388427734375,
+      "psnr_db": 35.52569150137083
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "jpeg30",
+      "file": "Airplane-d32-jpeg30.jpg",
+      "errors": 2179,
+      "bits": 4096,
+      "ber": 0.531982421875,
+      "psnr_db": 34.10350892591512
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "noise1",
+      "file": "Airplane-d32-noise1.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 44.15263628317174
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "noise3",
+      "file": "Airplane-d32-noise3.png",
+      "errors": 29,
+      "bits": 4096,
+      "ber": 0.007080078125,
+      "psnr_db": 37.92063708677369
+    },
+    {
+      "image": "Airplane",
+      "step": 32,
+      "attack": "noise6",
+      "file": "Airplane-d32-noise6.png",
+      "errors": 765,
+      "bits": 4096,
+      "ber": 0.186767578125,
+      "psnr_db": 32.39360664848262
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "clean",
+      "file": "Airplane-d64-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 40.721926637012785
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "jpeg90",
+      "file": "Airplane-d64-jpeg90.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 38.337621029364385
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "jpeg70",
+      "file": "Airplane-d64-jpeg70.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 36.03923812270811
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "jpeg50",
+      "file": "Airplane-d64-jpeg50.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 34.7349256823738
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "jpeg30",
+      "file": "Airplane-d64-jpeg30.jpg",
+      "errors": 941,
+      "bits": 4096,
+      "ber": 0.229736328125,
+      "psnr_db": 32.970850191039865
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "noise1",
+      "file": "Airplane-d64-noise1.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 39.94269104473567
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "noise3",
+      "file": "Airplane-d64-noise3.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 36.493805093972284
+    },
+    {
+      "image": "Airplane",
+      "step": 64,
+      "attack": "noise6",
+      "file": "Airplane-d64-noise6.png",
+      "errors": 24,
+      "bits": 4096,
+      "ber": 0.005859375,
+      "psnr_db": 31.944711046865972
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "clean",
+      "file": "Boat-d8-clean.png",
+      "errors": 206,
+      "bits": 4096,
+      "ber": 0.05029296875,
+      "psnr_db": 57.96684299657855
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "jpeg90",
+      "file": "Boat-d8-jpeg90.jpg",
+      "errors": 1229,
+      "bits": 4096,
+      "ber": 0.300048828125,
+      "psnr_db": 39.0983156661319
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "jpeg70",
+      "file": "Boat-d8-jpeg70.jpg",
+      "errors": 2213,
+      "bits": 4096,
+      "ber": 0.540283203125,
+      "psnr_db": 35.10290046972231
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "jpeg50",
+      "file": "Boat-d8-jpeg50.jpg",
+      "errors": 2026,
+      "bits": 4096,
+      "ber": 0.49462890625,
+      "psnr_db": 33.488736455235454
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "jpeg30",
+      "file": "Boat-d8-jpeg30.jpg",
+      "errors": 2010,
+      "bits": 4096,
+      "ber": 0.49072265625,
+      "psnr_db": 31.828484554281115
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "noise1",
+      "file": "Boat-d8-noise1.png",
+      "errors": 710,
+      "bits": 4096,
+      "ber": 0.17333984375,
+      "psnr_db": 47.39030293541469
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "noise3",
+      "file": "Boat-d8-noise3.png",
+      "errors": 1993,
+      "bits": 4096,
+      "ber": 0.486572265625,
+      "psnr_db": 38.501595293466934
+    },
+    {
+      "image": "Boat",
+      "step": 8,
+      "attack": "noise6",
+      "file": "Boat-d8-noise6.png",
+      "errors": 2066,
+      "bits": 4096,
+      "ber": 0.50439453125,
+      "psnr_db": 32.55322908456226
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "clean",
+      "file": "Boat-d16-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 52.28616689570066
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "jpeg90",
+      "file": "Boat-d16-jpeg90.jpg",
+      "errors": 30,
+      "bits": 4096,
+      "ber": 0.00732421875,
+      "psnr_db": 38.9572569949098
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "jpeg70",
+      "file": "Boat-d16-jpeg70.jpg",
+      "errors": 1819,
+      "bits": 4096,
+      "ber": 0.444091796875,
+      "psnr_db": 35.04116926551235
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "jpeg50",
+      "file": "Boat-d16-jpeg50.jpg",
+      "errors": 2369,
+      "bits": 4096,
+      "ber": 0.578369140625,
+      "psnr_db": 33.46009132646535
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "jpeg30",
+      "file": "Boat-d16-jpeg30.jpg",
+      "errors": 1916,
+      "bits": 4096,
+      "ber": 0.4677734375,
+      "psnr_db": 31.81919298626356
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "noise1",
+      "file": "Boat-d16-noise1.png",
+      "errors": 12,
+      "bits": 4096,
+      "ber": 0.0029296875,
+      "psnr_db": 46.480089550167385
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "noise3",
+      "file": "Boat-d16-noise3.png",
+      "errors": 874,
+      "bits": 4096,
+      "ber": 0.21337890625,
+      "psnr_db": 38.377198752902984
+    },
+    {
+      "image": "Boat",
+      "step": 16,
+      "attack": "noise6",
+      "file": "Boat-d16-noise6.png",
+      "errors": 1976,
+      "bits": 4096,
+      "ber": 0.482421875,
+      "psnr_db": 32.52278042050555
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "clean",
+      "file": "Boat-d32-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 46.686354783976014
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "jpeg90",
+      "file": "Boat-d32-jpeg90.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 38.45906610574486
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "jpeg70",
+      "file": "Boat-d32-jpeg70.jpg",
+      "errors": 20,
+      "bits": 4096,
+      "ber": 0.0048828125,
+      "psnr_db": 34.82330623764825
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "jpeg50",
+      "file": "Boat-d32-jpeg50.jpg",
+      "errors": 1504,
+      "bits": 4096,
+      "ber": 0.3671875,
+      "psnr_db": 33.26429869353453
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "jpeg30",
+      "file": "Boat-d32-jpeg30.jpg",
+      "errors": 2201,
+      "bits": 4096,
+      "ber": 0.537353515625,
+      "psnr_db": 31.758803683481357
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "noise1",
+      "file": "Boat-d32-noise1.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 44.20799915682559
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "noise3",
+      "file": "Boat-d32-noise3.png",
+      "errors": 46,
+      "bits": 4096,
+      "ber": 0.01123046875,
+      "psnr_db": 37.94087873031648
+    },
+    {
+      "image": "Boat",
+      "step": 32,
+      "attack": "noise6",
+      "file": "Boat-d32-noise6.png",
+      "errors": 788,
+      "bits": 4096,
+      "ber": 0.1923828125,
+      "psnr_db": 32.406165962420175
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "clean",
+      "file": "Boat-d64-clean.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 40.85771526229028
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "jpeg90",
+      "file": "Boat-d64-jpeg90.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 36.91589034162378
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "jpeg70",
+      "file": "Boat-d64-jpeg70.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 34.09623273294729
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "jpeg50",
+      "file": "Boat-d64-jpeg50.jpg",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 32.76843292877276
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "jpeg30",
+      "file": "Boat-d64-jpeg30.jpg",
+      "errors": 938,
+      "bits": 4096,
+      "ber": 0.22900390625,
+      "psnr_db": 31.154908580976016
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "noise1",
+      "file": "Boat-d64-noise1.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 40.05641463118213
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "noise3",
+      "file": "Boat-d64-noise3.png",
+      "errors": 0,
+      "bits": 4096,
+      "ber": 0.0,
+      "psnr_db": 36.54515959142843
+    },
+    {
+      "image": "Boat",
+      "step": 64,
+      "attack": "noise6",
+      "file": "Boat-d64-noise6.png",
+      "errors": 36,
+      "bits": 4096,
+      "ber": 0.0087890625,
+      "psnr_db": 31.967381808703248
+    }
+  ]
+}
