@@ -1,9 +1,11 @@
 # Content Security Lab Reviews
 
-Re-implementations and our measurements for six **Research Notes** reviews on
-[chickendays.com](https://chickendays.com/). These are our implementations of
-the cited methods; we did not find the authors' experimental code. The numeric
-results describe our stated settings and are not the papers' original results.
+Code and our measurements for **Research Notes** reviews on
+[chickendays.com](https://chickendays.com/). The first six folders are our own
+implementations of the cited methods; we did not find the authors' experimental
+code. `bui-2023-trustmark` tests the authors' released TrustMark package instead.
+The numeric results describe our stated settings and are not the papers' original
+results.
 
 | Paper | Authors | Year | DOI | Folder | Review |
 |---|---|---|---|---|---|
@@ -13,6 +15,7 @@ results describe our stated settings and are not the papers' original results.
 | Quantization Index Modulation: A Class of Provably Good Methods for Digital Watermarking and Information Embedding | B. Chen, G. W. Wornell | 2001 | [10.1109/18.923725](https://doi.org/10.1109/18.923725) | [chen-2001-qim](chen-2001-qim/) | [Blog post](https://chickendays.com/chen-2001-qim/) |
 | Reversible Watermark Using the Difference Expansion of a Generalized Integer Transform | A. M. Alattar | 2004 | [10.1109/TIP.2004.828418](https://doi.org/10.1109/TIP.2004.828418) | [alattar-2004-integer-transform](alattar-2004-integer-transform/) | [Blog post](https://chickendays.com/alattar-2004-integer-transform/) |
 | A Digital Watermark | R. G. van Schyndel, A. Z. Tirkel, C. F. Osborne | 1994 | [10.1109/ICIP.1994.413536](https://doi.org/10.1109/ICIP.1994.413536) | [vanschyndel-1994-digital-watermark](vanschyndel-1994-digital-watermark/) | [Blog post](https://chickendays.com/vanschyndel-1994-digital-watermark/) |
+| TrustMark: Universal Watermarking for Arbitrary Resolution Images | T. Bui, S. Agarwal, J. Collomosse | 2023 | [10.48550/arXiv.2311.18297](https://doi.org/10.48550/arXiv.2311.18297) | [bui-2023-trustmark](bui-2023-trustmark/) | [Blog post](https://chickendays.com/bui-2023-trustmark/) |
 
 ## Quick start
 
@@ -28,6 +31,10 @@ python chen-2001-qim/reproduce.py
 python alattar-2004-integer-transform/reproduce.py
 python vanschyndel-1994-digital-watermark/reproduce.py
 ```
+
+TrustMark uses its own environment (Python 3.12, CPU PyTorch, the official
+`trustmark` package): see [bui-2023-trustmark/README.md](bui-2023-trustmark/README.md)
+and run `sh reproduce.sh` inside that folder.
 
 Each reproduction runs the full experiment twice, checks deterministic outputs
 and independent decoding, then compares every included result file exactly

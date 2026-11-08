@@ -1,0 +1,52 @@
+{
+  "pixel": {
+    "x": 904,
+    "y": 993,
+    "channel": "red",
+    "input": 155,
+    "residual_normalized": 0.0087890625,
+    "residual_pixel_units": 1.12060546875,
+    "sum_before_conversion": 156.12060546875,
+    "marked": 156
+  },
+  "working_residual_range": [
+    -0.1193251833319664,
+    0.1372978836297989
+  ],
+  "resized_residual_range": [
+    -0.11797996610403061,
+    0.13495135307312012
+  ],
+  "working_shape": [
+    256,
+    256,
+    3
+  ],
+  "resized_shape": [
+    2048,
+    2048,
+    3
+  ],
+  "scale_limit": 0.14,
+  "scale_factor": 8,
+  "neighborhood": {
+    "left": 900,
+    "top": 989,
+    "side": 8
+  },
+  "labels": {
+    "sizes": "256\u00d7256 \u2192 2048\u00d72048 \u00b7 red channel",
+    "minimum": "Min -15.2",
+    "maximum": "Max +17.5",
+    "scale_low": "\u221217.9",
+    "scale_zero": "0",
+    "scale_high": "+17.9",
+    "footprint": "One working pixel spans 8\u00d78 output pixels.",
+    "zoom": "8\u00d78 detail",
+    "coordinates": "Pixel (x=904, y=993), red \u00b7 zero-based",
+    "arithmetic": "155 + 1.12 = 156",
+    "sum": "Before truncation: 156.12",
+    "units": "Values are pixel levels on the 0\u2013255 scale."
+  },
+  "paragraph": "In our Boat run at 2048\u00d72048, the encoder's residual at 256\u00d7256 ranged from \u221215.2 to +17.5 pixel levels on the 0\u2013255 scale. Bilinear resizing to 2048\u00d72048 spreads each working-size pixel over an 8\u00d78 block of full-size pixels, blended with its neighbors. At pixel (904, 993), counting from zero, the input value was 155 and the resized residual was +1.12. Adding the two and dropping the fraction gave a marked value of 156."
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "image": "airplane",
+    "filename": "airplane.tiff",
+    "sha256": "ae9eba12b80df955e47585bf4a16332ea0dadc753668d3457c509564934dbd40",
+    "url": "https://sipi.usc.edu/database/misc/4.2.05.tiff"
+  },
+  {
+    "image": "boat",
+    "filename": "boat.tiff",
+    "sha256": "6bc7319b1e3b44ce0b2a571ac39a28bac94437d812057d1afb2cf78ea3a9a35f",
+    "url": "https://sipi.usc.edu/database/misc/boat.512.tiff"
+  }
+]

@@ -1,0 +1,5 @@
+image,resolution,mse,psnr_db,input_file,marked_file
+airplane,512,5.113484700520833,41.043633999847884,images/airplane-512-input.png,images/airplane-512-marked.png
+airplane,2048,5.203807195027669,40.9675916361763,images/airplane-2048-input.png,images/airplane-2048-marked.png
+boat,512,3.026353200276693,43.32160748489493,images/boat-512-input.png,images/boat-512-marked.png
+boat,2048,3.069905678431193,43.25955328702171,images/boat-2048-input.png,images/boat-2048-marked.png

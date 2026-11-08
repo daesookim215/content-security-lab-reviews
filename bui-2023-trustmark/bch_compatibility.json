@@ -1,0 +1,10 @@
+{
+  "bchecc.py": {
+    "pypi_sha256": "d81baac167a3fa36d35a7834e71f45256e83ff004270a35daff10039b95f3a18",
+    "tested_sha256": "727bcbc2372c1d5bcbb7f88eb70ff0c468135d3521cf5a509af8f3518aa7d00e"
+  },
+  "datalayer.py": {
+    "pypi_sha256": "a570cf4b208a0299c299b1a1702542f0bf5d0ec54f8a1d7600a53b73b2f310c3",
+    "tested_sha256": "95fa67ae24e38aec15a3da9d14c80d51a6afd14eb00725d7f40fe2b281ebe2de"
+  }
+}

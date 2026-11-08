@@ -1,0 +1,67 @@
+{
+  "settings": {
+    "bch_correction_bits": 5,
+    "bch_mode": "BCH_5",
+    "bch_polynomial": 137,
+    "blur_radius": 2.0,
+    "brightness_factor": 1.5,
+    "checkpoint_sha256": {
+      "decoder_Q.ckpt": "e3d9cea5406a26590735719f8f15cb10802b11852ae69047eaf4cf17214df781",
+      "encoder_Q.ckpt": "dc382c3f6b4fd568b27d6fbb763d6ffc2d2587126d84afe9d5ee95b4c5d99826",
+      "trustmark_Q.yaml": "43f37103f92efa8bd6b1c5902bb537cc12a981dc699fca19d9bb7de8c62d03d9"
+    },
+    "concentrate_wm_region": 1.0,
+    "crop_side_fraction": 0.8,
+    "decoder_size": 245,
+    "device": "cpu",
+    "downscale_fraction": 0.5,
+    "encoder_size": 256,
+    "expected_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "interop_threads": 1,
+    "jpeg_qualities": [
+      90,
+      70,
+      50
+    ],
+    "jpeg_subsampling": 2,
+    "merge": "bilinear",
+    "model": "Q",
+    "numpy_version": "2.2.6",
+    "package_version": "0.9.2",
+    "packet_bits": 100,
+    "parity_bits": 35,
+    "payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "payload_bits": 61,
+    "pillow_version": "11.3.0",
+    "python_version": "3.12.3",
+    "resampling": "Lanczos",
+    "resolutions": [
+      512,
+      2048
+    ],
+    "schema_bits": 4,
+    "seed": 20231130,
+    "source_sha256": {
+      "bchecc.py": "727bcbc2372c1d5bcbb7f88eb70ff0c468135d3521cf5a509af8f3518aa7d00e",
+      "datalayer.py": "95fa67ae24e38aec15a3da9d14c80d51a6afd14eb00725d7f40fe2b281ebe2de",
+      "model.py": "bf7fc5875cbeb852288dfec38d96a7ca82c20fb6c7395336ca2ca9f0b20ab4b4",
+      "trustmark.py": "1016f4f6f842743b2d5710c52ef38441ec3dd6b4658aae5bc05e27b17406c288",
+      "unet.py": "0c2892abedd9d21af9ce1d0eb0227ccb30eb24cd48762fee2312e9acc6301a1b"
+    },
+    "strength": 1.0,
+    "threads": 8,
+    "torch_version": "2.5.1+cpu"
+  },
+  "array_layout": "height, width, RGB channel",
+  "residual_units": "normalized encoder units; multiply by 127.5 for 8-bit pixel units",
+  "saved_marked_match": true,
+  "array_sha256": {
+    "cover": "af5fda388e500e04506657cf81bfb68f5c931048315cb39bcf59c572f09a45b1",
+    "working_cover": "bf3697df5d6b15ca2e37a22193805180c696c2fbdfc1f832890e3a38792752a9",
+    "prediction": "af243abf068893aaafbf47ba5a5e9785daf6dc10277dbb2c6b4385ac69023397",
+    "channel_mean": "4a0d21b0634201efaeaba9de37a883931029ce89cc8dc4c7d7146f8d63445aea",
+    "residual_256": "b0431af5f640fa07065cd30f1dbfc7889695ff59db0747e73ac6655550eec5a6",
+    "residual_2048": "6a0b1101f482cc69a1df69f8c8e209b56798c471018ea5078211083c940abc42",
+    "marked": "dbb0aed009fe7f4f0490aa8d6890f4b6051f3fc3ea1c59e899a2fa7d209cdb10"
+  }
+}
