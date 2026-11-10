@@ -1,0 +1,6 @@
+outputs/
+.venv/
+coco/
+ckpts/
+config.*.yaml
+__pycache__/

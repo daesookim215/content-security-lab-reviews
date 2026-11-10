@@ -1,0 +1,13 @@
+scenario: baseline # baseline | overwrite_same | cross_method | copy_attack
+n_images: 200
+image_dir: coco/val2017
+seed: 0
+trustmark:
+  model_variant: Q
+  encoding: BCH_5
+  strength: 1.0 # Upstream default; this experiment fixes it at 1.0.
+videoseal:
+  model: videoseal # Default released VideoSeal v1.0, 256 bits, image mode.
+  detection: message_verification # message_verification | score_only
+  verification_p_threshold: 0.000001 # Experiment convention, not an API threshold.
+output_dir: outputs/
