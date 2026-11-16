@@ -1,0 +1,802 @@
+[
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 0.5,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 1.0,
+    "mean_correct": 26.0,
+    "min_correct": 26,
+    "max_correct": 26,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 2.0,
+    "mean_correct": 23.0,
+    "min_correct": 23,
+    "max_correct": 23,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 4.0,
+    "mean_correct": 17.0,
+    "min_correct": 17,
+    "max_correct": 17,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.035,
+    "mean_correct": 22.0,
+    "min_correct": 22,
+    "max_correct": 22,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.1,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.3,
+    "mean_correct": 27.0,
+    "min_correct": 27,
+    "max_correct": 27,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.7,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.1,
+    "mean_correct": 18.35,
+    "min_correct": 17,
+    "max_correct": 20,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.3,
+    "mean_correct": 26.05,
+    "min_correct": 23,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.7,
+    "mean_correct": 27.6,
+    "min_correct": 26,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "identity",
+    "strength": 1.0,
+    "mean_correct": 29.0,
+    "min_correct": 29,
+    "max_correct": 29,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 30,
+    "mean_correct": 13.0,
+    "min_correct": 13,
+    "max_correct": 13,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 50,
+    "mean_correct": 16.0,
+    "min_correct": 16,
+    "max_correct": 16,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 75,
+    "mean_correct": 14.0,
+    "min_correct": 14,
+    "max_correct": 14,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 95,
+    "mean_correct": 23.0,
+    "min_correct": 23,
+    "max_correct": 23,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.035,
+    "mean_correct": 24.6,
+    "min_correct": 20,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.1,
+    "mean_correct": 26.7,
+    "min_correct": 25,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.3,
+    "mean_correct": 27.75,
+    "min_correct": 27,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.7,
+    "mean_correct": 27.95,
+    "min_correct": 27,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 0.5,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 1.0,
+    "mean_correct": 16.0,
+    "min_correct": 16,
+    "max_correct": 16,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 2.0,
+    "mean_correct": 16.0,
+    "min_correct": 16,
+    "max_correct": 16,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 4.0,
+    "mean_correct": 14.0,
+    "min_correct": 14,
+    "max_correct": 14,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.035,
+    "mean_correct": 22.0,
+    "min_correct": 22,
+    "max_correct": 22,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.1,
+    "mean_correct": 26.0,
+    "min_correct": 26,
+    "max_correct": 26,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.3,
+    "mean_correct": 29.0,
+    "min_correct": 29,
+    "max_correct": 29,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.7,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.1,
+    "mean_correct": 14.85,
+    "min_correct": 13,
+    "max_correct": 17,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.3,
+    "mean_correct": 20.2,
+    "min_correct": 18,
+    "max_correct": 23,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.7,
+    "mean_correct": 28.3,
+    "min_correct": 27,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "identity",
+    "strength": 1.0,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 30,
+    "mean_correct": 12.0,
+    "min_correct": 12,
+    "max_correct": 12,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 50,
+    "mean_correct": 10.0,
+    "min_correct": 10,
+    "max_correct": 10,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 75,
+    "mean_correct": 12.0,
+    "min_correct": 12,
+    "max_correct": 12,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 95,
+    "mean_correct": 14.0,
+    "min_correct": 14,
+    "max_correct": 14,
+    "draws": 1
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.035,
+    "mean_correct": 21.8,
+    "min_correct": 19,
+    "max_correct": 26,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.1,
+    "mean_correct": 26.0,
+    "min_correct": 23,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.3,
+    "mean_correct": 29.45,
+    "min_correct": 26,
+    "max_correct": 30,
+    "draws": 20
+  },
+  {
+    "image": "Airplane",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.7,
+    "mean_correct": 29.35,
+    "min_correct": 23,
+    "max_correct": 30,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 0.5,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 1.0,
+    "mean_correct": 27.0,
+    "min_correct": 27,
+    "max_correct": 27,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 2.0,
+    "mean_correct": 21.0,
+    "min_correct": 21,
+    "max_correct": 21,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "blur",
+    "strength": 4.0,
+    "mean_correct": 17.0,
+    "min_correct": 17,
+    "max_correct": 17,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.035,
+    "mean_correct": 25.0,
+    "min_correct": 25,
+    "max_correct": 25,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.1,
+    "mean_correct": 27.0,
+    "min_correct": 27,
+    "max_correct": 27,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.3,
+    "mean_correct": 27.0,
+    "min_correct": 27,
+    "max_correct": 27,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "crop",
+    "strength": 0.7,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.1,
+    "mean_correct": 25.4,
+    "min_correct": 24,
+    "max_correct": 27,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.3,
+    "mean_correct": 27.1,
+    "min_correct": 27,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "dropout",
+    "strength": 0.7,
+    "mean_correct": 28.4,
+    "min_correct": 28,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "identity",
+    "strength": 1.0,
+    "mean_correct": 29.0,
+    "min_correct": 29,
+    "max_correct": 29,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 30,
+    "mean_correct": 18.0,
+    "min_correct": 18,
+    "max_correct": 18,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 50,
+    "mean_correct": 19.0,
+    "min_correct": 19,
+    "max_correct": 19,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 75,
+    "mean_correct": 18.0,
+    "min_correct": 18,
+    "max_correct": 18,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "jpeg",
+    "strength": 95,
+    "mean_correct": 20.0,
+    "min_correct": 20,
+    "max_correct": 20,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.035,
+    "mean_correct": 25.1,
+    "min_correct": 23,
+    "max_correct": 27,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.1,
+    "mean_correct": 26.15,
+    "min_correct": 24,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.3,
+    "mean_correct": 27.5,
+    "min_correct": 27,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "combined",
+    "attack": "random_crop",
+    "strength": 0.7,
+    "mean_correct": 28.0,
+    "min_correct": 28,
+    "max_correct": 28,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 0.5,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 1.0,
+    "mean_correct": 16.0,
+    "min_correct": 16,
+    "max_correct": 16,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 2.0,
+    "mean_correct": 14.0,
+    "min_correct": 14,
+    "max_correct": 14,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "blur",
+    "strength": 4.0,
+    "mean_correct": 15.0,
+    "min_correct": 15,
+    "max_correct": 15,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.035,
+    "mean_correct": 22.0,
+    "min_correct": 22,
+    "max_correct": 22,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.1,
+    "mean_correct": 27.0,
+    "min_correct": 27,
+    "max_correct": 27,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.3,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "crop",
+    "strength": 0.7,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.1,
+    "mean_correct": 16.9,
+    "min_correct": 15,
+    "max_correct": 20,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.3,
+    "mean_correct": 23.3,
+    "min_correct": 21,
+    "max_correct": 24,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "dropout",
+    "strength": 0.7,
+    "mean_correct": 28.05,
+    "min_correct": 27,
+    "max_correct": 29,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "identity",
+    "strength": 1.0,
+    "mean_correct": 30.0,
+    "min_correct": 30,
+    "max_correct": 30,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 30,
+    "mean_correct": 11.0,
+    "min_correct": 11,
+    "max_correct": 11,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 50,
+    "mean_correct": 11.0,
+    "min_correct": 11,
+    "max_correct": 11,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 75,
+    "mean_correct": 9.0,
+    "min_correct": 9,
+    "max_correct": 9,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "jpeg",
+    "strength": 95,
+    "mean_correct": 15.0,
+    "min_correct": 15,
+    "max_correct": 15,
+    "draws": 1
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.035,
+    "mean_correct": 21.65,
+    "min_correct": 20,
+    "max_correct": 24,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.1,
+    "mean_correct": 25.4,
+    "min_correct": 23,
+    "max_correct": 27,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.3,
+    "mean_correct": 29.7,
+    "min_correct": 27,
+    "max_correct": 30,
+    "draws": 20
+  },
+  {
+    "image": "Boat",
+    "model": "identity",
+    "attack": "random_crop",
+    "strength": 0.7,
+    "mean_correct": 29.95,
+    "min_correct": 29,
+    "max_correct": 30,
+    "draws": 20
+  }
+]

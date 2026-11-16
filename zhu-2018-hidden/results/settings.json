@@ -1,0 +1,94 @@
+{
+  "message": "101100101100101100101100101100",
+  "message_bits": [
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "threshold": 0.5,
+  "crop_xyxy": [
+    192,
+    192,
+    320,
+    320
+  ],
+  "source_shape": [
+    512,
+    512
+  ],
+  "working_shape": [
+    128,
+    128
+  ],
+  "seed": 20180908,
+  "draws": 20,
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 2,
+  "normalization": "uint8 / 127.5 - 1",
+  "serialization": "clip [-1,1]; (x+1)*127.5; numpy.rint (ties to even); uint8; reopen PNG",
+  "jpeg": {
+    "subsampling": 2,
+    "optimize": false,
+    "progressive": false,
+    "libjpeg": "6.2"
+  },
+  "blur": "separable Gaussian; radius ceil(3*sigma); normalized float32 kernel; reflection padding; numpy.rint",
+  "seed_offsets": "image_index*100000; random crop +10000; dropout +20000; strength_index*1000; +draw; shared across models",
+  "python": "3.11.14",
+  "torch": "2.14.1",
+  "numpy": "2.4.6",
+  "pillow": "13.0.0",
+  "commit": "556f76dd0602e4351ed4c19bd2ee87d50ef3c0de",
+  "models": [
+    [
+      "combined",
+      "experiments/combined-noise/checkpoints/combined-noise--epoch-400.pyt",
+      "ef9741110627561a634bf54a9fae82d3c3b8b4621596a5770f5aa8f8a31b532d"
+    ],
+    [
+      "identity",
+      "experiments/no-noise adam-eps-1e-4/checkpoints/no-noise--epoch-200.pyt",
+      "71118462194d647f6f5c08dd35f95d4f53db11a9bd2758f3bd336b46aafa5916"
+    ]
+  ],
+  "inputs": [
+    [
+      "Airplane",
+      "4.2.05.tiff",
+      "ae9eba12b80df955e47585bf4a16332ea0dadc753668d3457c509564934dbd40"
+    ],
+    [
+      "Boat",
+      "boat.512.tiff",
+      "6bc7319b1e3b44ce0b2a571ac39a28bac94437d812057d1afb2cf78ea3a9a35f"
+    ]
+  ]
+}

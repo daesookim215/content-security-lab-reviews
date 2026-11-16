@@ -4,6 +4,7 @@ Code and our measurements for **Research Notes** reviews on
 [chickendays.com](https://chickendays.com/). The first six folders are our own
 implementations of the cited methods; we did not find the authors' experimental
 code. `bui-2023-trustmark` tests the authors' released TrustMark package instead.
+`zhu-2018-hidden` tests released checkpoints of a public PyTorch re-implementation of HiDDeN.
 The numeric results describe our stated settings and are not the papers' original
 results.
 
@@ -16,6 +17,7 @@ results.
 | Reversible Watermark Using the Difference Expansion of a Generalized Integer Transform | A. M. Alattar | 2004 | [10.1109/TIP.2004.828418](https://doi.org/10.1109/TIP.2004.828418) | [alattar-2004-integer-transform](alattar-2004-integer-transform/) | [Blog post](https://chickendays.com/alattar-2004-integer-transform/) |
 | A Digital Watermark | R. G. van Schyndel, A. Z. Tirkel, C. F. Osborne | 1994 | [10.1109/ICIP.1994.413536](https://doi.org/10.1109/ICIP.1994.413536) | [vanschyndel-1994-digital-watermark](vanschyndel-1994-digital-watermark/) | [Blog post](https://chickendays.com/vanschyndel-1994-digital-watermark/) |
 | TrustMark: Universal Watermarking for Arbitrary Resolution Images | T. Bui, S. Agarwal, J. Collomosse | 2023 | [10.48550/arXiv.2311.18297](https://doi.org/10.48550/arXiv.2311.18297) | [bui-2023-trustmark](bui-2023-trustmark/) | [Blog post](https://chickendays.com/bui-2023-trustmark/) |
+| HiDDeN: Hiding Data With Deep Networks | J. Zhu, R. Kaplan, J. Johnson, L. Fei-Fei | 2018 | [10.48550/arXiv.1807.09937](https://doi.org/10.48550/arXiv.1807.09937) | [zhu-2018-hidden](zhu-2018-hidden/) | [Blog post](https://chickendays.com/zhu-2018-hidden/) |
 | Overwrite, cross-method and copy tests on TrustMark and Video Seal (our experiment) | - | 2026 | - | [wm-overwrite-copy-tests](wm-overwrite-copy-tests/) | [Blog post](https://chickendays.com/wm-overwrite-copy-tests/) |
 
 ## Quick start
@@ -36,6 +38,9 @@ python vanschyndel-1994-digital-watermark/reproduce.py
 TrustMark uses its own environment (Python 3.12, CPU PyTorch, the official
 `trustmark` package): see [bui-2023-trustmark/README.md](bui-2023-trustmark/README.md)
 and run `sh reproduce.sh` inside that folder.
+
+HiDDeN uses uv and CPU PyTorch: see [zhu-2018-hidden/README.md](zhu-2018-hidden/README.md)
+and run `uv run reproduce.py` inside that folder.
 
 `wm-overwrite-copy-tests` needs an NVIDIA GPU and COCO val2017: see
 [wm-overwrite-copy-tests/README.md](wm-overwrite-copy-tests/README.md).

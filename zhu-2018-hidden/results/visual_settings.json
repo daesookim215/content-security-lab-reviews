@@ -1,0 +1,10 @@
+{
+  "residual_display": "128 + 8 * (serialized_encoded - cover), clipped to [0,255]",
+  "residual_gain": 8,
+  "residual_center": 128,
+  "display_interpolation": "nearest-neighbor",
+  "jpeg_chroma_subsampling": "4:2:0",
+  "jpeg_subsampling_argument": 2,
+  "psnr_peak": 255,
+  "source": "build_panels.py; experiment/run_test.py"
+}
