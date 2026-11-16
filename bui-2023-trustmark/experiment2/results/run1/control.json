@@ -1,0 +1,102 @@
+[
+  {
+    "bit_accuracy": 0.47540983606557374,
+    "candidate_payload": "0001100101011010000011110100100101100011",
+    "candidate_schema": 0,
+    "candidate_valid": false,
+    "change": "unmarked",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      512,
+      512
+    ],
+    "exact_payload": false,
+    "experiment": "control",
+    "file": "images/control-airplane-512-unmarked.png",
+    "image": "airplane",
+    "image_sha256": "33810cc97ab8222e5bbb5fb32394d314d7d53564b008a4bf5371d0044ca45336",
+    "packet_accuracy": 0.51,
+    "packet_bits_correct": 51,
+    "payload_bits_correct": 29,
+    "raw_packet": "0001100101011010000011110100100101100011111100001001001101100001111010111000011010000001100100111100",
+    "raw_payload": "0001100101011010000011110100100101100011111100001001001101100",
+    "resolution": 512,
+    "schema": -1
+  },
+  {
+    "bit_accuracy": 0.4918032786885246,
+    "candidate_payload": "00011001010110100000101101001001011000111111000010010011011000011110",
+    "candidate_schema": 2,
+    "candidate_valid": false,
+    "change": "unmarked",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "exact_payload": false,
+    "experiment": "control",
+    "file": "images/control-airplane-2048-unmarked.png",
+    "image": "airplane",
+    "image_sha256": "4367cbc16bb998a39bcf9b03c76360199bdc7466a3b99f9593ce3ef47020f81a",
+    "packet_accuracy": 0.51,
+    "packet_bits_correct": 51,
+    "payload_bits_correct": 30,
+    "raw_packet": "0001100101011010000010110100100101100011111100001001001101100001111010111000011010000001100100111110",
+    "raw_payload": "0001100101011010000010110100100101100011111100001001001101100",
+    "resolution": 2048,
+    "schema": -1
+  },
+  {
+    "bit_accuracy": 0.47540983606557374,
+    "candidate_payload": "1100111110011001010011110011100001110111111101101100001011100",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "unmarked",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      512,
+      512
+    ],
+    "exact_payload": false,
+    "experiment": "control",
+    "file": "images/control-boat-512-unmarked.png",
+    "image": "boat",
+    "image_sha256": "489565a33a6a166f1da3c4d1f34bdb1e5935cc8e3424edde42500d6a6a44f234",
+    "packet_accuracy": 0.49,
+    "packet_bits_correct": 49,
+    "payload_bits_correct": 29,
+    "raw_packet": "1100111110011001010011110011100001110111111101101100001011100010000010000010100011100010001111001001",
+    "raw_payload": "1100111110011001010011110011100001110111111101101100001011100",
+    "resolution": 512,
+    "schema": -1
+  },
+  {
+    "bit_accuracy": 0.45901639344262296,
+    "candidate_payload": "1100111110011000010011110011100100110111111101101100001011100",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "unmarked",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "exact_payload": false,
+    "experiment": "control",
+    "file": "images/control-boat-2048-unmarked.png",
+    "image": "boat",
+    "image_sha256": "2fe29115fbaf28ea135c45d50ee728e94483ae5019ffee0401133f79bedc46bf",
+    "packet_accuracy": 0.49,
+    "packet_bits_correct": 49,
+    "payload_bits_correct": 28,
+    "raw_packet": "1100111110011000010011110011100100110111111101101100001011100010100010000010100011100010001111001001",
+    "raw_payload": "1100111110011000010011110011100100110111111101101100001011100",
+    "resolution": 2048,
+    "schema": -1
+  }
+]

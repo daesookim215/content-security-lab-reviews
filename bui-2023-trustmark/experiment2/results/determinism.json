@@ -1,0 +1,1120 @@
+{
+  "byte_identical_except_timing": true,
+  "checked_files": [
+    {
+      "file": "A.json",
+      "run1": "40210222bc2017a79083b7a3c06e0e0ff48ae14b87cbe25c65394e2a56bd2727",
+      "run2": "40210222bc2017a79083b7a3c06e0e0ff48ae14b87cbe25c65394e2a56bd2727"
+    },
+    {
+      "file": "B.json",
+      "run1": "0bae13f15d28de2857405658ebea52fcc6bdb70c7aea76fc10ef4346f7a18515",
+      "run2": "0bae13f15d28de2857405658ebea52fcc6bdb70c7aea76fc10ef4346f7a18515"
+    },
+    {
+      "file": "C.json",
+      "run1": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "run2": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "D.json",
+      "run1": "6bf99391eaa743f8a96fa137da9549580a53bc76263eb6b11d9ad715ff1050af",
+      "run2": "6bf99391eaa743f8a96fa137da9549580a53bc76263eb6b11d9ad715ff1050af"
+    },
+    {
+      "file": "E.json",
+      "run1": "48aef81df5a77ecfe18dc6ac22caa91437c9049c0850f37d04a93a2978412347",
+      "run2": "48aef81df5a77ecfe18dc6ac22caa91437c9049c0850f37d04a93a2978412347"
+    },
+    {
+      "file": "baseline.json",
+      "run1": "3da04303e0fe5c8fa0113297dc274f4b6d49b859981ddad98ce51df5ea899bdb",
+      "run2": "3da04303e0fe5c8fa0113297dc274f4b6d49b859981ddad98ce51df5ea899bdb"
+    },
+    {
+      "file": "control.json",
+      "run1": "55115f1945afc658d3158d03ee192d5dd43ce99af3b5c23e2b1090f53e269c76",
+      "run2": "55115f1945afc658d3158d03ee192d5dd43ce99af3b5c23e2b1090f53e269c76"
+    },
+    {
+      "file": "images/A-airplane-2048-box7.png",
+      "run1": "e88d37efefe3bee6728c1790ae2a767a88e23983d54f41efc6fa38ead1d8af1a",
+      "run2": "e88d37efefe3bee6728c1790ae2a767a88e23983d54f41efc6fa38ead1d8af1a"
+    },
+    {
+      "file": "images/A-airplane-2048-brightness050.png",
+      "run1": "61e0fd1f5e24dc1dbe252ad5a3c4a8d22ac29bb186116981155d82c1024db1e0",
+      "run2": "61e0fd1f5e24dc1dbe252ad5a3c4a8d22ac29bb186116981155d82c1024db1e0"
+    },
+    {
+      "file": "images/A-airplane-2048-brightness150.png",
+      "run1": "1582b85228c7334275dac785d8e0b02c765981fc6b8fb9074d4493037a94c246",
+      "run2": "1582b85228c7334275dac785d8e0b02c765981fc6b8fb9074d4493037a94c246"
+    },
+    {
+      "file": "images/A-airplane-2048-contrast050.png",
+      "run1": "6637af04da236ad42f281f7879497a6dab4a27a7510d7b7f7d84c704e2157148",
+      "run2": "6637af04da236ad42f281f7879497a6dab4a27a7510d7b7f7d84c704e2157148"
+    },
+    {
+      "file": "images/A-airplane-2048-contrast150.png",
+      "run1": "82d35539c202394c3df63cb8eaca493da79768e962d554ce3c86e1e60ac7eb6a",
+      "run2": "82d35539c202394c3df63cb8eaca493da79768e962d554ce3c86e1e60ac7eb6a"
+    },
+    {
+      "file": "images/A-airplane-2048-grayscale.png",
+      "run1": "6e06c41d11e388f034282a82db4cf6197241a5d1b71b31ed69a00fb8ccf26e72",
+      "run2": "6e06c41d11e388f034282a82db4cf6197241a5d1b71b31ed69a00fb8ccf26e72"
+    },
+    {
+      "file": "images/A-airplane-2048-hflip.png",
+      "run1": "40d4203ee9e7368191ba365e77b7193243ec386bc81a9e5b18d87da86fafe999",
+      "run2": "40d4203ee9e7368191ba365e77b7193243ec386bc81a9e5b18d87da86fafe999"
+    },
+    {
+      "file": "images/A-airplane-2048-hue005.png",
+      "run1": "b4de742b85328be2faa2afe1ca678fe831e41a3032c9a27d3c1dcc08d79e16c2",
+      "run2": "b4de742b85328be2faa2afe1ca678fe831e41a3032c9a27d3c1dcc08d79e16c2"
+    },
+    {
+      "file": "images/A-airplane-2048-jpeg40-source.jpg",
+      "run1": "123ff7de0b6fcd9e26166dbcf405a6a24e65d58251594d3add9c9678694b67b3",
+      "run2": "123ff7de0b6fcd9e26166dbcf405a6a24e65d58251594d3add9c9678694b67b3"
+    },
+    {
+      "file": "images/A-airplane-2048-jpeg40.png",
+      "run1": "a8d6c93a959a428cbe0c0193bdcd09fcc81c71f9086643044dca9399980abddd",
+      "run2": "a8d6c93a959a428cbe0c0193bdcd09fcc81c71f9086643044dca9399980abddd"
+    },
+    {
+      "file": "images/A-airplane-2048-median3.png",
+      "run1": "7678ef430da47ddb24229afbdc9e5fd15a792b72a0bf71306770c8135f7a3121",
+      "run2": "7678ef430da47ddb24229afbdc9e5fd15a792b72a0bf71306770c8135f7a3121"
+    },
+    {
+      "file": "images/A-airplane-2048-motion9_45.png",
+      "run1": "a38fe090b2de691e58b1b96247035c06c5f2aa668215ee84aad166d61f10c3ff",
+      "run2": "a38fe090b2de691e58b1b96247035c06c5f2aa668215ee84aad166d61f10c3ff"
+    },
+    {
+      "file": "images/A-airplane-2048-noise008.png",
+      "run1": "cc9144cd797aae195e84b2a000d9ea0f4280cd8b6d8a278ab2630ee956752730",
+      "run2": "cc9144cd797aae195e84b2a000d9ea0f4280cd8b6d8a278ab2630ee956752730"
+    },
+    {
+      "file": "images/A-airplane-2048-posterize3.png",
+      "run1": "f3bb3f714a9150bc239f43871dc075a99c402954eb48983bc45d94729cbb0882",
+      "run2": "f3bb3f714a9150bc239f43871dc075a99c402954eb48983bc45d94729cbb0882"
+    },
+    {
+      "file": "images/A-airplane-2048-rgb010.png",
+      "run1": "14958600b6af0f0ddb8c7a53910f04880da0252da0c22dcda0766a3b450d46cb",
+      "run2": "14958600b6af0f0ddb8c7a53910f04880da0252da0c22dcda0766a3b450d46cb"
+    },
+    {
+      "file": "images/A-airplane-2048-saturation050.png",
+      "run1": "597f0d42402c5257a033d0cec3fadc8d85ac06dcbea45950fd2192860201482b",
+      "run2": "597f0d42402c5257a033d0cec3fadc8d85ac06dcbea45950fd2192860201482b"
+    },
+    {
+      "file": "images/A-airplane-2048-saturation150.png",
+      "run1": "22ddcbf9484d308aa11d49f7fec3b1cb671a9c1dd1fee9cc5584e3c5187a2f0f",
+      "run2": "22ddcbf9484d308aa11d49f7fec3b1cb671a9c1dd1fee9cc5584e3c5187a2f0f"
+    },
+    {
+      "file": "images/A-airplane-2048-sharpness250.png",
+      "run1": "6f775f0e15fb86cc7bca3498e043895f97a310a497e5e688556d9d80e1d8fe9a",
+      "run2": "6f775f0e15fb86cc7bca3498e043895f97a310a497e5e688556d9d80e1d8fe9a"
+    },
+    {
+      "file": "images/A-airplane-512-box7.png",
+      "run1": "23d37b7e60e86700c37b7b7e1929ed34684df14108d27fa74f2526052ffbb462",
+      "run2": "23d37b7e60e86700c37b7b7e1929ed34684df14108d27fa74f2526052ffbb462"
+    },
+    {
+      "file": "images/A-airplane-512-brightness050.png",
+      "run1": "6d8a3d3d6a149dc383df63265fb69fe3946e4be349e405f69d5f4b97ef4e4ea1",
+      "run2": "6d8a3d3d6a149dc383df63265fb69fe3946e4be349e405f69d5f4b97ef4e4ea1"
+    },
+    {
+      "file": "images/A-airplane-512-brightness150.png",
+      "run1": "ab23af2554995efea3c54499ac611ce12da7d3b12e7279560e5e374bf170c2f4",
+      "run2": "ab23af2554995efea3c54499ac611ce12da7d3b12e7279560e5e374bf170c2f4"
+    },
+    {
+      "file": "images/A-airplane-512-contrast050.png",
+      "run1": "151ba9a27fd7510bf46dca68238d6f4a9d266bbb1f6bc0f18a0c1f055cc49522",
+      "run2": "151ba9a27fd7510bf46dca68238d6f4a9d266bbb1f6bc0f18a0c1f055cc49522"
+    },
+    {
+      "file": "images/A-airplane-512-contrast150.png",
+      "run1": "2643ec04a642a1022df27eb14498dda7b03245ba519a1dfe807c5ea7794a709b",
+      "run2": "2643ec04a642a1022df27eb14498dda7b03245ba519a1dfe807c5ea7794a709b"
+    },
+    {
+      "file": "images/A-airplane-512-grayscale.png",
+      "run1": "3fb5fc9e093274e77897304b3849c22aa320710d1e961e64f3d8d240838b1809",
+      "run2": "3fb5fc9e093274e77897304b3849c22aa320710d1e961e64f3d8d240838b1809"
+    },
+    {
+      "file": "images/A-airplane-512-hflip.png",
+      "run1": "d73192f0aada19c974be435bce0aab29f0230556622b6770c6416611887d135b",
+      "run2": "d73192f0aada19c974be435bce0aab29f0230556622b6770c6416611887d135b"
+    },
+    {
+      "file": "images/A-airplane-512-hue005.png",
+      "run1": "16bafee993fd17e04947c15fb7cab0efe86821e25f6ba8205ac3b0ee975ac3b7",
+      "run2": "16bafee993fd17e04947c15fb7cab0efe86821e25f6ba8205ac3b0ee975ac3b7"
+    },
+    {
+      "file": "images/A-airplane-512-jpeg40-source.jpg",
+      "run1": "8a9d5914d1160c50b1fd5eccca932cc328aca3b7f67eb7d6807960e9847f5735",
+      "run2": "8a9d5914d1160c50b1fd5eccca932cc328aca3b7f67eb7d6807960e9847f5735"
+    },
+    {
+      "file": "images/A-airplane-512-jpeg40.png",
+      "run1": "0b9efcb00a1941f9627c0fd511ec9656c1b4e71f8b31d838f48be13cc7a30115",
+      "run2": "0b9efcb00a1941f9627c0fd511ec9656c1b4e71f8b31d838f48be13cc7a30115"
+    },
+    {
+      "file": "images/A-airplane-512-median3.png",
+      "run1": "83fba8f7a08f2db2260036ca63a5493ca1e44315e3ced49b22233079863f6ee2",
+      "run2": "83fba8f7a08f2db2260036ca63a5493ca1e44315e3ced49b22233079863f6ee2"
+    },
+    {
+      "file": "images/A-airplane-512-motion9_45.png",
+      "run1": "6b3dd71505524a896e57f67e508d11639da2cdf6bfe5151f8d642e149fc3e426",
+      "run2": "6b3dd71505524a896e57f67e508d11639da2cdf6bfe5151f8d642e149fc3e426"
+    },
+    {
+      "file": "images/A-airplane-512-noise008.png",
+      "run1": "c30733946d30e6abfe24935b98b522a2c856e262d313444e8c4d1adacc994d42",
+      "run2": "c30733946d30e6abfe24935b98b522a2c856e262d313444e8c4d1adacc994d42"
+    },
+    {
+      "file": "images/A-airplane-512-posterize3.png",
+      "run1": "7ed7cc0eeaa1078f3983e26a952b72b0ce97e03ce436e77c2551d9126bec1f9e",
+      "run2": "7ed7cc0eeaa1078f3983e26a952b72b0ce97e03ce436e77c2551d9126bec1f9e"
+    },
+    {
+      "file": "images/A-airplane-512-rgb010.png",
+      "run1": "cd6ab571fe3315b7baf5459f3d7f5006a3c0fff10d2c97529d91f31213af7243",
+      "run2": "cd6ab571fe3315b7baf5459f3d7f5006a3c0fff10d2c97529d91f31213af7243"
+    },
+    {
+      "file": "images/A-airplane-512-saturation050.png",
+      "run1": "428958bee8b2fa46d1d28c4c0114ec7cc19d68f3cbc86d3c1e378f32d4ddcd16",
+      "run2": "428958bee8b2fa46d1d28c4c0114ec7cc19d68f3cbc86d3c1e378f32d4ddcd16"
+    },
+    {
+      "file": "images/A-airplane-512-saturation150.png",
+      "run1": "0489fd881d29a07c5b58c38a239cb173f817b283715b2d3f0f9fd48019b37c63",
+      "run2": "0489fd881d29a07c5b58c38a239cb173f817b283715b2d3f0f9fd48019b37c63"
+    },
+    {
+      "file": "images/A-airplane-512-sharpness250.png",
+      "run1": "90028fc3f30a3fa12094298c653f194a40c1ef4eeccf8303f715515a33d21e13",
+      "run2": "90028fc3f30a3fa12094298c653f194a40c1ef4eeccf8303f715515a33d21e13"
+    },
+    {
+      "file": "images/A-boat-2048-box7.png",
+      "run1": "b6f9e147b6e9bc31839aa3718dd367f0b2b2709569ea556f6824cd8cdc532a68",
+      "run2": "b6f9e147b6e9bc31839aa3718dd367f0b2b2709569ea556f6824cd8cdc532a68"
+    },
+    {
+      "file": "images/A-boat-2048-brightness050.png",
+      "run1": "1bc7ab6b69565e3de183cfe1bf1fea6ed302131867ced83f726544d94e2386ad",
+      "run2": "1bc7ab6b69565e3de183cfe1bf1fea6ed302131867ced83f726544d94e2386ad"
+    },
+    {
+      "file": "images/A-boat-2048-brightness150.png",
+      "run1": "28e6dfeb1a7039b6dcdce17394c9cf4d78ef059984d6e7e4e71be5507e2b035d",
+      "run2": "28e6dfeb1a7039b6dcdce17394c9cf4d78ef059984d6e7e4e71be5507e2b035d"
+    },
+    {
+      "file": "images/A-boat-2048-contrast050.png",
+      "run1": "f4169e55a0ce12d4a12057cdd042b06417a9337dff7fca7edded273b92856981",
+      "run2": "f4169e55a0ce12d4a12057cdd042b06417a9337dff7fca7edded273b92856981"
+    },
+    {
+      "file": "images/A-boat-2048-contrast150.png",
+      "run1": "1b4d4f0128869ee3ea21f9f0f3450d1062129dd013516e5466d7c5f096b44978",
+      "run2": "1b4d4f0128869ee3ea21f9f0f3450d1062129dd013516e5466d7c5f096b44978"
+    },
+    {
+      "file": "images/A-boat-2048-grayscale.png",
+      "run1": "344c1f3d3ac4c645ff23d2c3dfef2c01c3aaf73f1fdac045ab0e42022a01fff6",
+      "run2": "344c1f3d3ac4c645ff23d2c3dfef2c01c3aaf73f1fdac045ab0e42022a01fff6"
+    },
+    {
+      "file": "images/A-boat-2048-hflip.png",
+      "run1": "d2b30b2fb5854ce69836ca24686cec91274b3fd2bbd67943a2cb6b34754892f7",
+      "run2": "d2b30b2fb5854ce69836ca24686cec91274b3fd2bbd67943a2cb6b34754892f7"
+    },
+    {
+      "file": "images/A-boat-2048-hue005.png",
+      "run1": "1e5f6fd4b944fa8922332f89b2ffd6f8f071d059d8e635baf6768efe508bda39",
+      "run2": "1e5f6fd4b944fa8922332f89b2ffd6f8f071d059d8e635baf6768efe508bda39"
+    },
+    {
+      "file": "images/A-boat-2048-jpeg40-source.jpg",
+      "run1": "9078f94b7514adae8809fa7a22f3fd4ae7cb19f2683aa9e1b383ced369630c3b",
+      "run2": "9078f94b7514adae8809fa7a22f3fd4ae7cb19f2683aa9e1b383ced369630c3b"
+    },
+    {
+      "file": "images/A-boat-2048-jpeg40.png",
+      "run1": "e6d7d7730175e5cc0a48a87e3054837406bbb3db391b7754b28a2bf7eb237215",
+      "run2": "e6d7d7730175e5cc0a48a87e3054837406bbb3db391b7754b28a2bf7eb237215"
+    },
+    {
+      "file": "images/A-boat-2048-median3.png",
+      "run1": "0a50f895ac4ad35cb3f9195334294c18279324189c1013b4854cba29ff10ab33",
+      "run2": "0a50f895ac4ad35cb3f9195334294c18279324189c1013b4854cba29ff10ab33"
+    },
+    {
+      "file": "images/A-boat-2048-motion9_45.png",
+      "run1": "e6c1d7e0a8b0153cf930a25b2229a0c8421b6f43b61635624cfaaec631e60145",
+      "run2": "e6c1d7e0a8b0153cf930a25b2229a0c8421b6f43b61635624cfaaec631e60145"
+    },
+    {
+      "file": "images/A-boat-2048-noise008.png",
+      "run1": "0a3342994bf3094a021c16f410f88b44c61e817ba186068bb79ce08ab426751a",
+      "run2": "0a3342994bf3094a021c16f410f88b44c61e817ba186068bb79ce08ab426751a"
+    },
+    {
+      "file": "images/A-boat-2048-posterize3.png",
+      "run1": "4d85ecef4d62832e1d68a463ccf16dd5b38cf6730091825a7623023615f2a76b",
+      "run2": "4d85ecef4d62832e1d68a463ccf16dd5b38cf6730091825a7623023615f2a76b"
+    },
+    {
+      "file": "images/A-boat-2048-rgb010.png",
+      "run1": "cb05fce06cfaaaa965d61264ab90073be78e91084cbfdf311c1d7351e3ca0dce",
+      "run2": "cb05fce06cfaaaa965d61264ab90073be78e91084cbfdf311c1d7351e3ca0dce"
+    },
+    {
+      "file": "images/A-boat-2048-saturation050.png",
+      "run1": "56bf7d7ac273dd13b58a543baae1b287a3a7dd438b17659be8f9be678bd68d55",
+      "run2": "56bf7d7ac273dd13b58a543baae1b287a3a7dd438b17659be8f9be678bd68d55"
+    },
+    {
+      "file": "images/A-boat-2048-saturation150.png",
+      "run1": "d20bb727272b59449d364ec0ac0696915de95761e8d33eae51e366117eeeec3a",
+      "run2": "d20bb727272b59449d364ec0ac0696915de95761e8d33eae51e366117eeeec3a"
+    },
+    {
+      "file": "images/A-boat-2048-sharpness250.png",
+      "run1": "59adcad1cdedf35e9fedd344cd9a92462e3aec4fa6fdd1d1d3e3e6f94029b8ae",
+      "run2": "59adcad1cdedf35e9fedd344cd9a92462e3aec4fa6fdd1d1d3e3e6f94029b8ae"
+    },
+    {
+      "file": "images/A-boat-512-box7.png",
+      "run1": "14d16796aac7eb15049f06985b4e215de7bc76887737767dc87c1bcee0a23fb8",
+      "run2": "14d16796aac7eb15049f06985b4e215de7bc76887737767dc87c1bcee0a23fb8"
+    },
+    {
+      "file": "images/A-boat-512-brightness050.png",
+      "run1": "e3d708e14ccdf1f01c5f5ad954c855836b8cbec6ad2b2012056cd259ba789382",
+      "run2": "e3d708e14ccdf1f01c5f5ad954c855836b8cbec6ad2b2012056cd259ba789382"
+    },
+    {
+      "file": "images/A-boat-512-brightness150.png",
+      "run1": "8cdaa2eae2ae8fc9a39cc76b460af0d06ccfdb2c0d8a58a0d35797fa7ca559c1",
+      "run2": "8cdaa2eae2ae8fc9a39cc76b460af0d06ccfdb2c0d8a58a0d35797fa7ca559c1"
+    },
+    {
+      "file": "images/A-boat-512-contrast050.png",
+      "run1": "f170dc8d35e3b0b65d3f18a6eeee556ec524f9dc082f1fa3dc572f0128fe25f2",
+      "run2": "f170dc8d35e3b0b65d3f18a6eeee556ec524f9dc082f1fa3dc572f0128fe25f2"
+    },
+    {
+      "file": "images/A-boat-512-contrast150.png",
+      "run1": "1716b916d3a1edf71ee2fc636bc0f850a25f0b1ef3ec4f469a7828d92d783697",
+      "run2": "1716b916d3a1edf71ee2fc636bc0f850a25f0b1ef3ec4f469a7828d92d783697"
+    },
+    {
+      "file": "images/A-boat-512-grayscale.png",
+      "run1": "25a93501cd28aad6fff358042c7971831e98b82c87acf170dcc02db083f3e5f5",
+      "run2": "25a93501cd28aad6fff358042c7971831e98b82c87acf170dcc02db083f3e5f5"
+    },
+    {
+      "file": "images/A-boat-512-hflip.png",
+      "run1": "932e2f8fa5a1325af85191dfaa05697bab5bba497af10fdac2647d29b34e6d6d",
+      "run2": "932e2f8fa5a1325af85191dfaa05697bab5bba497af10fdac2647d29b34e6d6d"
+    },
+    {
+      "file": "images/A-boat-512-hue005.png",
+      "run1": "b2d09e424c4572f07d381266496c8a20e4c89277e82c3259ab362496b7e904e0",
+      "run2": "b2d09e424c4572f07d381266496c8a20e4c89277e82c3259ab362496b7e904e0"
+    },
+    {
+      "file": "images/A-boat-512-jpeg40-source.jpg",
+      "run1": "3fad62aaf79c85aadf020d63efd0170db1dd1af73de74108080ebca7a633cdd3",
+      "run2": "3fad62aaf79c85aadf020d63efd0170db1dd1af73de74108080ebca7a633cdd3"
+    },
+    {
+      "file": "images/A-boat-512-jpeg40.png",
+      "run1": "6fcdb75462e7a6c7229ba8011acc062af514bf5143b2508e3b81c13654a57456",
+      "run2": "6fcdb75462e7a6c7229ba8011acc062af514bf5143b2508e3b81c13654a57456"
+    },
+    {
+      "file": "images/A-boat-512-median3.png",
+      "run1": "64b0891bfd66bba27c17b0ecb02d8f420c21b94ab49c1dd445adcd9f913ab02d",
+      "run2": "64b0891bfd66bba27c17b0ecb02d8f420c21b94ab49c1dd445adcd9f913ab02d"
+    },
+    {
+      "file": "images/A-boat-512-motion9_45.png",
+      "run1": "f2c2e8ed0e1e714b97dbe88789c67c17a21143d8113156c2212c30cd64a3b3e3",
+      "run2": "f2c2e8ed0e1e714b97dbe88789c67c17a21143d8113156c2212c30cd64a3b3e3"
+    },
+    {
+      "file": "images/A-boat-512-noise008.png",
+      "run1": "fb9ec83092fce6c4f7d4ad75b14863439139ea9e2ad32e371705a516cf6327dd",
+      "run2": "fb9ec83092fce6c4f7d4ad75b14863439139ea9e2ad32e371705a516cf6327dd"
+    },
+    {
+      "file": "images/A-boat-512-posterize3.png",
+      "run1": "07f3142c51873ff5560612d1317e49457df49d009c7a002ce8048f37e2a9dd14",
+      "run2": "07f3142c51873ff5560612d1317e49457df49d009c7a002ce8048f37e2a9dd14"
+    },
+    {
+      "file": "images/A-boat-512-rgb010.png",
+      "run1": "e56cbc0f94bec5e840562fc4f6809e4252a43e1770faba61a3d5080a670aa31a",
+      "run2": "e56cbc0f94bec5e840562fc4f6809e4252a43e1770faba61a3d5080a670aa31a"
+    },
+    {
+      "file": "images/A-boat-512-saturation050.png",
+      "run1": "ed1ba8898233ad76b89098e7c026be905cd743a735b144de6ee66eb43c6e8d21",
+      "run2": "ed1ba8898233ad76b89098e7c026be905cd743a735b144de6ee66eb43c6e8d21"
+    },
+    {
+      "file": "images/A-boat-512-saturation150.png",
+      "run1": "9fde7c17c26e11742b781dbd95e8cb0af8c916c7978cd1792d0949f49f3ff9b7",
+      "run2": "9fde7c17c26e11742b781dbd95e8cb0af8c916c7978cd1792d0949f49f3ff9b7"
+    },
+    {
+      "file": "images/A-boat-512-sharpness250.png",
+      "run1": "4d1aa08b50f054f8db9f66ee6800c79ccdd66c7192e41a7e47a6b0f005d193b7",
+      "run2": "4d1aa08b50f054f8db9f66ee6800c79ccdd66c7192e41a7e47a6b0f005d193b7"
+    },
+    {
+      "file": "images/B-airplane-2048-draw00.png",
+      "run1": "1fa3194572dc10b37fd1b67e59be5e1ac1ee431061b9a3356568a508f5dfef45",
+      "run2": "1fa3194572dc10b37fd1b67e59be5e1ac1ee431061b9a3356568a508f5dfef45"
+    },
+    {
+      "file": "images/B-airplane-2048-draw01.png",
+      "run1": "d77b0820730095ed6540061cb8bbdce9c9935b9594f15f23c99e12c6eef03d8d",
+      "run2": "d77b0820730095ed6540061cb8bbdce9c9935b9594f15f23c99e12c6eef03d8d"
+    },
+    {
+      "file": "images/B-airplane-2048-draw02.png",
+      "run1": "5bee1390c2fbb31280639701d69bea870a58a60cef06050c07140821ddb99166",
+      "run2": "5bee1390c2fbb31280639701d69bea870a58a60cef06050c07140821ddb99166"
+    },
+    {
+      "file": "images/B-airplane-2048-draw03.png",
+      "run1": "1938792e339eea80978a4fddc135113e1b0982dc23c3609412283546b629729d",
+      "run2": "1938792e339eea80978a4fddc135113e1b0982dc23c3609412283546b629729d"
+    },
+    {
+      "file": "images/B-airplane-2048-draw04.png",
+      "run1": "9c50402481b03f1451898d3eaa13e3c58d4b4bc7a78a68a0dc8425e4e5879122",
+      "run2": "9c50402481b03f1451898d3eaa13e3c58d4b4bc7a78a68a0dc8425e4e5879122"
+    },
+    {
+      "file": "images/B-airplane-2048-draw05.png",
+      "run1": "074486d839cba6ed07784b4ef0886bbb3e39ad5d68ead99c98a6fcd285d72af3",
+      "run2": "074486d839cba6ed07784b4ef0886bbb3e39ad5d68ead99c98a6fcd285d72af3"
+    },
+    {
+      "file": "images/B-airplane-2048-draw06.png",
+      "run1": "5324427733a438937fd81bddbb23e97798943ffbc7832e6959caa39340ba0b7e",
+      "run2": "5324427733a438937fd81bddbb23e97798943ffbc7832e6959caa39340ba0b7e"
+    },
+    {
+      "file": "images/B-airplane-2048-draw07.png",
+      "run1": "00135135aeea568c4de1c4febeed51c063a4a08d578fd43df31909a46d40c430",
+      "run2": "00135135aeea568c4de1c4febeed51c063a4a08d578fd43df31909a46d40c430"
+    },
+    {
+      "file": "images/B-airplane-2048-draw08.png",
+      "run1": "4e709c56381b058bc223fae31db3494c3d13c8005d3f26324b51d85c2c5681e0",
+      "run2": "4e709c56381b058bc223fae31db3494c3d13c8005d3f26324b51d85c2c5681e0"
+    },
+    {
+      "file": "images/B-airplane-2048-draw09.png",
+      "run1": "e5aa95ac7e24507b8d6ece41d7f061e8d8cff8af0e190fefc77abf08080d3c10",
+      "run2": "e5aa95ac7e24507b8d6ece41d7f061e8d8cff8af0e190fefc77abf08080d3c10"
+    },
+    {
+      "file": "images/B-airplane-2048-draw10.png",
+      "run1": "285f01db061c0d01ee4ff79ed6e9bc72496fbe0babe792bd0d27f552eee3c4e0",
+      "run2": "285f01db061c0d01ee4ff79ed6e9bc72496fbe0babe792bd0d27f552eee3c4e0"
+    },
+    {
+      "file": "images/B-airplane-2048-draw11.png",
+      "run1": "b9ba7528b576577dfd1a7c06cea724b675bff177a5b0839c5ba9f176ca67f4a2",
+      "run2": "b9ba7528b576577dfd1a7c06cea724b675bff177a5b0839c5ba9f176ca67f4a2"
+    },
+    {
+      "file": "images/B-airplane-2048-draw12.png",
+      "run1": "81cffb7562272a24c4fee76ee4d97d3614337270a2f533499a5a55b5b57113fb",
+      "run2": "81cffb7562272a24c4fee76ee4d97d3614337270a2f533499a5a55b5b57113fb"
+    },
+    {
+      "file": "images/B-airplane-2048-draw13.png",
+      "run1": "131d7b453be0083253f162c78afbacb4b3809d8d62d2a5f6e2b7f1196b5de311",
+      "run2": "131d7b453be0083253f162c78afbacb4b3809d8d62d2a5f6e2b7f1196b5de311"
+    },
+    {
+      "file": "images/B-airplane-2048-draw14.png",
+      "run1": "5c7ecaba0dac4ac5bfffccd78bbbed9223ddc43a4d83acd5e3a2d52c74ad403d",
+      "run2": "5c7ecaba0dac4ac5bfffccd78bbbed9223ddc43a4d83acd5e3a2d52c74ad403d"
+    },
+    {
+      "file": "images/B-airplane-2048-draw15.png",
+      "run1": "5f3205bf440fd3ad1e94d415289c829a5352b57dd89cec038e7315dbc539349c",
+      "run2": "5f3205bf440fd3ad1e94d415289c829a5352b57dd89cec038e7315dbc539349c"
+    },
+    {
+      "file": "images/B-airplane-2048-draw16.png",
+      "run1": "1d94186501a82d6d235d9934fe73d1312d23473d5a6e791716c7825c1ef03a3b",
+      "run2": "1d94186501a82d6d235d9934fe73d1312d23473d5a6e791716c7825c1ef03a3b"
+    },
+    {
+      "file": "images/B-airplane-2048-draw17.png",
+      "run1": "1ea0d5e70230a137c35fece91d87243df6ec23bc5373ce73a3660f84e77fdd9a",
+      "run2": "1ea0d5e70230a137c35fece91d87243df6ec23bc5373ce73a3660f84e77fdd9a"
+    },
+    {
+      "file": "images/B-airplane-2048-draw18.png",
+      "run1": "420c8d593f7725957f1c97af7fe607e5615ec7fd42ff1a3c6c6bcf521cc3ac06",
+      "run2": "420c8d593f7725957f1c97af7fe607e5615ec7fd42ff1a3c6c6bcf521cc3ac06"
+    },
+    {
+      "file": "images/B-airplane-2048-draw19.png",
+      "run1": "d4a224aad8d485ec63cc02d2d883e85820c2aeba0f30d35c41a8faee0bf977f7",
+      "run2": "d4a224aad8d485ec63cc02d2d883e85820c2aeba0f30d35c41a8faee0bf977f7"
+    },
+    {
+      "file": "images/B-airplane-512-draw00.png",
+      "run1": "f72ff22080666154122183a583175947e4fa4cd054be70712d6e6f325e281841",
+      "run2": "f72ff22080666154122183a583175947e4fa4cd054be70712d6e6f325e281841"
+    },
+    {
+      "file": "images/B-airplane-512-draw01.png",
+      "run1": "68f0166215c246c0e78cecb56b4737e5e2652db7051442e50c37b88c411bbb2d",
+      "run2": "68f0166215c246c0e78cecb56b4737e5e2652db7051442e50c37b88c411bbb2d"
+    },
+    {
+      "file": "images/B-airplane-512-draw02.png",
+      "run1": "1ea467dc37f4a4af22183f9ddc82082090623ccf7566541723a7b1ee52d61eb2",
+      "run2": "1ea467dc37f4a4af22183f9ddc82082090623ccf7566541723a7b1ee52d61eb2"
+    },
+    {
+      "file": "images/B-airplane-512-draw03.png",
+      "run1": "a515628d10b22dea9c267a92179373de94259682a3dbddd75ee07254452b01e4",
+      "run2": "a515628d10b22dea9c267a92179373de94259682a3dbddd75ee07254452b01e4"
+    },
+    {
+      "file": "images/B-airplane-512-draw04.png",
+      "run1": "2c43a7ac992b5401651f7693fb4bf139bbe24ac241d7ff7344f343b3af655614",
+      "run2": "2c43a7ac992b5401651f7693fb4bf139bbe24ac241d7ff7344f343b3af655614"
+    },
+    {
+      "file": "images/B-airplane-512-draw05.png",
+      "run1": "dfe8d2b8347b100258a3c1db4282f0516e4ba8be2cca5de405483beffb8e6414",
+      "run2": "dfe8d2b8347b100258a3c1db4282f0516e4ba8be2cca5de405483beffb8e6414"
+    },
+    {
+      "file": "images/B-airplane-512-draw06.png",
+      "run1": "55411674af079a6dec575fdeea9566bd72c0e3202c66982da499b60775ae5ab3",
+      "run2": "55411674af079a6dec575fdeea9566bd72c0e3202c66982da499b60775ae5ab3"
+    },
+    {
+      "file": "images/B-airplane-512-draw07.png",
+      "run1": "eaa349554030fd85e7913bc0a512c30099ab9dace600a04efc528605ab6cc9f5",
+      "run2": "eaa349554030fd85e7913bc0a512c30099ab9dace600a04efc528605ab6cc9f5"
+    },
+    {
+      "file": "images/B-airplane-512-draw08.png",
+      "run1": "5e5babf6f536a4c9c51a1b8ee5709cca9b10cf882d08a6cc3a242a2a3baa3cb2",
+      "run2": "5e5babf6f536a4c9c51a1b8ee5709cca9b10cf882d08a6cc3a242a2a3baa3cb2"
+    },
+    {
+      "file": "images/B-airplane-512-draw09.png",
+      "run1": "95e9fe4dbfe54494018e77e31a993dd17a905cc6339d1b21614b2c3704d2c09a",
+      "run2": "95e9fe4dbfe54494018e77e31a993dd17a905cc6339d1b21614b2c3704d2c09a"
+    },
+    {
+      "file": "images/B-airplane-512-draw10.png",
+      "run1": "c1587235bd4c35f214968ecd16cc7ee828d2a58fc41cbe827743f409c1194b05",
+      "run2": "c1587235bd4c35f214968ecd16cc7ee828d2a58fc41cbe827743f409c1194b05"
+    },
+    {
+      "file": "images/B-airplane-512-draw11.png",
+      "run1": "5db5e43f687a88986e8ebdeb08fa5efbe0bc336ebb2312b079c1e069b9b613d3",
+      "run2": "5db5e43f687a88986e8ebdeb08fa5efbe0bc336ebb2312b079c1e069b9b613d3"
+    },
+    {
+      "file": "images/B-airplane-512-draw12.png",
+      "run1": "8e06feb2c073e691e30a509cb476bac30ddc7e53d84cb6fbda7e3e88c18db7e4",
+      "run2": "8e06feb2c073e691e30a509cb476bac30ddc7e53d84cb6fbda7e3e88c18db7e4"
+    },
+    {
+      "file": "images/B-airplane-512-draw13.png",
+      "run1": "ec510c35809941211d24e57366924d7e37378e2dd25cdeb4a7f36178bb953667",
+      "run2": "ec510c35809941211d24e57366924d7e37378e2dd25cdeb4a7f36178bb953667"
+    },
+    {
+      "file": "images/B-airplane-512-draw14.png",
+      "run1": "b8d9f2561601b936f999d63c849a8921f621c12cd2c4552f0224093a84aeed27",
+      "run2": "b8d9f2561601b936f999d63c849a8921f621c12cd2c4552f0224093a84aeed27"
+    },
+    {
+      "file": "images/B-airplane-512-draw15.png",
+      "run1": "25b94c28344b9786d50dcc2cd37f1b3289970afdefd701a913a74628700c5ea4",
+      "run2": "25b94c28344b9786d50dcc2cd37f1b3289970afdefd701a913a74628700c5ea4"
+    },
+    {
+      "file": "images/B-airplane-512-draw16.png",
+      "run1": "f804f8572e9e3a0cadd66adb2443f0121641bf7d2eba778fdb877e343e7bc8a5",
+      "run2": "f804f8572e9e3a0cadd66adb2443f0121641bf7d2eba778fdb877e343e7bc8a5"
+    },
+    {
+      "file": "images/B-airplane-512-draw17.png",
+      "run1": "4e3eb39eb6e9578cabcb4edd0e3bfc705c2cc07befc2249691c1dca82c1117e7",
+      "run2": "4e3eb39eb6e9578cabcb4edd0e3bfc705c2cc07befc2249691c1dca82c1117e7"
+    },
+    {
+      "file": "images/B-airplane-512-draw18.png",
+      "run1": "d76e7efe0bcc91c12bcedccd3176effc52db90cffd086762ace02d87484005ba",
+      "run2": "d76e7efe0bcc91c12bcedccd3176effc52db90cffd086762ace02d87484005ba"
+    },
+    {
+      "file": "images/B-airplane-512-draw19.png",
+      "run1": "7adc59caaf629f560b9e81839d84253d52c612fae9d5b069bde89714624fbab4",
+      "run2": "7adc59caaf629f560b9e81839d84253d52c612fae9d5b069bde89714624fbab4"
+    },
+    {
+      "file": "images/B-boat-2048-draw00.png",
+      "run1": "97718c4b015b3c39366c9d9615a18989e52c1059f9166652ae821c30eb586404",
+      "run2": "97718c4b015b3c39366c9d9615a18989e52c1059f9166652ae821c30eb586404"
+    },
+    {
+      "file": "images/B-boat-2048-draw01.png",
+      "run1": "835df69b6dcb5dbb8c1f9dba972d17fb00076239aab6e9424b2aa73619dea7a2",
+      "run2": "835df69b6dcb5dbb8c1f9dba972d17fb00076239aab6e9424b2aa73619dea7a2"
+    },
+    {
+      "file": "images/B-boat-2048-draw02.png",
+      "run1": "45fdb56a53ae9c0889b2b81b66a979cbef403f14acf71598d38a34fa0ee93e8f",
+      "run2": "45fdb56a53ae9c0889b2b81b66a979cbef403f14acf71598d38a34fa0ee93e8f"
+    },
+    {
+      "file": "images/B-boat-2048-draw03.png",
+      "run1": "628b1deb08f885d1d1cb90293db85cb93c0e90a5dc3137aa29d4a18f0782f784",
+      "run2": "628b1deb08f885d1d1cb90293db85cb93c0e90a5dc3137aa29d4a18f0782f784"
+    },
+    {
+      "file": "images/B-boat-2048-draw04.png",
+      "run1": "f96a7fae3e498a1991483459533636ce3b334f3def54f1b9ff948813c191340d",
+      "run2": "f96a7fae3e498a1991483459533636ce3b334f3def54f1b9ff948813c191340d"
+    },
+    {
+      "file": "images/B-boat-2048-draw05.png",
+      "run1": "0acd0613ac09a44c8b11f873abbdf75f0b3716f8d84aff6ffd5b9ae8a213bf49",
+      "run2": "0acd0613ac09a44c8b11f873abbdf75f0b3716f8d84aff6ffd5b9ae8a213bf49"
+    },
+    {
+      "file": "images/B-boat-2048-draw06.png",
+      "run1": "7276715a9c2615d828a5690b884b7ab85efb766c7ef9a7497161fde4aa1e0ee3",
+      "run2": "7276715a9c2615d828a5690b884b7ab85efb766c7ef9a7497161fde4aa1e0ee3"
+    },
+    {
+      "file": "images/B-boat-2048-draw07.png",
+      "run1": "21c4600caaa041b04833f992f3de57867b4fe87e62718a3c0af6f6f0aa8ca51f",
+      "run2": "21c4600caaa041b04833f992f3de57867b4fe87e62718a3c0af6f6f0aa8ca51f"
+    },
+    {
+      "file": "images/B-boat-2048-draw08.png",
+      "run1": "9e99b039813623671020f30125956e86894f5a70a4ea74b9be6bd54372276323",
+      "run2": "9e99b039813623671020f30125956e86894f5a70a4ea74b9be6bd54372276323"
+    },
+    {
+      "file": "images/B-boat-2048-draw09.png",
+      "run1": "5e60948c2f008b00b6eb4e9fbe50127927ecdcd8d6c3f473f348860e0a5f4358",
+      "run2": "5e60948c2f008b00b6eb4e9fbe50127927ecdcd8d6c3f473f348860e0a5f4358"
+    },
+    {
+      "file": "images/B-boat-2048-draw10.png",
+      "run1": "16ec2aa2cc6867e6ed33bbed703dbc21b5ab91517b0832db76460a03cc26a86f",
+      "run2": "16ec2aa2cc6867e6ed33bbed703dbc21b5ab91517b0832db76460a03cc26a86f"
+    },
+    {
+      "file": "images/B-boat-2048-draw11.png",
+      "run1": "3023ac2ddaa77579c5cd48bdf9cb6f2d14d0b550154681b6e03e29a514a801af",
+      "run2": "3023ac2ddaa77579c5cd48bdf9cb6f2d14d0b550154681b6e03e29a514a801af"
+    },
+    {
+      "file": "images/B-boat-2048-draw12.png",
+      "run1": "863cb441bf4b2c7ad0eed03771a66ac00620f330c2516e304fc122be8b5925c3",
+      "run2": "863cb441bf4b2c7ad0eed03771a66ac00620f330c2516e304fc122be8b5925c3"
+    },
+    {
+      "file": "images/B-boat-2048-draw13.png",
+      "run1": "0eedf95eac61eaa240fff50aeed903539a5d563b2ffbe48f3a53d91cb29cfe3a",
+      "run2": "0eedf95eac61eaa240fff50aeed903539a5d563b2ffbe48f3a53d91cb29cfe3a"
+    },
+    {
+      "file": "images/B-boat-2048-draw14.png",
+      "run1": "40475035bb7e2baf4e6fa664265363aa5fb435a4a6fc2b987688b6129daebafc",
+      "run2": "40475035bb7e2baf4e6fa664265363aa5fb435a4a6fc2b987688b6129daebafc"
+    },
+    {
+      "file": "images/B-boat-2048-draw15.png",
+      "run1": "8d459e82d80b2e9744bea43e7541e7b89fd48e7aab3757879ccd872c73b9db46",
+      "run2": "8d459e82d80b2e9744bea43e7541e7b89fd48e7aab3757879ccd872c73b9db46"
+    },
+    {
+      "file": "images/B-boat-2048-draw16.png",
+      "run1": "050b3cf891ae4911cfd259681175b8955f5b345b1cd6e30fd868b695b380538c",
+      "run2": "050b3cf891ae4911cfd259681175b8955f5b345b1cd6e30fd868b695b380538c"
+    },
+    {
+      "file": "images/B-boat-2048-draw17.png",
+      "run1": "92317fb90c5e1c2101babd181de6d603920d9d7adb480bd17141bab08418d662",
+      "run2": "92317fb90c5e1c2101babd181de6d603920d9d7adb480bd17141bab08418d662"
+    },
+    {
+      "file": "images/B-boat-2048-draw18.png",
+      "run1": "a7d0aa8e6291634d8d0fe39c7bb5521f2f884cbd6dc3f5d29757d59808b49a17",
+      "run2": "a7d0aa8e6291634d8d0fe39c7bb5521f2f884cbd6dc3f5d29757d59808b49a17"
+    },
+    {
+      "file": "images/B-boat-2048-draw19.png",
+      "run1": "5bae3fd4edec1ec9441fd2b1656c992315fe98bf0fac6c91c4f8b6f1f2f96d50",
+      "run2": "5bae3fd4edec1ec9441fd2b1656c992315fe98bf0fac6c91c4f8b6f1f2f96d50"
+    },
+    {
+      "file": "images/B-boat-512-draw00.png",
+      "run1": "38b20406991576103a0799e46548cf9bf0d304888105ef7d6442a7b7fe71fa19",
+      "run2": "38b20406991576103a0799e46548cf9bf0d304888105ef7d6442a7b7fe71fa19"
+    },
+    {
+      "file": "images/B-boat-512-draw01.png",
+      "run1": "8f3e749de61ca9abbf7228c7e8a8e142457ac170b33e402772794d32850414f9",
+      "run2": "8f3e749de61ca9abbf7228c7e8a8e142457ac170b33e402772794d32850414f9"
+    },
+    {
+      "file": "images/B-boat-512-draw02.png",
+      "run1": "bd4dbd01a93477647c1d4ebb4724501d85f3723987668a75a8b19fdff7365e03",
+      "run2": "bd4dbd01a93477647c1d4ebb4724501d85f3723987668a75a8b19fdff7365e03"
+    },
+    {
+      "file": "images/B-boat-512-draw03.png",
+      "run1": "3b5ceddaf48088696563edec35fb0d6b83e0c60f30bef9168e744546baef3b87",
+      "run2": "3b5ceddaf48088696563edec35fb0d6b83e0c60f30bef9168e744546baef3b87"
+    },
+    {
+      "file": "images/B-boat-512-draw04.png",
+      "run1": "391d8b373016a2f11d13758302db2ed58daf14db69d3e123fc1fd6d0e0d6a759",
+      "run2": "391d8b373016a2f11d13758302db2ed58daf14db69d3e123fc1fd6d0e0d6a759"
+    },
+    {
+      "file": "images/B-boat-512-draw05.png",
+      "run1": "32bc284e37c1072bd82b32a9fc58a53a95aed10f99537aabb8d3eee22b13bc76",
+      "run2": "32bc284e37c1072bd82b32a9fc58a53a95aed10f99537aabb8d3eee22b13bc76"
+    },
+    {
+      "file": "images/B-boat-512-draw06.png",
+      "run1": "7b42912de7ed587773b807486e5d3c67aa5703338827bd3413c941cf9d71311f",
+      "run2": "7b42912de7ed587773b807486e5d3c67aa5703338827bd3413c941cf9d71311f"
+    },
+    {
+      "file": "images/B-boat-512-draw07.png",
+      "run1": "67afd223209481756e3f2c27d7e43031189e1908688910a9124113bbde6c3ade",
+      "run2": "67afd223209481756e3f2c27d7e43031189e1908688910a9124113bbde6c3ade"
+    },
+    {
+      "file": "images/B-boat-512-draw08.png",
+      "run1": "86d126984a035486be49e0d4d64579eb0159ef657d7c9c55738ce5a5dd12e95d",
+      "run2": "86d126984a035486be49e0d4d64579eb0159ef657d7c9c55738ce5a5dd12e95d"
+    },
+    {
+      "file": "images/B-boat-512-draw09.png",
+      "run1": "5397af47b015dd0837bbe5ee00b6e1eb984f1c84faf25a8cfe4d9f989397e118",
+      "run2": "5397af47b015dd0837bbe5ee00b6e1eb984f1c84faf25a8cfe4d9f989397e118"
+    },
+    {
+      "file": "images/B-boat-512-draw10.png",
+      "run1": "83d1c90e8252e67761de93007d525c21cf7ceb89ca95041c71e8328a29fb6782",
+      "run2": "83d1c90e8252e67761de93007d525c21cf7ceb89ca95041c71e8328a29fb6782"
+    },
+    {
+      "file": "images/B-boat-512-draw11.png",
+      "run1": "78b4fcc8c9a201c7cce3b23a679778250c91ad116fa88d562da85a294ef6e786",
+      "run2": "78b4fcc8c9a201c7cce3b23a679778250c91ad116fa88d562da85a294ef6e786"
+    },
+    {
+      "file": "images/B-boat-512-draw12.png",
+      "run1": "4cee182f922b5f71b0a6e6adf59053fa533dd2a3e09beba45b0743b290c7390a",
+      "run2": "4cee182f922b5f71b0a6e6adf59053fa533dd2a3e09beba45b0743b290c7390a"
+    },
+    {
+      "file": "images/B-boat-512-draw13.png",
+      "run1": "ac0956ea5ac0f0e247c8c9165515e13c060b826aa66e5faaac74051fd145ea5d",
+      "run2": "ac0956ea5ac0f0e247c8c9165515e13c060b826aa66e5faaac74051fd145ea5d"
+    },
+    {
+      "file": "images/B-boat-512-draw14.png",
+      "run1": "29f8fbd853457d2415462ead0ea89d58ccd06873c03369c0eb9efa57819924d3",
+      "run2": "29f8fbd853457d2415462ead0ea89d58ccd06873c03369c0eb9efa57819924d3"
+    },
+    {
+      "file": "images/B-boat-512-draw15.png",
+      "run1": "430370695866a4d62e2429acae6b79767e99ad34657c47374046dd53bcc8bb81",
+      "run2": "430370695866a4d62e2429acae6b79767e99ad34657c47374046dd53bcc8bb81"
+    },
+    {
+      "file": "images/B-boat-512-draw16.png",
+      "run1": "5db5882d08ad3772a224130722d9fb7712f29fead1d351b48694a3c9cc0a8d4b",
+      "run2": "5db5882d08ad3772a224130722d9fb7712f29fead1d351b48694a3c9cc0a8d4b"
+    },
+    {
+      "file": "images/B-boat-512-draw17.png",
+      "run1": "1c0ad58035be9fa359e1aa07b71593defe654928d0109dde82d53967d7f7d527",
+      "run2": "1c0ad58035be9fa359e1aa07b71593defe654928d0109dde82d53967d7f7d527"
+    },
+    {
+      "file": "images/B-boat-512-draw18.png",
+      "run1": "27efc8220ca0b3d31bbf2b3e1689165f0c4590cbf84de08b578bebfe480db9e2",
+      "run2": "27efc8220ca0b3d31bbf2b3e1689165f0c4590cbf84de08b578bebfe480db9e2"
+    },
+    {
+      "file": "images/B-boat-512-draw19.png",
+      "run1": "00b6c21795ee216b5ff5f08b0c684ccda7e0ffaf38a24536f04c52a1955fa1ab",
+      "run2": "00b6c21795ee216b5ff5f08b0c684ccda7e0ffaf38a24536f04c52a1955fa1ab"
+    },
+    {
+      "file": "images/D-airplane-2048-ifgsm.png",
+      "run1": "e73f819d793f36ac5b6d847a9015d6e4af821e9a87cd97e1cc9e432681555850",
+      "run2": "e73f819d793f36ac5b6d847a9015d6e4af821e9a87cd97e1cc9e432681555850"
+    },
+    {
+      "file": "images/D-airplane-512-ifgsm.png",
+      "run1": "c06b43d70538a765432183607d1f50ef7f3c98817516a9187b28fcbca32cda9b",
+      "run2": "c06b43d70538a765432183607d1f50ef7f3c98817516a9187b28fcbca32cda9b"
+    },
+    {
+      "file": "images/D-boat-2048-ifgsm.png",
+      "run1": "d193792246ac2671da19fe1d7d5cf75941eea1bee93f44a23580922b2175c207",
+      "run2": "d193792246ac2671da19fe1d7d5cf75941eea1bee93f44a23580922b2175c207"
+    },
+    {
+      "file": "images/D-boat-512-ifgsm.png",
+      "run1": "ca62af1e1e7576a8f0d91ca442522504c82cc80873ff7426bab6db3d2e208eee",
+      "run2": "ca62af1e1e7576a8f0d91ca442522504c82cc80873ff7426bab6db3d2e208eee"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda0.5-jpeg50.png",
+      "run1": "0ac72b7df568ca73c927d8f799d4b70278d3953e6c1917af64b58a9ddd3d4a9f",
+      "run2": "0ac72b7df568ca73c927d8f799d4b70278d3953e6c1917af64b58a9ddd3d4a9f"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda0.5-unchanged.png",
+      "run1": "3ecbbe99cd3f65eaa20e47f2b3d463a98788fbe6abdbcf23c911b4d14e4e4620",
+      "run2": "3ecbbe99cd3f65eaa20e47f2b3d463a98788fbe6abdbcf23c911b4d14e4e4620"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda0.75-jpeg50.png",
+      "run1": "08d63c9efe91664e86373a75f71832d21066d74a3a46f6eba895c37ecf598678",
+      "run2": "08d63c9efe91664e86373a75f71832d21066d74a3a46f6eba895c37ecf598678"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda0.75-unchanged.png",
+      "run1": "b50f9add4c915db238046e162575c65e51a293951fe9abde31f3c7e2aa364f23",
+      "run2": "b50f9add4c915db238046e162575c65e51a293951fe9abde31f3c7e2aa364f23"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.0-jpeg50.png",
+      "run1": "d06e26684c228d5783d416b7013e9d2a76b0f9bb8afc9a42086f0bcc54713fd5",
+      "run2": "d06e26684c228d5783d416b7013e9d2a76b0f9bb8afc9a42086f0bcc54713fd5"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.0-unchanged.png",
+      "run1": "9a492e365aa95bca821c907d4183b18366da13ed1a2226b68232d6ef834fbd42",
+      "run2": "9a492e365aa95bca821c907d4183b18366da13ed1a2226b68232d6ef834fbd42"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.25-jpeg50.png",
+      "run1": "75b7535506ea8d464df2e58f79934a6b37644aab7be6132309feb36ae48d4507",
+      "run2": "75b7535506ea8d464df2e58f79934a6b37644aab7be6132309feb36ae48d4507"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.25-unchanged.png",
+      "run1": "b7b64b65bee903384eee8ef4261fa01397a63fa88ae570b883ccc1019637445c",
+      "run2": "b7b64b65bee903384eee8ef4261fa01397a63fa88ae570b883ccc1019637445c"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.5-jpeg50.png",
+      "run1": "cce176fd9198488414da6847ae438a74dee1b434e04fc826848510b177ae420c",
+      "run2": "cce176fd9198488414da6847ae438a74dee1b434e04fc826848510b177ae420c"
+    },
+    {
+      "file": "images/E-airplane-2048-lambda1.5-unchanged.png",
+      "run1": "4c65baa5e763412e2f43117f6893f60632d4a8a8b028736ca2f217a7a3d061fb",
+      "run2": "4c65baa5e763412e2f43117f6893f60632d4a8a8b028736ca2f217a7a3d061fb"
+    },
+    {
+      "file": "images/E-airplane-512-lambda0.5-jpeg50.png",
+      "run1": "661a8cd4162ac9d5355961a5033a092a5e27921b87235e8704867d157e368336",
+      "run2": "661a8cd4162ac9d5355961a5033a092a5e27921b87235e8704867d157e368336"
+    },
+    {
+      "file": "images/E-airplane-512-lambda0.5-unchanged.png",
+      "run1": "4705c5549b23be37bc3c852787afce1cff92287e61a319395378f91702bc62fc",
+      "run2": "4705c5549b23be37bc3c852787afce1cff92287e61a319395378f91702bc62fc"
+    },
+    {
+      "file": "images/E-airplane-512-lambda0.75-jpeg50.png",
+      "run1": "c708652ba057f332a89cb8a2cae0a013c803d69f912d927c352ff92be50a970f",
+      "run2": "c708652ba057f332a89cb8a2cae0a013c803d69f912d927c352ff92be50a970f"
+    },
+    {
+      "file": "images/E-airplane-512-lambda0.75-unchanged.png",
+      "run1": "ccc6d0f7cdde44d25af54b5628cf8fcf3797fb6b968ee504b80a810c3b2fd69b",
+      "run2": "ccc6d0f7cdde44d25af54b5628cf8fcf3797fb6b968ee504b80a810c3b2fd69b"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.0-jpeg50.png",
+      "run1": "0c6997212d70284f1609ee7e213f87afb2dd6263509379af09a51b8adebb7378",
+      "run2": "0c6997212d70284f1609ee7e213f87afb2dd6263509379af09a51b8adebb7378"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.0-unchanged.png",
+      "run1": "43bd1462a226549fdaa3b02497d740295e29e80868055626c7a7cfdaf5f2b62a",
+      "run2": "43bd1462a226549fdaa3b02497d740295e29e80868055626c7a7cfdaf5f2b62a"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.25-jpeg50.png",
+      "run1": "c85ac23c9e2d3a33feacc32a502b497a9f877c45ddf9cc794af6668ec5747d91",
+      "run2": "c85ac23c9e2d3a33feacc32a502b497a9f877c45ddf9cc794af6668ec5747d91"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.25-unchanged.png",
+      "run1": "3884cc261485081c61dda7ec4f1c566a19dae50d72dd5c49b795ac1d785b6b6a",
+      "run2": "3884cc261485081c61dda7ec4f1c566a19dae50d72dd5c49b795ac1d785b6b6a"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.5-jpeg50.png",
+      "run1": "34a9a3db72c692485990174cee2326999512816b66e67fb59d46fb857c8ab48f",
+      "run2": "34a9a3db72c692485990174cee2326999512816b66e67fb59d46fb857c8ab48f"
+    },
+    {
+      "file": "images/E-airplane-512-lambda1.5-unchanged.png",
+      "run1": "e387240d41558e944795de3a2148ffd0929187b71cae097a66e1115ed7b1468e",
+      "run2": "e387240d41558e944795de3a2148ffd0929187b71cae097a66e1115ed7b1468e"
+    },
+    {
+      "file": "images/E-boat-2048-lambda0.5-jpeg50.png",
+      "run1": "f1ac5f926ac3770492a8316baf4fd0263fd7e1b072cd569ddafc7b4747a80d07",
+      "run2": "f1ac5f926ac3770492a8316baf4fd0263fd7e1b072cd569ddafc7b4747a80d07"
+    },
+    {
+      "file": "images/E-boat-2048-lambda0.5-unchanged.png",
+      "run1": "d123b26f8f7fd76f484dfc973dcd3052aa208d2eb8496bbd795b485c830c0142",
+      "run2": "d123b26f8f7fd76f484dfc973dcd3052aa208d2eb8496bbd795b485c830c0142"
+    },
+    {
+      "file": "images/E-boat-2048-lambda0.75-jpeg50.png",
+      "run1": "7bcf77fe17079601b1840e763df2a54ac9a9222ae5caa3372ddb0223ec705f35",
+      "run2": "7bcf77fe17079601b1840e763df2a54ac9a9222ae5caa3372ddb0223ec705f35"
+    },
+    {
+      "file": "images/E-boat-2048-lambda0.75-unchanged.png",
+      "run1": "a9f7ba93d615d11e6557b154c06842b2700248f4776d6a67e6d7560fa0106c43",
+      "run2": "a9f7ba93d615d11e6557b154c06842b2700248f4776d6a67e6d7560fa0106c43"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.0-jpeg50.png",
+      "run1": "b89d72b203361cd640bae0e0ee872d9e7f92d7cf0b15e683405b49ec8dd4df56",
+      "run2": "b89d72b203361cd640bae0e0ee872d9e7f92d7cf0b15e683405b49ec8dd4df56"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.0-unchanged.png",
+      "run1": "b29ca7be8f8a924b801474f3698997b9f271a9808d69a990a6a74cdf9f720556",
+      "run2": "b29ca7be8f8a924b801474f3698997b9f271a9808d69a990a6a74cdf9f720556"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.25-jpeg50.png",
+      "run1": "16918c70b1e387963170aa8a4edb827c938cb54daf274bd2de557ce90e61425d",
+      "run2": "16918c70b1e387963170aa8a4edb827c938cb54daf274bd2de557ce90e61425d"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.25-unchanged.png",
+      "run1": "b91490a027b91b77f3316a2d2e73b5c3b2382b8ef28ea79cefbc89ec1833031e",
+      "run2": "b91490a027b91b77f3316a2d2e73b5c3b2382b8ef28ea79cefbc89ec1833031e"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.5-jpeg50.png",
+      "run1": "5592989648fff4fe6c4cf94605ad7255ca0fe48b8977e1a569c97bc73f2f8c4c",
+      "run2": "5592989648fff4fe6c4cf94605ad7255ca0fe48b8977e1a569c97bc73f2f8c4c"
+    },
+    {
+      "file": "images/E-boat-2048-lambda1.5-unchanged.png",
+      "run1": "e24f5a7c4a8c26d3853dccd12c267741b330d657e449a56e6bb63de623bb4837",
+      "run2": "e24f5a7c4a8c26d3853dccd12c267741b330d657e449a56e6bb63de623bb4837"
+    },
+    {
+      "file": "images/E-boat-512-lambda0.5-jpeg50.png",
+      "run1": "180dd7ecff1387d370424d3c87b728cb512018ad570f81ee2aaabc8011436395",
+      "run2": "180dd7ecff1387d370424d3c87b728cb512018ad570f81ee2aaabc8011436395"
+    },
+    {
+      "file": "images/E-boat-512-lambda0.5-unchanged.png",
+      "run1": "a1a10d8edc152a961f874a16e49bfeb8f57313232eee47475f3c7aef4f1ff95c",
+      "run2": "a1a10d8edc152a961f874a16e49bfeb8f57313232eee47475f3c7aef4f1ff95c"
+    },
+    {
+      "file": "images/E-boat-512-lambda0.75-jpeg50.png",
+      "run1": "abfad1b2aa11247c2660c51d57bc57506e83cd3122cca25be39baef09c4f1a70",
+      "run2": "abfad1b2aa11247c2660c51d57bc57506e83cd3122cca25be39baef09c4f1a70"
+    },
+    {
+      "file": "images/E-boat-512-lambda0.75-unchanged.png",
+      "run1": "b58e7065dc6d0a38c1c2361f6aa80b6b16c9bc11603218523bc79cb72acd2851",
+      "run2": "b58e7065dc6d0a38c1c2361f6aa80b6b16c9bc11603218523bc79cb72acd2851"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.0-jpeg50.png",
+      "run1": "7b3e7975777696f8223ce62ef273d316fd6c27e74c925e25e4456902f8251331",
+      "run2": "7b3e7975777696f8223ce62ef273d316fd6c27e74c925e25e4456902f8251331"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.0-unchanged.png",
+      "run1": "10c8c7bd1f31324401d96fdbd22e16ce4bd794fce831a6c71457e536a5f1f276",
+      "run2": "10c8c7bd1f31324401d96fdbd22e16ce4bd794fce831a6c71457e536a5f1f276"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.25-jpeg50.png",
+      "run1": "09c262607e036d8e360f2a34f432bd98412622fb61321eaedf62b9a7705b5da3",
+      "run2": "09c262607e036d8e360f2a34f432bd98412622fb61321eaedf62b9a7705b5da3"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.25-unchanged.png",
+      "run1": "3142cec1fa0506781d23b459258e5c1b763cd0d11fc9e1cc1ae46faaff06c2ff",
+      "run2": "3142cec1fa0506781d23b459258e5c1b763cd0d11fc9e1cc1ae46faaff06c2ff"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.5-jpeg50.png",
+      "run1": "5aa10df9f206164d55567a75ad1d3f550e77bd370b9d32afcd8bd3d3db0b0e6b",
+      "run2": "5aa10df9f206164d55567a75ad1d3f550e77bd370b9d32afcd8bd3d3db0b0e6b"
+    },
+    {
+      "file": "images/E-boat-512-lambda1.5-unchanged.png",
+      "run1": "899ec0937590eb9a2df8b1b9a42c795ab013066adf0c958feff81cebf98b422f",
+      "run2": "899ec0937590eb9a2df8b1b9a42c795ab013066adf0c958feff81cebf98b422f"
+    },
+    {
+      "file": "images/baseline-airplane-2048-marked.png",
+      "run1": "9a492e365aa95bca821c907d4183b18366da13ed1a2226b68232d6ef834fbd42",
+      "run2": "9a492e365aa95bca821c907d4183b18366da13ed1a2226b68232d6ef834fbd42"
+    },
+    {
+      "file": "images/baseline-airplane-512-marked.png",
+      "run1": "43bd1462a226549fdaa3b02497d740295e29e80868055626c7a7cfdaf5f2b62a",
+      "run2": "43bd1462a226549fdaa3b02497d740295e29e80868055626c7a7cfdaf5f2b62a"
+    },
+    {
+      "file": "images/baseline-boat-2048-marked.png",
+      "run1": "b29ca7be8f8a924b801474f3698997b9f271a9808d69a990a6a74cdf9f720556",
+      "run2": "b29ca7be8f8a924b801474f3698997b9f271a9808d69a990a6a74cdf9f720556"
+    },
+    {
+      "file": "images/baseline-boat-512-marked.png",
+      "run1": "10c8c7bd1f31324401d96fdbd22e16ce4bd794fce831a6c71457e536a5f1f276",
+      "run2": "10c8c7bd1f31324401d96fdbd22e16ce4bd794fce831a6c71457e536a5f1f276"
+    },
+    {
+      "file": "images/control-airplane-2048-unmarked.png",
+      "run1": "4367cbc16bb998a39bcf9b03c76360199bdc7466a3b99f9593ce3ef47020f81a",
+      "run2": "4367cbc16bb998a39bcf9b03c76360199bdc7466a3b99f9593ce3ef47020f81a"
+    },
+    {
+      "file": "images/control-airplane-512-unmarked.png",
+      "run1": "33810cc97ab8222e5bbb5fb32394d314d7d53564b008a4bf5371d0044ca45336",
+      "run2": "33810cc97ab8222e5bbb5fb32394d314d7d53564b008a4bf5371d0044ca45336"
+    },
+    {
+      "file": "images/control-boat-2048-unmarked.png",
+      "run1": "2fe29115fbaf28ea135c45d50ee728e94483ae5019ffee0401133f79bedc46bf",
+      "run2": "2fe29115fbaf28ea135c45d50ee728e94483ae5019ffee0401133f79bedc46bf"
+    },
+    {
+      "file": "images/control-boat-512-unmarked.png",
+      "run1": "489565a33a6a166f1da3c4d1f34bdb1e5935cc8e3424edde42500d6a6a44f234",
+      "run2": "489565a33a6a166f1da3c4d1f34bdb1e5935cc8e3424edde42500d6a6a44f234"
+    },
+    {
+      "file": "measurements.csv",
+      "run1": "dc6b59191dedb1b45ec3f5dc24f9cbd450b92c9ca613ff2263398aac26168175",
+      "run2": "dc6b59191dedb1b45ec3f5dc24f9cbd450b92c9ca613ff2263398aac26168175"
+    },
+    {
+      "file": "results.json",
+      "run1": "9f56b07a5f225d086dafb2f6bb6f06dd9f73829ef4fb84eed2594b84933f238d",
+      "run2": "9f56b07a5f225d086dafb2f6bb6f06dd9f73829ef4fb84eed2594b84933f238d"
+    },
+    {
+      "file": "thumbnails/A-airplane-motion9_45.png",
+      "run1": "6b3dd71505524a896e57f67e508d11639da2cdf6bfe5151f8d642e149fc3e426",
+      "run2": "6b3dd71505524a896e57f67e508d11639da2cdf6bfe5151f8d642e149fc3e426"
+    },
+    {
+      "file": "thumbnails/A-boat-motion9_45.png",
+      "run1": "f2c2e8ed0e1e714b97dbe88789c67c17a21143d8113156c2212c30cd64a3b3e3",
+      "run2": "f2c2e8ed0e1e714b97dbe88789c67c17a21143d8113156c2212c30cd64a3b3e3"
+    },
+    {
+      "file": "thumbnails/B-airplane-draw00.png",
+      "run1": "f72ff22080666154122183a583175947e4fa4cd054be70712d6e6f325e281841",
+      "run2": "f72ff22080666154122183a583175947e4fa4cd054be70712d6e6f325e281841"
+    },
+    {
+      "file": "thumbnails/B-boat-draw00.png",
+      "run1": "38b20406991576103a0799e46548cf9bf0d304888105ef7d6442a7b7fe71fa19",
+      "run2": "38b20406991576103a0799e46548cf9bf0d304888105ef7d6442a7b7fe71fa19"
+    },
+    {
+      "file": "thumbnails/D-airplane-ifgsm.png",
+      "run1": "c06b43d70538a765432183607d1f50ef7f3c98817516a9187b28fcbca32cda9b",
+      "run2": "c06b43d70538a765432183607d1f50ef7f3c98817516a9187b28fcbca32cda9b"
+    },
+    {
+      "file": "thumbnails/D-boat-ifgsm.png",
+      "run1": "ca62af1e1e7576a8f0d91ca442522504c82cc80873ff7426bab6db3d2e208eee",
+      "run2": "ca62af1e1e7576a8f0d91ca442522504c82cc80873ff7426bab6db3d2e208eee"
+    },
+    {
+      "file": "thumbnails/E-airplane-lambda05-jpeg50.png",
+      "run1": "661a8cd4162ac9d5355961a5033a092a5e27921b87235e8704867d157e368336",
+      "run2": "661a8cd4162ac9d5355961a5033a092a5e27921b87235e8704867d157e368336"
+    },
+    {
+      "file": "thumbnails/E-boat-lambda05-jpeg50.png",
+      "run1": "180dd7ecff1387d370424d3c87b728cb512018ad570f81ee2aaabc8011436395",
+      "run2": "180dd7ecff1387d370424d3c87b728cb512018ad570f81ee2aaabc8011436395"
+    }
+  ],
+  "differences": [],
+  "excluded_files": [
+    "timings.json"
+  ],
+  "log_sha256": [
+    "9fb8a12c90a4d11755b8195a873eaeb9506a008113d957331be922cc76e06740",
+    "9fb8a12c90a4d11755b8195a873eaeb9506a008113d957331be922cc76e06740"
+  ],
+  "policy": "All output files including full-resolution images are byte-compared. Only timing files excluded. 2048 gate measured in run1 and replayed in run2.",
+  "publication_note": "Historical comparison of the complete original outputs: 221 files per run plus logs, excluding timings.json. Recorded file hashes precede path sanitization and metadata annotations, so they are not hashes of the redistributed JSON files. Image and log artifacts are created when reproducing and are not distributed. Fresh comparison evidence is written to ../reproduced/determinism.json."
+}

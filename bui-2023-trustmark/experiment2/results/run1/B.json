@@ -1,0 +1,3682 @@
+[
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw00",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      457,
+      426
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw00.png",
+    "geometry": {
+      "aspect": 1.0715677392603968,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        4,
+        16,
+        461,
+        442
+      ],
+      "flip": false,
+      "resized_wh": [
+        479,
+        447
+      ],
+      "scale": 0.9034481143085284
+    },
+    "image": "airplane",
+    "image_sha256": "f72ff22080666154122183a583175947e4fa4cd054be70712d6e6f325e281841",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "sharpness250",
+      "jpeg40"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382330
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw01",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      497,
+      458
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw01.png",
+    "geometry": {
+      "aspect": 1.0844945852592056,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        0,
+        19,
+        497,
+        477
+      ],
+      "flip": false,
+      "resized_wh": [
+        521,
+        480
+      ],
+      "scale": 0.9763210973050548
+    },
+    "image": "airplane",
+    "image_sha256": "68f0166215c246c0e78cecb56b4737e5e2652db7051442e50c37b88c411bbb2d",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "jpeg40",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382331
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw02",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      425,
+      498
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw02.png",
+    "geometry": {
+      "aspect": 0.8546925076615253,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        12,
+        7,
+        437,
+        505
+      ],
+      "flip": false,
+      "resized_wh": [
+        446,
+        522
+      ],
+      "scale": 0.9427447592278378
+    },
+    "image": "airplane",
+    "image_sha256": "1ea467dc37f4a4af22183f9ddc82082090623ccf7566541723a7b1ee52d61eb2",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "motion9_45",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382332
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw03",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      384,
+      484
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw03.png",
+    "geometry": {
+      "aspect": 0.7945743976675869,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        18,
+        11,
+        402,
+        495
+      ],
+      "flip": false,
+      "resized_wh": [
+        403,
+        508
+      ],
+      "scale": 0.8838952460703622
+    },
+    "image": "airplane",
+    "image_sha256": "a515628d10b22dea9c267a92179373de94259682a3dbddd75ee07254452b01e4",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hflip",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382333
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw04",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      480,
+      415
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw04.png",
+    "geometry": {
+      "aspect": 1.1579909883618975,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        19,
+        3,
+        499,
+        418
+      ],
+      "flip": false,
+      "resized_wh": [
+        504,
+        435
+      ],
+      "scale": 0.915029720102228
+    },
+    "image": "airplane",
+    "image_sha256": "2c43a7ac992b5401651f7693fb4bf139bbe24ac241d7ff7344f343b3af655614",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "jpeg40",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382334
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw05",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      427,
+      401
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw05.png",
+    "geometry": {
+      "aspect": 1.0637643234063954,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        16,
+        17,
+        443,
+        418
+      ],
+      "flip": false,
+      "resized_wh": [
+        448,
+        421
+      ],
+      "scale": 0.8479968818363499
+    },
+    "image": "airplane",
+    "image_sha256": "dfe8d2b8347b100258a3c1db4282f0516e4ba8be2cca5de405483beffb8e6414",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hue005",
+      "median3"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382335
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw06",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      407,
+      425
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw06.png",
+    "geometry": {
+      "aspect": 0.956103039773587,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        0,
+        8,
+        407,
+        433
+      ],
+      "flip": true,
+      "resized_wh": [
+        427,
+        446
+      ],
+      "scale": 0.8522695447965779
+    },
+    "image": "airplane",
+    "image_sha256": "55411674af079a6dec575fdeea9566bd72c0e3202c66982da499b60775ae5ab3",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "brightness050",
+      "saturation150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382336
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw07",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      433,
+      540
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw07.png",
+    "geometry": {
+      "aspect": 0.8012111412096303,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        21,
+        10,
+        454,
+        550
+      ],
+      "flip": false,
+      "resized_wh": [
+        454,
+        567
+      ],
+      "scale": 0.9914708584239105
+    },
+    "image": "airplane",
+    "image_sha256": "eaa349554030fd85e7913bc0a512c30099ab9dace600a04efc528605ab6cc9f5",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "saturation150",
+      "grayscale"
+    ],
+    "raw_packet": "1011001010010100011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010100011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382337
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw08",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      448,
+      434
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw08.png",
+    "geometry": {
+      "aspect": 1.0334636522955183,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        12,
+        14,
+        460,
+        448
+      ],
+      "flip": false,
+      "resized_wh": [
+        470,
+        455
+      ],
+      "scale": 0.9038624139202908
+    },
+    "image": "airplane",
+    "image_sha256": "5e5babf6f536a4c9c51a1b8ee5709cca9b10cf882d08a6cc3a242a2a3baa3cb2",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "jpeg40",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382338
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw09",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      453,
+      513
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw09.png",
+    "geometry": {
+      "aspect": 0.8827518378976371,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        17,
+        15,
+        470,
+        528
+      ],
+      "flip": true,
+      "resized_wh": [
+        475,
+        538
+      ],
+      "scale": 0.9871716962937207
+    },
+    "image": "airplane",
+    "image_sha256": "95e9fe4dbfe54494018e77e31a993dd17a905cc6339d1b21614b2c3704d2c09a",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "saturation150",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382339
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw10",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      481,
+      432
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw10.png",
+    "geometry": {
+      "aspect": 1.1153791804553395,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        12,
+        10,
+        493,
+        442
+      ],
+      "flip": false,
+      "resized_wh": [
+        505,
+        453
+      ],
+      "scale": 0.9344678503092597
+    },
+    "image": "airplane",
+    "image_sha256": "c1587235bd4c35f214968ecd16cc7ee828d2a58fc41cbe827743f409c1194b05",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "motion9_45"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382340
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw11",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      463,
+      397
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw11.png",
+    "geometry": {
+      "aspect": 1.16632749404674,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        5,
+        14,
+        468,
+        411
+      ],
+      "flip": true,
+      "resized_wh": [
+        486,
+        417
+      ],
+      "scale": 0.879220960899227
+    },
+    "image": "airplane",
+    "image_sha256": "5db5e43f687a88986e8ebdeb08fa5efbe0bc336ebb2312b079c1e069b9b613d3",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382341
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw12",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      518,
+      423
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw12.png",
+    "geometry": {
+      "aspect": 1.2237661429360613,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        8,
+        8,
+        526,
+        431
+      ],
+      "flip": true,
+      "resized_wh": [
+        544,
+        444
+      ],
+      "scale": 0.9596218236477199
+    },
+    "image": "airplane",
+    "image_sha256": "8e06feb2c073e691e30a509cb476bac30ddc7e53d84cb6fbda7e3e88c18db7e4",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "noise008",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100011011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382342
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "101100101011011001110001010010101101000111000110101001011010101110011101110",
+    "candidate_schema": 3,
+    "candidate_valid": false,
+    "change": "draw13",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      501,
+      377
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw13.png",
+    "geometry": {
+      "aspect": 1.329249827903298,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        13,
+        19,
+        514,
+        396
+      ],
+      "flip": true,
+      "resized_wh": [
+        526,
+        396
+      ],
+      "scale": 0.8907687456444681
+    },
+    "image": "airplane",
+    "image_sha256": "ec510c35809941211d24e57366924d7e37378e2dd25cdeb4a7f36178bb953667",
+    "packet_accuracy": 0.98,
+    "packet_bits_correct": 98,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "sharpness250",
+      "posterize3"
+    ],
+    "raw_packet": "1011001010110110011100010100101011010001110001101010010110101011100111011101100110000010100100110011",
+    "raw_payload": "1011001010110110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20382343
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw14",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      442,
+      348
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw14.png",
+    "geometry": {
+      "aspect": 1.2713018911701037,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        18,
+        14,
+        460,
+        362
+      ],
+      "flip": true,
+      "resized_wh": [
+        464,
+        365
+      ],
+      "scale": 0.8040565731368058
+    },
+    "image": "airplane",
+    "image_sha256": "b8d9f2561601b936f999d63c849a8921f621c12cd2c4552f0224093a84aeed27",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "rgb010",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382344
+  },
+  {
+    "bit_accuracy": 0.9672131147540983,
+    "candidate_payload": "1011001010000100011100010100101011010001",
+    "candidate_schema": 0,
+    "candidate_valid": false,
+    "change": "draw15",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      505,
+      412
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw15.png",
+    "geometry": {
+      "aspect": 1.2267073228615253,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        2,
+        1,
+        507,
+        413
+      ],
+      "flip": false,
+      "resized_wh": [
+        530,
+        432
+      ],
+      "scale": 0.9344148726385328
+    },
+    "image": "airplane",
+    "image_sha256": "25b94c28344b9786d50dcc2cd37f1b3289970afdefd701a913a74628700c5ea4",
+    "packet_accuracy": 0.95,
+    "packet_bits_correct": 95,
+    "payload_bits_correct": 59,
+    "perturbations": [
+      "noise008",
+      "motion9_45"
+    ],
+    "raw_packet": "1011001010000100011100010100101011010001110001101010010110101011100111011101100110000000100100111000",
+    "raw_payload": "1011001010000100011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20382345
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw16",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      473,
+      447
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw16.png",
+    "geometry": {
+      "aspect": 1.0575010333333033,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        4,
+        9,
+        477,
+        456
+      ],
+      "flip": true,
+      "resized_wh": [
+        496,
+        469
+      ],
+      "scale": 0.9420783981760935
+    },
+    "image": "airplane",
+    "image_sha256": "f804f8572e9e3a0cadd66adb2443f0121641bf7d2eba778fdb877e343e7bc8a5",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382346
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw17",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      393,
+      519
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw17.png",
+    "geometry": {
+      "aspect": 0.7555250194899674,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        12,
+        7,
+        405,
+        526
+      ],
+      "flip": false,
+      "resized_wh": [
+        412,
+        545
+      ],
+      "scale": 0.9257845089624668
+    },
+    "image": "airplane",
+    "image_sha256": "4e3eb39eb6e9578cabcb4edd0e3bfc705c2cc07befc2249691c1dca82c1117e7",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "motion9_45",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382347
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw18",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      422,
+      528
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw18.png",
+    "geometry": {
+      "aspect": 0.800532761253098,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        9,
+        15,
+        431,
+        543
+      ],
+      "flip": false,
+      "resized_wh": [
+        443,
+        554
+      ],
+      "scale": 0.96779805726968
+    },
+    "image": "airplane",
+    "image_sha256": "d76e7efe0bcc91c12bcedccd3176effc52db90cffd086762ace02d87484005ba",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast150",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382348
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw19",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      487,
+      423
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-512-draw19.png",
+    "geometry": {
+      "aspect": 1.1498857594517626,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        9,
+        0,
+        496,
+        423
+      ],
+      "flip": true,
+      "resized_wh": [
+        511,
+        444
+      ],
+      "scale": 0.9298552418523081
+    },
+    "image": "airplane",
+    "image_sha256": "7adc59caaf629f560b9e81839d84253d52c612fae9d5b069bde89714624fbab4",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20382349
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw00",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1922,
+      1516
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw00.png",
+    "geometry": {
+      "aspect": 1.2674455666053197,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        29,
+        65,
+        1951,
+        1581
+      ],
+      "flip": true,
+      "resized_wh": [
+        2017,
+        1591
+      ],
+      "scale": 0.8746704439467224
+    },
+    "image": "airplane",
+    "image_sha256": "1fa3194572dc10b37fd1b67e59be5e1ac1ee431061b9a3356568a508f5dfef45",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "noise008",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535930
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw01",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      2168,
+      1721
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw01.png",
+    "geometry": {
+      "aspect": 1.259669039505527,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        33,
+        81,
+        2201,
+        1802
+      ],
+      "flip": true,
+      "resized_wh": [
+        2275,
+        1806
+      ],
+      "scale": 0.9899567523199619
+    },
+    "image": "airplane",
+    "image_sha256": "d77b0820730095ed6540061cb8bbdce9c9935b9594f15f23c99e12c6eef03d8d",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535931
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw02",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1573,
+      1633
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw02.png",
+    "geometry": {
+      "aspect": 0.9636921984065204,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        35,
+        29,
+        1608,
+        1662
+      ],
+      "flip": false,
+      "resized_wh": [
+        1650,
+        1713
+      ],
+      "scale": 0.8209456263058821
+    },
+    "image": "airplane",
+    "image_sha256": "5bee1390c2fbb31280639701d69bea870a58a60cef06050c07140821ddb99166",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "median3",
+      "grayscale"
+    ],
+    "raw_packet": "1011001010010100011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010100011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535932
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw03",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1902,
+      1954
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw03.png",
+    "geometry": {
+      "aspect": 0.9736437776676856,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        18,
+        51,
+        1920,
+        2005
+      ],
+      "flip": false,
+      "resized_wh": [
+        1996,
+        2050
+      ],
+      "scale": 0.9879291903166783
+    },
+    "image": "airplane",
+    "image_sha256": "1938792e339eea80978a4fddc135113e1b0982dc23c3609412283546b629729d",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535933
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw04",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1944,
+      1841
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw04.png",
+    "geometry": {
+      "aspect": 1.0555747464365692,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        95,
+        58,
+        2039,
+        1899
+      ],
+      "flip": false,
+      "resized_wh": [
+        2040,
+        1932
+      ],
+      "scale": 0.9694269283523577
+    },
+    "image": "airplane",
+    "image_sha256": "9c50402481b03f1451898d3eaa13e3c58d4b4bc7a78a68a0dc8425e4e5879122",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hue005",
+      "median3"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535934
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw05",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1564,
+      1821
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw05.png",
+    "geometry": {
+      "aspect": 0.8589090224734357,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        15,
+        82,
+        1579,
+        1903
+      ],
+      "flip": true,
+      "resized_wh": [
+        1641,
+        1911
+      ],
+      "scale": 0.8646482736711232
+    },
+    "image": "airplane",
+    "image_sha256": "074486d839cba6ed07784b4ef0886bbb3e39ad5d68ead99c98a6fcd285d72af3",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "noise008",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535935
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw06",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1913,
+      1435
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw06.png",
+    "geometry": {
+      "aspect": 1.333145272336566,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        54,
+        13,
+        1967,
+        1448
+      ],
+      "flip": true,
+      "resized_wh": [
+        2007,
+        1506
+      ],
+      "scale": 0.8487968265847404
+    },
+    "image": "airplane",
+    "image_sha256": "5324427733a438937fd81bddbb23e97798943ffbc7832e6959caa39340ba0b7e",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hflip",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535936
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw07",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1845,
+      1434
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw07.png",
+    "geometry": {
+      "aspect": 1.2865836523615832,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        28,
+        59,
+        1873,
+        1493
+      ],
+      "flip": false,
+      "resized_wh": [
+        1936,
+        1505
+      ],
+      "scale": 0.8334675258733842
+    },
+    "image": "airplane",
+    "image_sha256": "00135135aeea568c4de1c4febeed51c063a4a08d578fd43df31909a46d40c430",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "rgb010",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535937
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw08",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1828,
+      1899
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw08.png",
+    "geometry": {
+      "aspect": 0.9628284389645215,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        25,
+        64,
+        1853,
+        1963
+      ],
+      "flip": true,
+      "resized_wh": [
+        1918,
+        1992
+      ],
+      "scale": 0.9542729672941429
+    },
+    "image": "airplane",
+    "image_sha256": "4e709c56381b058bc223fae31db3494c3d13c8005d3f26324b51d85c2c5681e0",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hue005",
+      "contrast050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535938
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw09",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1755,
+      1761
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw09.png",
+    "geometry": {
+      "aspect": 0.9964262595834419,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        17,
+        51,
+        1772,
+        1812
+      ],
+      "flip": false,
+      "resized_wh": [
+        1841,
+        1848
+      ],
+      "scale": 0.9007582544558939
+    },
+    "image": "airplane",
+    "image_sha256": "e5aa95ac7e24507b8d6ece41d7f061e8d8cff8af0e190fefc77abf08080d3c10",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "brightness050",
+      "grayscale"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535939
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw10",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1503,
+      1799
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw10.png",
+    "geometry": {
+      "aspect": 0.8360791464831319,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        47,
+        31,
+        1550,
+        1830
+      ],
+      "flip": true,
+      "resized_wh": [
+        1577,
+        1887
+      ],
+      "scale": 0.8423313097783297
+    },
+    "image": "airplane",
+    "image_sha256": "285f01db061c0d01ee4ff79ed6e9bc72496fbe0babe792bd0d27f552eee3c4e0",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535940
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw11",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1948,
+      1696
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw11.png",
+    "geometry": {
+      "aspect": 1.1493677632469743,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        63,
+        1959,
+        1759
+      ],
+      "flip": true,
+      "resized_wh": [
+        2044,
+        1779
+      ],
+      "scale": 0.9311568599557007
+    },
+    "image": "airplane",
+    "image_sha256": "b9ba7528b576577dfd1a7c06cea724b675bff177a5b0839c5ba9f176ca67f4a2",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535941
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw12",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1960,
+      1664
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw12.png",
+    "geometry": {
+      "aspect": 1.177379000100398,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        54,
+        48,
+        2014,
+        1712
+      ],
+      "flip": false,
+      "resized_wh": [
+        2056,
+        1746
+      ],
+      "scale": 0.9251234338833194
+    },
+    "image": "airplane",
+    "image_sha256": "81cffb7562272a24c4fee76ee4d97d3614337270a2f533499a5a55b5b57113fb",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast150",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535942
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw13",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1545,
+      1757
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw13.png",
+    "geometry": {
+      "aspect": 0.8794431720592544,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        52,
+        78,
+        1597,
+        1835
+      ],
+      "flip": true,
+      "resized_wh": [
+        1621,
+        1843
+      ],
+      "scale": 0.8439789065567871
+    },
+    "image": "airplane",
+    "image_sha256": "131d7b453be0083253f162c78afbacb4b3809d8d62d2a5f6e2b7f1196b5de311",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "saturation050",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535943
+  },
+  {
+    "bit_accuracy": 0.9344262295081968,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw14",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1378,
+      1777
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw14.png",
+    "geometry": {
+      "aspect": 0.775723936864978,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        52,
+        12,
+        1430,
+        1789
+      ],
+      "flip": true,
+      "resized_wh": [
+        1446,
+        1864
+      ],
+      "scale": 0.8015387075851965
+    },
+    "image": "airplane",
+    "image_sha256": "5c7ecaba0dac4ac5bfffccd78bbbed9223ddc43a4d83acd5e3a2d52c74ad403d",
+    "packet_accuracy": 0.96,
+    "packet_bits_correct": 96,
+    "payload_bits_correct": 57,
+    "perturbations": [
+      "posterize3",
+      "hflip"
+    ],
+    "raw_packet": "1011001010110110011100010101101011010001110000100010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010110110011100010101101011010001110000100010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535944
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw15",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1891,
+      1734
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw15.png",
+    "geometry": {
+      "aspect": 1.0908107890997807,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        36,
+        80,
+        1927,
+        1814
+      ],
+      "flip": true,
+      "resized_wh": [
+        1984,
+        1819
+      ],
+      "scale": 0.9274622422510435
+    },
+    "image": "airplane",
+    "image_sha256": "5f3205bf440fd3ad1e94d415289c829a5352b57dd89cec038e7315dbc539349c",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "grayscale",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535945
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw16",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1571,
+      1974
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw16.png",
+    "geometry": {
+      "aspect": 0.7958964936274497,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        47,
+        2,
+        1618,
+        1976
+      ],
+      "flip": false,
+      "resized_wh": [
+        1648,
+        2071
+      ],
+      "scale": 0.9021054141869792
+    },
+    "image": "airplane",
+    "image_sha256": "1d94186501a82d6d235d9934fe73d1312d23473d5a6e791716c7825c1ef03a3b",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "sharpness250",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535946
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw17",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1808,
+      2067
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw17.png",
+    "geometry": {
+      "aspect": 0.8745675867665925,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        21,
+        56,
+        1829,
+        2123
+      ],
+      "flip": true,
+      "resized_wh": [
+        1897,
+        2169
+      ],
+      "scale": 0.9905440438077746
+    },
+    "image": "airplane",
+    "image_sha256": "1ea0d5e70230a137c35fece91d87243df6ec23bc5373ce73a3660f84e77fdd9a",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "sharpness250",
+      "motion9_45"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535947
+  },
+  {
+    "bit_accuracy": 0.9180327868852459,
+    "candidate_payload": "1010001010110010011100010100101011010001110001100000010110101",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "draw18",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      1829,
+      1789
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw18.png",
+    "geometry": {
+      "aspect": 1.0219990562785668,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        90,
+        22,
+        1919,
+        1811
+      ],
+      "flip": false,
+      "resized_wh": [
+        1919,
+        1877
+      ],
+      "scale": 0.926688640527143
+    },
+    "image": "airplane",
+    "image_sha256": "420c8d593f7725957f1c97af7fe607e5615ec7fd42ff1a3c6c6bcf521cc3ac06",
+    "packet_accuracy": 0.93,
+    "packet_bits_correct": 93,
+    "payload_bits_correct": 56,
+    "perturbations": [
+      "posterize3",
+      "motion9_45"
+    ],
+    "raw_packet": "1010001010110010011100010100101011010001110001100000010110101011100111011101100110010110100100110001",
+    "raw_payload": "1010001010110010011100010100101011010001110001100000010110101",
+    "resolution": 2048,
+    "schema": -1,
+    "seed": 20535948
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw19",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      2142,
+      1643
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-airplane-2048-draw19.png",
+    "geometry": {
+      "aspect": 1.3032475459949835,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        94,
+        57,
+        2236,
+        1700
+      ],
+      "flip": false,
+      "resized_wh": [
+        2247,
+        1724
+      ],
+      "scale": 0.9611022637382511
+    },
+    "image": "airplane",
+    "image_sha256": "d4a224aad8d485ec63cc02d2d883e85820c2aeba0f30d35c41a8faee0bf977f7",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "rgb010",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20535949
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw00",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      509,
+      384
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw00.png",
+    "geometry": {
+      "aspect": 1.3273895467885923,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        15,
+        520,
+        399
+      ],
+      "flip": false,
+      "resized_wh": [
+        534,
+        403
+      ],
+      "scale": 0.905908302005745
+    },
+    "image": "boat",
+    "image_sha256": "38b20406991576103a0799e46548cf9bf0d304888105ef7d6442a7b7fe71fa19",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392330
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw01",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      424,
+      496
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw01.png",
+    "geometry": {
+      "aspect": 0.8551202849132947,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        20,
+        20,
+        444,
+        516
+      ],
+      "flip": true,
+      "resized_wh": [
+        445,
+        520
+      ],
+      "scale": 0.9399322831280463
+    },
+    "image": "boat",
+    "image_sha256": "8f3e749de61ca9abbf7228c7e8a8e142457ac170b33e402772794d32850414f9",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast050",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392331
+  },
+  {
+    "bit_accuracy": 0.9672131147540983,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw02",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      404,
+      452
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw02.png",
+    "geometry": {
+      "aspect": 0.89295198247437,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        6,
+        10,
+        410,
+        462
+      ],
+      "flip": true,
+      "resized_wh": [
+        424,
+        474
+      ],
+      "scale": 0.8754496059946391
+    },
+    "image": "boat",
+    "image_sha256": "bd4dbd01a93477647c1d4ebb4724501d85f3723987668a75a8b19fdff7365e03",
+    "packet_accuracy": 0.97,
+    "packet_bits_correct": 97,
+    "payload_bits_correct": 59,
+    "perturbations": [
+      "noise008",
+      "hflip"
+    ],
+    "raw_packet": "1011001000010110011100010100101011010001110101101010010110101011100111011101100110000010100100110101",
+    "raw_payload": "1011001000010110011100010100101011010001110101101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392332
+  },
+  {
+    "bit_accuracy": 0.9508196721311475,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw03",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      472,
+      396
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw03.png",
+    "geometry": {
+      "aspect": 1.1894543673149314,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        10,
+        0,
+        482,
+        396
+      ],
+      "flip": false,
+      "resized_wh": [
+        495,
+        416
+      ],
+      "scale": 0.8856731556311713
+    },
+    "image": "boat",
+    "image_sha256": "3b5ceddaf48088696563edec35fb0d6b83e0c60f30bef9168e744546baef3b87",
+    "packet_accuracy": 0.96,
+    "packet_bits_correct": 96,
+    "payload_bits_correct": 58,
+    "perturbations": [
+      "hflip",
+      "jpeg40"
+    ],
+    "raw_packet": "1011000110010110011100010100101011010001110001101010010110100011100111011101100110000011100100110001",
+    "raw_payload": "1011000110010110011100010100101011010001110001101010010110100",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392333
+  },
+  {
+    "bit_accuracy": 0.9344262295081968,
+    "candidate_payload": "101100101001010001110001010110101101100111000110101001011000101110011100110",
+    "candidate_schema": 3,
+    "candidate_valid": false,
+    "change": "draw04",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      477,
+      456
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw04.png",
+    "geometry": {
+      "aspect": 1.0465949749413288,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        3,
+        488,
+        459
+      ],
+      "flip": true,
+      "resized_wh": [
+        500,
+        478
+      ],
+      "scale": 0.9542611452868816
+    },
+    "image": "boat",
+    "image_sha256": "391d8b373016a2f11d13758302db2ed58daf14db69d3e123fc1fd6d0e0d6a759",
+    "packet_accuracy": 0.92,
+    "packet_bits_correct": 92,
+    "payload_bits_correct": 57,
+    "perturbations": [
+      "jpeg40",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010100011100010101101011011001110001101010010110001011100111001101100110000011100100111011",
+    "raw_payload": "1011001010010100011100010101101011011001110001101010010110001",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20392334
+  },
+  {
+    "bit_accuracy": 0.9016393442622951,
+    "candidate_payload": "10010010100101100111100101001010011100011100011010100111111010111001",
+    "candidate_schema": 2,
+    "candidate_valid": false,
+    "change": "draw05",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      468,
+      382
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw05.png",
+    "geometry": {
+      "aspect": 1.2243635672273296,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        7,
+        6,
+        475,
+        388
+      ],
+      "flip": false,
+      "resized_wh": [
+        491,
+        401
+      ],
+      "scale": 0.8669868560250483
+    },
+    "image": "boat",
+    "image_sha256": "32bc284e37c1072bd82b32a9fc58a53a95aed10f99537aabb8d3eee22b13bc76",
+    "packet_accuracy": 0.87,
+    "packet_bits_correct": 87,
+    "payload_bits_correct": 55,
+    "perturbations": [
+      "brightness050",
+      "posterize3"
+    ],
+    "raw_packet": "1001001010010110011110010100101001110001110001101010011111101011100111111101100000100010000100110010",
+    "raw_payload": "1001001010010110011110010100101001110001110001101010011111101",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20392335
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw06",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      428,
+      420
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw06.png",
+    "geometry": {
+      "aspect": 1.0171133342127912,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        18,
+        13,
+        446,
+        433
+      ],
+      "flip": false,
+      "resized_wh": [
+        449,
+        441
+      ],
+      "scale": 0.8689562438654247
+    },
+    "image": "boat",
+    "image_sha256": "7b42912de7ed587773b807486e5d3c67aa5703338827bd3413c941cf9d71311f",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "brightness150",
+      "posterize3"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101011010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101011010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392336
+  },
+  {
+    "bit_accuracy": 0.8852459016393442,
+    "candidate_payload": "1011001010010110011111010100111001010101010001101010010110100",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "draw07",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      469,
+      451
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw07.png",
+    "geometry": {
+      "aspect": 1.0413816583566975,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        10,
+        21,
+        479,
+        472
+      ],
+      "flip": false,
+      "resized_wh": [
+        492,
+        473
+      ],
+      "scale": 0.941900471665777
+    },
+    "image": "boat",
+    "image_sha256": "67afd223209481756e3f2c27d7e43031189e1908688910a9124113bbde6c3ade",
+    "packet_accuracy": 0.91,
+    "packet_bits_correct": 91,
+    "payload_bits_correct": 54,
+    "perturbations": [
+      "median3",
+      "posterize3"
+    ],
+    "raw_packet": "1011001010010110011111010100111001010101010001101010010110100011100111010101100110000010100100110101",
+    "raw_payload": "1011001010010110011111010100111001010101010001101010010110100",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20392337
+  },
+  {
+    "bit_accuracy": 0.8032786885245902,
+    "candidate_payload": "111101101001011000111001010010110101010101000110111101011111101100011111010",
+    "candidate_schema": 3,
+    "candidate_valid": true,
+    "change": "draw08",
+    "decoded_payload": "111101101001011000111001010010110101010101000110111101011111101100011111010",
+    "detected": true,
+    "dimensions": [
+      427,
+      472
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw08.png",
+    "geometry": {
+      "aspect": 0.9034029882645451,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        8,
+        8,
+        435,
+        480
+      ],
+      "flip": false,
+      "resized_wh": [
+        448,
+        495
+      ],
+      "scale": 0.9198237698151812
+    },
+    "image": "boat",
+    "image_sha256": "86d126984a035486be49e0d4d64579eb0159ef657d7c9c55738ce5a5dd12e95d",
+    "packet_accuracy": 0.8,
+    "packet_bits_correct": 80,
+    "payload_bits_correct": 49,
+    "perturbations": [
+      "grayscale",
+      "posterize3"
+    ],
+    "raw_packet": "1111011010010110001110010100101101000101010001101011010111111011100111110101100100100010101110110111",
+    "raw_payload": "1111011010010110001110010100101101000101010001101011010111111",
+    "resolution": 512,
+    "schema": 3,
+    "seed": 20392338
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw09",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      492,
+      376
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw09.png",
+    "geometry": {
+      "aspect": 1.3081257217715914,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        5,
+        17,
+        497,
+        393
+      ],
+      "flip": false,
+      "resized_wh": [
+        516,
+        394
+      ],
+      "scale": 0.8808433326048875
+    },
+    "image": "boat",
+    "image_sha256": "5397af47b015dd0837bbe5ee00b6e1eb984f1c84faf25a8cfe4d9f989397e118",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast150",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392339
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw10",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      486,
+      388
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw10.png",
+    "geometry": {
+      "aspect": 1.2534620724873662,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        21,
+        6,
+        507,
+        394
+      ],
+      "flip": true,
+      "resized_wh": [
+        510,
+        407
+      ],
+      "scale": 0.8902399544277352
+    },
+    "image": "boat",
+    "image_sha256": "83d1c90e8252e67761de93007d525c21cf7ceb89ca95041c71e8328a29fb6782",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "brightness050",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392340
+  },
+  {
+    "bit_accuracy": 0.8524590163934426,
+    "candidate_payload": "1011001000010100011110010100011111000001110001101010000110100",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "draw11",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      376,
+      459
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw11.png",
+    "geometry": {
+      "aspect": 0.8167377684201559,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        12,
+        387,
+        471
+      ],
+      "flip": true,
+      "resized_wh": [
+        394,
+        482
+      ],
+      "scale": 0.8505298710130087
+    },
+    "image": "boat",
+    "image_sha256": "78b4fcc8c9a201c7cce3b23a679778250c91ad116fa88d562da85a294ef6e786",
+    "packet_accuracy": 0.85,
+    "packet_bits_correct": 85,
+    "payload_bits_correct": 52,
+    "perturbations": [
+      "motion9_45",
+      "noise008"
+    ],
+    "raw_packet": "1011001000010100011110010100011111000001110001101010000110100011000111111100100110000001100100110101",
+    "raw_payload": "1011001000010100011110010100011111000001110001101010000110100",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20392341
+  },
+  {
+    "bit_accuracy": 0.7540983606557377,
+    "candidate_payload": "1011011000010110001111110100111101110101110001101010110111110",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "draw12",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      458,
+      352
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw12.png",
+    "geometry": {
+      "aspect": 1.3036645772883484,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        16,
+        10,
+        474,
+        362
+      ],
+      "flip": true,
+      "resized_wh": [
+        481,
+        369
+      ],
+      "scale": 0.8227565200098825
+    },
+    "image": "boat",
+    "image_sha256": "4cee182f922b5f71b0a6e6adf59053fa533dd2a3e09beba45b0743b290c7390a",
+    "packet_accuracy": 0.78,
+    "packet_bits_correct": 78,
+    "payload_bits_correct": 46,
+    "perturbations": [
+      "posterize3",
+      "noise008"
+    ],
+    "raw_packet": "1011011000010110001111110100111101110101110001101010110111110011100011011101100100101010100110010101",
+    "raw_payload": "1011011000010110001111110100111101110101110001101010110111110",
+    "resolution": 512,
+    "schema": -1,
+    "seed": 20392342
+  },
+  {
+    "bit_accuracy": 0.9508196721311475,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw13",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      439,
+      425
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw13.png",
+    "geometry": {
+      "aspect": 1.034788181404228,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        12,
+        17,
+        451,
+        442
+      ],
+      "flip": false,
+      "resized_wh": [
+        461,
+        446
+      ],
+      "scale": 0.8860268478898965
+    },
+    "image": "boat",
+    "image_sha256": "ac0956ea5ac0f0e247c8c9165515e13c060b826aa66e5faaac74051fd145ea5d",
+    "packet_accuracy": 0.96,
+    "packet_bits_correct": 96,
+    "payload_bits_correct": 58,
+    "perturbations": [
+      "box7",
+      "grayscale"
+    ],
+    "raw_packet": "1011001110010110011100010000101011010001110001111010010110101011100111011101100110000010100100111001",
+    "raw_payload": "1011001110010110011100010000101011010001110001111010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392343
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw14",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      462,
+      390
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw14.png",
+    "geometry": {
+      "aspect": 1.1854110388426973,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        18,
+        473,
+        408
+      ],
+      "flip": false,
+      "resized_wh": [
+        485,
+        409
+      ],
+      "scale": 0.8701492811909701
+    },
+    "image": "boat",
+    "image_sha256": "29f8fbd853457d2415462ead0ea89d58ccd06873c03369c0eb9efa57819924d3",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hflip",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392344
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw15",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      437,
+      428
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw15.png",
+    "geometry": {
+      "aspect": 1.020355634859095,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        13,
+        12,
+        450,
+        440
+      ],
+      "flip": true,
+      "resized_wh": [
+        458,
+        449
+      ],
+      "scale": 0.8860992487924118
+    },
+    "image": "boat",
+    "image_sha256": "430370695866a4d62e2429acae6b79767e99ad34657c47374046dd53bcc8bb81",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hue005",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100110110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392345
+  },
+  {
+    "bit_accuracy": 0.9672131147540983,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw16",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      483,
+      446
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw16.png",
+    "geometry": {
+      "aspect": 1.083475089988083,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        11,
+        12,
+        494,
+        458
+      ],
+      "flip": false,
+      "resized_wh": [
+        507,
+        468
+      ],
+      "scale": 0.9519618110700382
+    },
+    "image": "boat",
+    "image_sha256": "5db5882d08ad3772a224130722d9fb7712f29fead1d351b48694a3c9cc0a8d4b",
+    "packet_accuracy": 0.96,
+    "packet_bits_correct": 96,
+    "payload_bits_correct": 59,
+    "perturbations": [
+      "contrast150",
+      "grayscale"
+    ],
+    "raw_packet": "1011001010010100011100010100101011010001110001101010010110001011100111111101100110000010100100111001",
+    "raw_payload": "1011001010010100011100010100101011010001110001101010010110001",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392346
+  },
+  {
+    "bit_accuracy": 0.9344262295081968,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw17",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      480,
+      408
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw17.png",
+    "geometry": {
+      "aspect": 1.1775565041412162,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        16,
+        0,
+        496,
+        408
+      ],
+      "flip": true,
+      "resized_wh": [
+        504,
+        428
+      ],
+      "scale": 0.9069824068974132
+    },
+    "image": "boat",
+    "image_sha256": "1c0ad58035be9fa359e1aa07b71593defe654928d0109dde82d53967d7f7d527",
+    "packet_accuracy": 0.95,
+    "packet_bits_correct": 95,
+    "payload_bits_correct": 57,
+    "perturbations": [
+      "jpeg40",
+      "box7"
+    ],
+    "raw_packet": "1111001100010110011100010000101011010001110001101010010110101011100111011101100110000011100100110001",
+    "raw_payload": "1111001100010110011100010000101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392347
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw18",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      366,
+      430
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw18.png",
+    "geometry": {
+      "aspect": 0.8514408589169646,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        1,
+        16,
+        367,
+        446
+      ],
+      "flip": false,
+      "resized_wh": [
+        384,
+        451
+      ],
+      "scale": 0.8127353103430346
+    },
+    "image": "boat",
+    "image_sha256": "27efc8220ca0b3d31bbf2b3e1689165f0c4590cbf84de08b578bebfe480db9e2",
+    "packet_accuracy": 0.98,
+    "packet_bits_correct": 98,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "jpeg40",
+      "hue005"
+    ],
+    "raw_packet": "1011001000010110011100010100101011010001110001101010010110101011100111011101000110000010100100110001",
+    "raw_payload": "1011001000010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392348
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw19",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      388,
+      398
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-512-draw19.png",
+    "geometry": {
+      "aspect": 0.9739444493438083,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        13,
+        8,
+        401,
+        406
+      ],
+      "flip": true,
+      "resized_wh": [
+        407,
+        418
+      ],
+      "scale": 0.8055172464183726
+    },
+    "image": "boat",
+    "image_sha256": "00b6c21795ee216b5ff5f08b0c684ccda7e0ffaf38a24536f04c52a1955fa1ab",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "median3"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 512,
+    "schema": 1,
+    "seed": 20392349
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw00",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      2026,
+      1555
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw00.png",
+    "geometry": {
+      "aspect": 1.3033386112935594,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        13,
+        55,
+        2039,
+        1610
+      ],
+      "flip": false,
+      "resized_wh": [
+        2126,
+        1631
+      ],
+      "scale": 0.9092189307420739
+    },
+    "image": "boat",
+    "image_sha256": "97718c4b015b3c39366c9d9615a18989e52c1059f9166652ae821c30eb586404",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "rgb010",
+      "motion9_45"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545930
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw01",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1829,
+      1449
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw01.png",
+    "geometry": {
+      "aspect": 1.2621268387650215,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        39,
+        67,
+        1868,
+        1516
+      ],
+      "flip": true,
+      "resized_wh": [
+        1919,
+        1520
+      ],
+      "scale": 0.8338545538823829
+    },
+    "image": "boat",
+    "image_sha256": "835df69b6dcb5dbb8c1f9dba972d17fb00076239aab6e9424b2aa73619dea7a2",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "noise008",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545931
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw02",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1389,
+      1843
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw02.png",
+    "geometry": {
+      "aspect": 0.753458202637334,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        67,
+        15,
+        1456,
+        1858
+      ],
+      "flip": false,
+      "resized_wh": [
+        1457,
+        1934
+      ],
+      "scale": 0.8196968318514752
+    },
+    "image": "boat",
+    "image_sha256": "45fdb56a53ae9c0889b2b81b66a979cbef403f14acf71598d38a34fa0ee93e8f",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "hue005",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545932
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw03",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1551,
+      1836
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw03.png",
+    "geometry": {
+      "aspect": 0.8444164754578806,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        31,
+        25,
+        1582,
+        1861
+      ],
+      "flip": false,
+      "resized_wh": [
+        1627,
+        1926
+      ],
+      "scale": 0.8643812591868152
+    },
+    "image": "boat",
+    "image_sha256": "628b1deb08f885d1d1cb90293db85cb93c0e90a5dc3137aa29d4a18f0782f784",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "saturation050",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545933
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw04",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1614,
+      1759
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw04.png",
+    "geometry": {
+      "aspect": 0.9177173535742027,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        51,
+        61,
+        1665,
+        1820
+      ],
+      "flip": true,
+      "resized_wh": [
+        1693,
+        1845
+      ],
+      "scale": 0.8628231504359537
+    },
+    "image": "boat",
+    "image_sha256": "f96a7fae3e498a1991483459533636ce3b334f3def54f1b9ff948813c191340d",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "sharpness250",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545934
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw05",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1962,
+      1749
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw05.png",
+    "geometry": {
+      "aspect": 1.1217791016023502,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        19,
+        20,
+        1981,
+        1769
+      ],
+      "flip": false,
+      "resized_wh": [
+        2058,
+        1835
+      ],
+      "scale": 0.9489308460530155
+    },
+    "image": "boat",
+    "image_sha256": "0acd0613ac09a44c8b11f873abbdf75f0b3716f8d84aff6ffd5b9ae8a213bf49",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "brightness150",
+      "median3"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545935
+  },
+  {
+    "bit_accuracy": 0.9016393442622951,
+    "candidate_payload": "1011000110010100011100010000101011010001110001101010010110000",
+    "candidate_schema": 1,
+    "candidate_valid": false,
+    "change": "draw06",
+    "decoded_payload": "",
+    "detected": false,
+    "dimensions": [
+      1703,
+      1473
+    ],
+    "exact_payload": false,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw06.png",
+    "geometry": {
+      "aspect": 1.1570825063963137,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        41,
+        10,
+        1744,
+        1483
+      ],
+      "flip": false,
+      "resized_wh": [
+        1787,
+        1545
+      ],
+      "scale": 0.8112631691243525
+    },
+    "image": "boat",
+    "image_sha256": "7276715a9c2615d828a5690b884b7ab85efb766c7ef9a7497161fde4aa1e0ee3",
+    "packet_accuracy": 0.9,
+    "packet_bits_correct": 90,
+    "payload_bits_correct": 55,
+    "perturbations": [
+      "jpeg40",
+      "brightness150"
+    ],
+    "raw_packet": "1011000110010100011100010000101011010001110001101010010110000011100101011101100110000011000100111001",
+    "raw_payload": "1011000110010100011100010000101011010001110001101010010110000",
+    "resolution": 2048,
+    "schema": -1,
+    "seed": 20545936
+  },
+  {
+    "bit_accuracy": 0.9344262295081968,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw07",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1985,
+      1697
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw07.png",
+    "geometry": {
+      "aspect": 1.1702838419499784,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        14,
+        48,
+        1999,
+        1745
+      ],
+      "flip": true,
+      "resized_wh": [
+        2083,
+        1780
+      ],
+      "scale": 0.9400194118803851
+    },
+    "image": "boat",
+    "image_sha256": "21c4600caaa041b04833f992f3de57867b4fe87e62718a3c0af6f6f0aa8ca51f",
+    "packet_accuracy": 0.95,
+    "packet_bits_correct": 95,
+    "payload_bits_correct": 57,
+    "perturbations": [
+      "jpeg40",
+      "brightness150"
+    ],
+    "raw_packet": "1011011110010111011100010000101011010001110001101010010110101011100111011101100110000011100100110001",
+    "raw_payload": "1011011110010111011100010000101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545937
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw08",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      2003,
+      1637
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw08.png",
+    "geometry": {
+      "aspect": 1.2241176390399466,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        57,
+        79,
+        2060,
+        1716
+      ],
+      "flip": true,
+      "resized_wh": [
+        2101,
+        1717
+      ],
+      "scale": 0.9274075442231176
+    },
+    "image": "boat",
+    "image_sha256": "9e99b039813623671020f30125956e86894f5a70a4ea74b9be6bd54372276323",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "brightness050",
+      "hue005"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545938
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw09",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1826,
+      1453
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw09.png",
+    "geometry": {
+      "aspect": 1.2571376177819367,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        41,
+        44,
+        1867,
+        1497
+      ],
+      "flip": true,
+      "resized_wh": [
+        1916,
+        1524
+      ],
+      "scale": 0.8343905352895677
+    },
+    "image": "boat",
+    "image_sha256": "5e60948c2f008b00b6eb4e9fbe50127927ecdcd8d6c3f473f348860e0a5f4358",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "posterize3",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110111011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110111",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545939
+  },
+  {
+    "bit_accuracy": 0.9672131147540983,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw10",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1985,
+      1721
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw10.png",
+    "geometry": {
+      "aspect": 1.1530844063142476,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        20,
+        82,
+        2005,
+        1803
+      ],
+      "flip": false,
+      "resized_wh": [
+        2083,
+        1806
+      ],
+      "scale": 0.9471400313995049
+    },
+    "image": "boat",
+    "image_sha256": "16ec2aa2cc6867e6ed33bbed703dbc21b5ab91517b0832db76460a03cc26a86f",
+    "packet_accuracy": 0.98,
+    "packet_bits_correct": 98,
+    "payload_bits_correct": 59,
+    "perturbations": [
+      "sharpness250",
+      "posterize3"
+    ],
+    "raw_packet": "1011001000010110011100010100101011010001110001101010010110111011100111011101100110000010100100110001",
+    "raw_payload": "1011001000010110011100010100101011010001110001101010010110111",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545940
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw11",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1498,
+      1637
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw11.png",
+    "geometry": {
+      "aspect": 0.9156606012103415,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        50,
+        53,
+        1548,
+        1690
+      ],
+      "flip": true,
+      "resized_wh": [
+        1572,
+        1717
+      ],
+      "scale": 0.8023554687706889
+    },
+    "image": "boat",
+    "image_sha256": "3023ac2ddaa77579c5cd48bdf9cb6f2d14d0b550154681b6e03e29a514a801af",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "sharpness250"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545941
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw12",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1592,
+      1818
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw12.png",
+    "geometry": {
+      "aspect": 0.8754747412074064,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        32,
+        46,
+        1624,
+        1864
+      ],
+      "flip": true,
+      "resized_wh": [
+        1670,
+        1907
+      ],
+      "scale": 0.871260764430662
+    },
+    "image": "boat",
+    "image_sha256": "863cb441bf4b2c7ad0eed03771a66ac00620f330c2516e304fc122be8b5925c3",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast150",
+      "motion9_45"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545942
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw13",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1700,
+      1908
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw13.png",
+    "geometry": {
+      "aspect": 0.8908571588541632,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        66,
+        27,
+        1766,
+        1935
+      ],
+      "flip": false,
+      "resized_wh": [
+        1784,
+        2002
+      ],
+      "scale": 0.9226983051522119
+    },
+    "image": "boat",
+    "image_sha256": "0eedf95eac61eaa240fff50aeed903539a5d563b2ffbe48f3a53d91cb29cfe3a",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "box7",
+      "noise008"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545943
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw14",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1735,
+      1799
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw14.png",
+    "geometry": {
+      "aspect": 0.9643373180651009,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        42,
+        82,
+        1777,
+        1881
+      ],
+      "flip": false,
+      "resized_wh": [
+        1820,
+        1887
+      ],
+      "scale": 0.90477387307556
+    },
+    "image": "boat",
+    "image_sha256": "40475035bb7e2baf4e6fa664265363aa5fb435a4a6fc2b987688b6129daebafc",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "contrast150",
+      "hflip"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545944
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw15",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1630,
+      1925
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw15.png",
+    "geometry": {
+      "aspect": 0.8468013707070092,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        20,
+        14,
+        1650,
+        1939
+      ],
+      "flip": true,
+      "resized_wh": [
+        1710,
+        2020
+      ],
+      "scale": 0.9074516800687016
+    },
+    "image": "boat",
+    "image_sha256": "8d459e82d80b2e9744bea43e7541e7b89fd48e7aab3757879ccd872c73b9db46",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "saturation050"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545945
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw16",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1587,
+      1657
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw16.png",
+    "geometry": {
+      "aspect": 0.9576694881173676,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        60,
+        32,
+        1647,
+        1689
+      ],
+      "flip": true,
+      "resized_wh": [
+        1665,
+        1739
+      ],
+      "scale": 0.8308292995934277
+    },
+    "image": "boat",
+    "image_sha256": "050b3cf891ae4911cfd259681175b8955f5b345b1cd6e30fd868b695b380538c",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "median3",
+      "contrast150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545946
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw17",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1801,
+      1559
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw17.png",
+    "geometry": {
+      "aspect": 1.1547068136630025,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        3,
+        40,
+        1804,
+        1599
+      ],
+      "flip": true,
+      "resized_wh": [
+        1890,
+        1636
+      ],
+      "scale": 0.8586491736153358
+    },
+    "image": "boat",
+    "image_sha256": "92317fb90c5e1c2101babd181de6d603920d9d7adb480bd17141bab08418d662",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "rgb010",
+      "box7"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545947
+  },
+  {
+    "bit_accuracy": 1.0,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw18",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1707,
+      1751
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw18.png",
+    "geometry": {
+      "aspect": 0.9750430252470266,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        81,
+        40,
+        1788,
+        1791
+      ],
+      "flip": true,
+      "resized_wh": [
+        1791,
+        1837
+      ],
+      "scale": 0.8857623206282152
+    },
+    "image": "boat",
+    "image_sha256": "a7d0aa8e6291634d8d0fe39c7bb5521f2f884cbd6dc3f5d29757d59808b49a17",
+    "packet_accuracy": 1.0,
+    "packet_bits_correct": 100,
+    "payload_bits_correct": 61,
+    "perturbations": [
+      "saturation150",
+      "brightness150"
+    ],
+    "raw_packet": "1011001010010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545948
+  },
+  {
+    "bit_accuracy": 0.9836065573770492,
+    "candidate_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "candidate_schema": 1,
+    "candidate_valid": true,
+    "change": "draw19",
+    "decoded_payload": "1011001010010110011100010100101011010001110001101010010110101",
+    "detected": true,
+    "dimensions": [
+      1687,
+      2182
+    ],
+    "exact_payload": true,
+    "experiment": "B",
+    "file": "images/B-boat-2048-draw19.png",
+    "geometry": {
+      "aspect": 0.7732438388304487,
+      "crop_fraction": 0.953125,
+      "crop_xyxy": [
+        74,
+        24,
+        1761,
+        2206
+      ],
+      "flip": true,
+      "resized_wh": [
+        1770,
+        2289
+      ],
+      "scale": 0.98284143038924
+    },
+    "image": "boat",
+    "image_sha256": "5bae3fd4edec1ec9441fd2b1656c992315fe98bf0fac6c91c4f8b6f1f2f96d50",
+    "packet_accuracy": 0.99,
+    "packet_bits_correct": 99,
+    "payload_bits_correct": 60,
+    "perturbations": [
+      "median3",
+      "jpeg40"
+    ],
+    "raw_packet": "1011001110010110011100010100101011010001110001101010010110101011100111011101100110000010100100110001",
+    "raw_payload": "1011001110010110011100010100101011010001110001101010010110101",
+    "resolution": 2048,
+    "schema": 1,
+    "seed": 20545949
+  }
+]

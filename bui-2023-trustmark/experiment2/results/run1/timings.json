@@ -1,0 +1,1501 @@
+{
+  "measurements": [
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.10228557209484279,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "unmarked",
+      "decode_and_save_seconds": 0.09396374505013227,
+      "experiment": "control",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "noise008",
+      "decode_and_save_seconds": 0.06976970587857068,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "contrast150",
+      "decode_and_save_seconds": 0.08565181703306735,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "contrast050",
+      "decode_and_save_seconds": 0.1011899181175977,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "saturation050",
+      "decode_and_save_seconds": 0.09448639606125653,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "saturation150",
+      "decode_and_save_seconds": 0.08787247305735946,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "hue005",
+      "decode_and_save_seconds": 0.09259362402372062,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "sharpness250",
+      "decode_and_save_seconds": 0.07333714491687715,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "median3",
+      "decode_and_save_seconds": 0.09704801207408309,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "box7",
+      "decode_and_save_seconds": 0.0855308708269149,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "motion9_45",
+      "decode_and_save_seconds": 0.0982756179291755,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "posterize3",
+      "decode_and_save_seconds": 0.06865266500972211,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "rgb010",
+      "decode_and_save_seconds": 0.09826412587426603,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "grayscale",
+      "decode_and_save_seconds": 0.07027414906769991,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "hflip",
+      "decode_and_save_seconds": 0.0958625408820808,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "brightness050",
+      "decode_and_save_seconds": 0.10245375405065715,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "brightness150",
+      "decode_and_save_seconds": 0.053933813935145736,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "jpeg40",
+      "decode_and_save_seconds": 0.07121136016212404,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 512,
+      "seconds": 1.5782005058135837
+    },
+    {
+      "change": "draw00",
+      "decode_and_save_seconds": 0.06126158917322755,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw01",
+      "decode_and_save_seconds": 0.0650787428021431,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw02",
+      "decode_and_save_seconds": 0.08721539797261357,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw03",
+      "decode_and_save_seconds": 0.0804616380482912,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw04",
+      "decode_and_save_seconds": 0.061730300076305866,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw05",
+      "decode_and_save_seconds": 0.0736906100064516,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw06",
+      "decode_and_save_seconds": 0.08343702810816467,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw07",
+      "decode_and_save_seconds": 0.06819288898259401,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw08",
+      "decode_and_save_seconds": 0.06112215807661414,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw09",
+      "decode_and_save_seconds": 0.09305996703915298,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw10",
+      "decode_and_save_seconds": 0.08199627604335546,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw11",
+      "decode_and_save_seconds": 0.0741079649887979,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw12",
+      "decode_and_save_seconds": 0.05600911611691117,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw13",
+      "decode_and_save_seconds": 0.06501059583388269,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw14",
+      "decode_and_save_seconds": 0.06768149510025978,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw15",
+      "decode_and_save_seconds": 0.06276965606957674,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw16",
+      "decode_and_save_seconds": 0.08785365498624742,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw17",
+      "decode_and_save_seconds": 0.08129267883487046,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw18",
+      "decode_and_save_seconds": 0.06263385596685112,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "draw19",
+      "decode_and_save_seconds": 0.07788583100773394,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 512,
+      "seconds": 1.6657299159560353
+    },
+    {
+      "change": "lambda0.5-unchanged",
+      "decode_and_save_seconds": 0.09387001395225525,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.5-jpeg50",
+      "decode_and_save_seconds": 0.07149006915278733,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.75-unchanged",
+      "decode_and_save_seconds": 0.09543116413988173,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.75-jpeg50",
+      "decode_and_save_seconds": 0.07291628606617451,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.0-unchanged",
+      "decode_and_save_seconds": 0.09705405402928591,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.0-jpeg50",
+      "decode_and_save_seconds": 0.07258902909234166,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.25-unchanged",
+      "decode_and_save_seconds": 0.09450034704059362,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.25-jpeg50",
+      "decode_and_save_seconds": 0.07474903808906674,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.5-unchanged",
+      "decode_and_save_seconds": 0.0948493629693985,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.5-jpeg50",
+      "decode_and_save_seconds": 0.06670470885001123,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 512,
+      "seconds": 1.113620574818924
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.8682156538125128,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "unmarked",
+      "decode_and_save_seconds": 0.81639259820804,
+      "experiment": "control",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "noise008",
+      "decode_and_save_seconds": 0.46955793304368854,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "contrast150",
+      "decode_and_save_seconds": 0.8920112019404769,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "contrast050",
+      "decode_and_save_seconds": 0.7460504120681435,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "saturation050",
+      "decode_and_save_seconds": 0.8059130879119039,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "saturation150",
+      "decode_and_save_seconds": 0.9830843980889767,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "hue005",
+      "decode_and_save_seconds": 0.9297316430602223,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "sharpness250",
+      "decode_and_save_seconds": 0.9878544770181179,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "median3",
+      "decode_and_save_seconds": 0.8980759219266474,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "box7",
+      "decode_and_save_seconds": 0.7720111729577184,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "motion9_45",
+      "decode_and_save_seconds": 0.8490105899982154,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "posterize3",
+      "decode_and_save_seconds": 0.24707184312865138,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "rgb010",
+      "decode_and_save_seconds": 0.8172305289190263,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "grayscale",
+      "decode_and_save_seconds": 0.43325594812631607,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "hflip",
+      "decode_and_save_seconds": 0.8623738179448992,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "brightness050",
+      "decode_and_save_seconds": 0.7449714248068631,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "brightness150",
+      "decode_and_save_seconds": 0.31771935406140983,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "jpeg40",
+      "decode_and_save_seconds": 0.46743475110270083,
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "experiment": "A",
+      "image": "airplane",
+      "resolution": 2048,
+      "seconds": 13.629722073907033
+    },
+    {
+      "change": "draw00",
+      "decode_and_save_seconds": 0.8448014731984586,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw01",
+      "decode_and_save_seconds": 0.7114956281147897,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw02",
+      "decode_and_save_seconds": 0.294615383958444,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw03",
+      "decode_and_save_seconds": 0.4104193851817399,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw04",
+      "decode_and_save_seconds": 0.7873383699916303,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw05",
+      "decode_and_save_seconds": 0.8232917999848723,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw06",
+      "decode_and_save_seconds": 0.5195380721706897,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw07",
+      "decode_and_save_seconds": 0.6366304170805961,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw08",
+      "decode_and_save_seconds": 0.67225327109918,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw09",
+      "decode_and_save_seconds": 0.2933722110465169,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw10",
+      "decode_and_save_seconds": 0.5101164591033012,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw11",
+      "decode_and_save_seconds": 0.6356248171068728,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw12",
+      "decode_and_save_seconds": 0.37138414289802313,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw13",
+      "decode_and_save_seconds": 0.5568323091138154,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw14",
+      "decode_and_save_seconds": 0.16853892500512302,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw15",
+      "decode_and_save_seconds": 0.3431561831384897,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw16",
+      "decode_and_save_seconds": 0.7690103750210255,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw17",
+      "decode_and_save_seconds": 0.7949999140109867,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw18",
+      "decode_and_save_seconds": 0.3571032718755305,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "draw19",
+      "decode_and_save_seconds": 0.6954066029284149,
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "experiment": "B",
+      "image": "airplane",
+      "resolution": 2048,
+      "seconds": 14.09285260294564
+    },
+    {
+      "change": "lambda0.5-unchanged",
+      "decode_and_save_seconds": 0.851376042002812,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.5-jpeg50",
+      "decode_and_save_seconds": 0.5210536131635308,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.75-unchanged",
+      "decode_and_save_seconds": 0.8563159769400954,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.75-jpeg50",
+      "decode_and_save_seconds": 0.5199155900627375,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.0-unchanged",
+      "decode_and_save_seconds": 0.860835645115003,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.0-jpeg50",
+      "decode_and_save_seconds": 0.5168926520273089,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.25-unchanged",
+      "decode_and_save_seconds": 0.8729866619687527,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.25-jpeg50",
+      "decode_and_save_seconds": 0.520133517915383,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.5-unchanged",
+      "decode_and_save_seconds": 0.8826667708344758,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.5-jpeg50",
+      "decode_and_save_seconds": 0.5223054660018533,
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "experiment": "E",
+      "image": "airplane",
+      "resolution": 2048,
+      "seconds": 8.497893622145057
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.08090652409009635,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "unmarked",
+      "decode_and_save_seconds": 0.07681411900557578,
+      "experiment": "control",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "noise008",
+      "decode_and_save_seconds": 0.06570788100361824,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "contrast150",
+      "decode_and_save_seconds": 0.07861015014350414,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "contrast050",
+      "decode_and_save_seconds": 0.08096403698436916,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "saturation050",
+      "decode_and_save_seconds": 0.08188120415434241,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "saturation150",
+      "decode_and_save_seconds": 0.08292743796482682,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "hue005",
+      "decode_and_save_seconds": 0.08330661593936384,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "sharpness250",
+      "decode_and_save_seconds": 0.07981041399762034,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "median3",
+      "decode_and_save_seconds": 0.08435862883925438,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "box7",
+      "decode_and_save_seconds": 0.08024575491435826,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "motion9_45",
+      "decode_and_save_seconds": 0.08612124691717327,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "posterize3",
+      "decode_and_save_seconds": 0.05705136083997786,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "rgb010",
+      "decode_and_save_seconds": 0.08804661803878844,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "grayscale",
+      "decode_and_save_seconds": 0.07360406708903611,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "hflip",
+      "decode_and_save_seconds": 0.08567553688772023,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "brightness050",
+      "decode_and_save_seconds": 0.08333373698405921,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "brightness150",
+      "decode_and_save_seconds": 0.0813284011092037,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "jpeg40",
+      "decode_and_save_seconds": 0.07194417086429894,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 512,
+      "seconds": 1.4654402588494122
+    },
+    {
+      "change": "draw00",
+      "decode_and_save_seconds": 0.06909361900761724,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw01",
+      "decode_and_save_seconds": 0.06792086595669389,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw02",
+      "decode_and_save_seconds": 0.05872441898100078,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw03",
+      "decode_and_save_seconds": 0.060371422907337546,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw04",
+      "decode_and_save_seconds": 0.06378060509450734,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw05",
+      "decode_and_save_seconds": 0.04652796778827906,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw06",
+      "decode_and_save_seconds": 0.05166189908050001,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw07",
+      "decode_and_save_seconds": 0.050513172056525946,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw08",
+      "decode_and_save_seconds": 0.052319169975817204,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw09",
+      "decode_and_save_seconds": 0.06827648589387536,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw10",
+      "decode_and_save_seconds": 0.07032009097747505,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw11",
+      "decode_and_save_seconds": 0.05366997420787811,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw12",
+      "decode_and_save_seconds": 0.05278437491506338,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw13",
+      "decode_and_save_seconds": 0.05823389091528952,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw14",
+      "decode_and_save_seconds": 0.07113314303569496,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw15",
+      "decode_and_save_seconds": 0.057902354979887605,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw16",
+      "decode_and_save_seconds": 0.06860748981125653,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw17",
+      "decode_and_save_seconds": 0.058758301893249154,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw18",
+      "decode_and_save_seconds": 0.057474422035738826,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "draw19",
+      "decode_and_save_seconds": 0.061817120062187314,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 512,
+      "seconds": 1.3470559599809349
+    },
+    {
+      "change": "lambda0.5-unchanged",
+      "decode_and_save_seconds": 0.08356290985830128,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.5-jpeg50",
+      "decode_and_save_seconds": 0.0696798199787736,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.75-unchanged",
+      "decode_and_save_seconds": 0.08344928594306111,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda0.75-jpeg50",
+      "decode_and_save_seconds": 0.07160237710922956,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.0-unchanged",
+      "decode_and_save_seconds": 0.08271450502797961,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.0-jpeg50",
+      "decode_and_save_seconds": 0.07131729205138981,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.25-unchanged",
+      "decode_and_save_seconds": 0.08565150992944837,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.25-jpeg50",
+      "decode_and_save_seconds": 0.07060179207473993,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.5-unchanged",
+      "decode_and_save_seconds": 0.08855619700625539,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "lambda1.5-jpeg50",
+      "decode_and_save_seconds": 0.07053430401720107,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 512,
+      "seconds": 1.0313864431809634
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.6144247220363468,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "unmarked",
+      "decode_and_save_seconds": 0.469493841053918,
+      "experiment": "control",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "noise008",
+      "decode_and_save_seconds": 0.4642260519322008,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "contrast150",
+      "decode_and_save_seconds": 0.6093538431450725,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "contrast050",
+      "decode_and_save_seconds": 0.6009400640614331,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "saturation050",
+      "decode_and_save_seconds": 0.5577207820024341,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "saturation150",
+      "decode_and_save_seconds": 0.6303651209454983,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "hue005",
+      "decode_and_save_seconds": 0.6306584440171719,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "sharpness250",
+      "decode_and_save_seconds": 0.7199737729970366,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "median3",
+      "decode_and_save_seconds": 0.635855705011636,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "box7",
+      "decode_and_save_seconds": 0.6245290008373559,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "motion9_45",
+      "decode_and_save_seconds": 0.6963955007959157,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "posterize3",
+      "decode_and_save_seconds": 0.20729461614973843,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "rgb010",
+      "decode_and_save_seconds": 0.7732498100958765,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "grayscale",
+      "decode_and_save_seconds": 0.48475819383747876,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "hflip",
+      "decode_and_save_seconds": 0.6114976298995316,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "brightness050",
+      "decode_and_save_seconds": 0.5846353201195598,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "brightness150",
+      "decode_and_save_seconds": 0.6020529549568892,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "jpeg40",
+      "decode_and_save_seconds": 0.44007086800411344,
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "experiment": "A",
+      "image": "boat",
+      "resolution": 2048,
+      "seconds": 11.105313565814868
+    },
+    {
+      "change": "draw00",
+      "decode_and_save_seconds": 0.6194445102009922,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw01",
+      "decode_and_save_seconds": 0.2950058188289404,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw02",
+      "decode_and_save_seconds": 0.4741830558050424,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw03",
+      "decode_and_save_seconds": 0.3945434270426631,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw04",
+      "decode_and_save_seconds": 0.31930915592238307,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw05",
+      "decode_and_save_seconds": 0.4904640060849488,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw06",
+      "decode_and_save_seconds": 0.2797048408538103,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw07",
+      "decode_and_save_seconds": 0.35065352404490113,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw08",
+      "decode_and_save_seconds": 0.47036368609406054,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw09",
+      "decode_and_save_seconds": 0.1440380960702896,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw10",
+      "decode_and_save_seconds": 0.1846890291199088,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw11",
+      "decode_and_save_seconds": 0.462505335919559,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw12",
+      "decode_and_save_seconds": 0.48455838207155466,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw13",
+      "decode_and_save_seconds": 0.3606630680151284,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw14",
+      "decode_and_save_seconds": 0.46590885100886226,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw15",
+      "decode_and_save_seconds": 0.43641087017022073,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw16",
+      "decode_and_save_seconds": 0.3970840589608997,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw17",
+      "decode_and_save_seconds": 0.4869487429969013,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw18",
+      "decode_and_save_seconds": 0.4441234399564564,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "draw19",
+      "decode_and_save_seconds": 0.3782325729262084,
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "experiment": "B",
+      "image": "boat",
+      "resolution": 2048,
+      "seconds": 10.904348385054618
+    },
+    {
+      "change": "lambda0.5-unchanged",
+      "decode_and_save_seconds": 0.5781766870059073,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.5-jpeg50",
+      "decode_and_save_seconds": 0.4773802768904716,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.75-unchanged",
+      "decode_and_save_seconds": 0.5935503749642521,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda0.75-jpeg50",
+      "decode_and_save_seconds": 0.46089842705987394,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.0-unchanged",
+      "decode_and_save_seconds": 0.6159554040059447,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.0-jpeg50",
+      "decode_and_save_seconds": 0.46149187185801566,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.25-unchanged",
+      "decode_and_save_seconds": 0.636565004941076,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.25-jpeg50",
+      "decode_and_save_seconds": 0.4618857179302722,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.5-unchanged",
+      "decode_and_save_seconds": 0.6517568649724126,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "lambda1.5-jpeg50",
+      "decode_and_save_seconds": 0.4610792510211468,
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "experiment": "E",
+      "image": "boat",
+      "resolution": 2048,
+      "seconds": 6.991832787171006
+    },
+    {
+      "change": "ifgsm",
+      "decode_and_save_seconds": 0.0949423888232559,
+      "experiment": "D",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "experiment": "D",
+      "image": "airplane",
+      "resolution": 512,
+      "seconds": 0.1439698850736022
+    },
+    {
+      "change": "ifgsm",
+      "decode_and_save_seconds": 0.08586439304053783,
+      "experiment": "D",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "experiment": "D",
+      "image": "boat",
+      "resolution": 512,
+      "seconds": 0.19200035487301648
+    },
+    {
+      "change": "ifgsm",
+      "decode_and_save_seconds": 0.8888818421401083,
+      "experiment": "D",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "experiment": "D",
+      "image": "airplane",
+      "resolution": 2048,
+      "seconds": 0.37958805705420673
+    },
+    {
+      "change": "ifgsm",
+      "decode_and_save_seconds": 0.6934448420070112,
+      "experiment": "D",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "experiment": "D",
+      "image": "boat",
+      "resolution": 2048,
+      "seconds": 0.35887502203695476
+    }
+  ],
+  "total_seconds": 81.46866219583899
+}

@@ -1,0 +1,37 @@
+{
+  "rows_per_run": 200,
+  "counts_per_run": {
+    "A": 68,
+    "B": 80,
+    "C": 0,
+    "D": 4,
+    "E": 40,
+    "baseline": 4,
+    "control": 4
+  },
+  "raw_bit_counts_accuracy_and_exact_payload_consistent": true,
+  "packet_bit_counts_consistent": true,
+  "combined_draw_parameters_present": true,
+  "attack_iteration_traces_consistent": true,
+  "attack_float_and_uint8_linf_within_8_over_255": true,
+  "attack_initial_float_packet_accuracy_all_one": true,
+  "executed_script_hashes_match_local_sources": true,
+  "baseline_script_byte_identical_to_original": true,
+  "all_four_baseline_marked_png_hashes_match_original_run1": true,
+  "local_csv_row_count_matches_json": true,
+  "python_ast_syntax": "pass",
+  "shell_syntax": "pass",
+  "programming_static_audit": "no violations in 6 new source files",
+  "lsp_type_checking": "unavailable; basedpyright not installed; installation previously declined",
+  "thumbnail_count_both_runs": 16,
+  "all_thumbnail_dimensions_at_most_600": true,
+  "visually_inspected_run1_thumbnails": [
+    "D-airplane-ifgsm.png",
+    "D-boat-ifgsm.png",
+    "A-airplane-motion9_45.png",
+    "B-boat-draw00.png"
+  ],
+  "determinism_evidence": "determinism.json: 221 byte-identical output files per run plus identical logs; timing file excluded",
+  "publication_note": "Reference records from the completed CPU runs. Measurements and historical execution hashes are retained; removal search paths are relative, and the skip reason and baseline-check label use public wording. The executed script hashes describe the original run, not the adapted public scripts. Images, thumbnails and logs named in these records are created when reproducing and are not distributed. This validation records the original runs, including their image inspections and syntax checks; it does not claim the public scripts were executed.",
+  "all_four_baseline_marked_png_hashes_match_public_reference": true
+}
