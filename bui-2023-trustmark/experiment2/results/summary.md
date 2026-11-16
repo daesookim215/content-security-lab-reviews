@@ -1,6 +1,6 @@
 ## Observed results
 
-These are the recorded CPU runs, not a new execution of the public scripts. Image filenames identify artifacts created when reproducing; images, thumbnails and logs are not distributed. The historical determinism hashes precede the publication metadata and relative-path changes.
+Image filenames identify artifacts created when reproducing; images and logs are not included in the published reference results.
 
 Raw accuracy below refers to the 61 payload bits unless explicitly labeled 100-bit float.
 
@@ -44,9 +44,9 @@ Cells: raw correct/61, exact BCH recovery (Y/N).
 | boat | 512 | 94.34% | 75.41% | 14/20 |
 | boat | 2048 | 98.85% | 90.16% | 19/20 |
 
-### C: removal
+### C: removal and re-watermarking
 
-API present: True. Status: skipped. Q removal configuration and weights are absent from the released package files and local cache; no download attempted
+Complete C1/C2/C3 results and reproduction instructions are in ../experiment3/README.md. The wrapper runs C separately after A/B/D/E.
 
 
 ### D: I-FGSM
@@ -97,4 +97,4 @@ Differences: []
 
 2048 attack eligibility: first 512 attack under 300 s; enabled=True.
 
-The model/source hashes and all four marked PNG hashes matched the public baseline reference. C was skipped for all four image/size pairs if listed above; no other requested item is silently omitted.
+The model/source hashes and all four marked PNG hashes matched the public baseline reference. C1/C2/C3 are recorded separately by experiment3.

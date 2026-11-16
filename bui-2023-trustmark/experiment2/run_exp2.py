@@ -57,21 +57,9 @@ def main() -> None:
         assert sha256(package / filename) == expected
     for filename, expected in reference["settings"]["checkpoint_sha256"].items():
         assert sha256(package / "models" / filename) == expected
-    rm_names = ("trustmark_rm_Q.yaml", "trustmark_rm_Q.ckpt")
-    rm_files = {name: sorted((public / ".cache").rglob(name)) + list((package / "models").glob(name))
-                for name in rm_names}
-    removal_available = hasattr(model, "remove_watermark") and all(rm_files.values())
     removal = {"api_present": hasattr(model, "remove_watermark"),
-        "searched": [os.path.relpath(public / ".cache", root),
-                     os.path.relpath(package / "models", root)],
-        "files": {name: [os.path.relpath(p, root) for p in paths] for name, paths in rm_files.items()},
-        "status": "run" if removal_available else "skipped",
-        "reason": "" if removal_available else "Q removal configuration and weights are absent from the released package files and local cache; no download attempted"}
-    if removal_available:
-        model.removal = model.load_model(str(rm_files[rm_names[0]][0]),
-            str(rm_files[rm_names[1]][0]), "cpu", 100, part="remover")
-        assert model.removal is not None
-        model.removal.requires_grad_(False)
+        "searched": [], "files": {}, "status": "delegated",
+        "reason": "reproduce_exp2.sh runs complete C1/C2/C3 through the experiment3 wrapper"}
     recorder = Recorder(model, output, packet)
     inputs = json.loads((public / "images" / "manifest.json").read_text())
     pairs = []
@@ -118,17 +106,6 @@ def main() -> None:
                     recorder.thumbnail(changed, f"B-{name}-draw00")
             recorder.timings.append({"experiment": "B", "image": name, "resolution": size,
                                      "seconds": time.perf_counter() - stage})
-            if removal_available:
-                stage = time.perf_counter()
-                for tag, image in (("marked", marked), ("unmarked-control", cover)):
-                    changed = model.remove_watermark(image)
-                    rid = Identity(**{**identity, "experiment": "C", "change": tag})
-                    recorder.record(changed, rid, Extra(psnr_input_db=psnr(changed, cover),
-                                                         psnr_marked_db=psnr(changed, marked)))
-                    if size == 512 and tag == "marked":
-                        recorder.thumbnail(changed, f"C-{name}")
-                recorder.timings.append({"experiment": "C", "image": name, "resolution": size,
-                                         "seconds": time.perf_counter() - stage})
             stage = time.perf_counter()
             for strength in (0.5, 0.75, 1.0, 1.25, 1.5):
                 image = model.encode(cover, PAYLOAD, MODE="binary", WM_STRENGTH=strength)

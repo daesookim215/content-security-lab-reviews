@@ -10,7 +10,7 @@ to 2048 x 2048. Strength is 1.0 except in E.
 |---|---|
 | A: single changes | Apply each of 17 settings separately to each marked image/size. |
 | B: combined draws | Apply 20 seeded geometry/perturbation pipelines per image/size. |
-| C: removal check | Check for the Q remover API, configuration and weights; measure marked removal and an unmarked control only when available. |
+| C: removal and re-watermarking | The wrapper runs the complete C1/C2/C3 experiments in [../experiment3/](../experiment3/) after A/B/D/E. |
 | D: I-FGSM | Attack the decoder through input gradients, then decode a saved PNG through the normal API. |
 | E: strength sweep | Encode at five residual strengths; decode unchanged and after JPEG50. |
 
@@ -26,7 +26,8 @@ sh experiment2/reproduce_exp2.sh
 The wrapper reuses `../.venv/bin/python` and `../images/manifest.json` plus the
 downloaded TIFF inputs, relative to this directory. Checkpoints are loaded from
 the installed package's `trustmark/models` directory, populated by the parent's
-`download_models.py`. No additional packages or models are downloaded.
+`download_models.py`. The final experiment3 step downloads exactly the two
+official Q remover files into `../experiment3/.cache/models`, with MD5 checks.
 `baseline_run1.py` imports the public parent's checksum loader and decode function.
 
 Runs execute serially on CPU with `CUDA_VISIBLE_DEVICES=""`, eight intra-op
@@ -97,7 +98,7 @@ generator. This is a documented analogue of the training/test pipeline.
 
 | Other settings | Definition |
 |---|---|
-| C: availability | Check `remove_watermark`, `trustmark_rm_Q.yaml` and `trustmark_rm_Q.ckpt` in the parent cache and installed model directory; validate present models with the baseline checksum loader. Never download remover files. |
+| C: removal | Run the standalone experiment3 wrapper with checksum-verified `trustmark_rm_Q` files; measure marked removal, an unmarked control, both second-message embedding paths, and JPEG50 removal. |
 | D: objective | Minimize BCEWithLogits toward the flipped 100-bit ECC packet; freeze decoder parameters and differentiate only the input. |
 | D: update | Start from the marked image in float32 [0,1]; subtract `(1/255)*sign(gradient)`, project into its L-infinity ball of radius 8/255, and clip to [0,1]. |
 | D: decoder input | Bilinear resize to 245 x 245 with `align_corners=False, antialias=True`, then `2*x-1`. The float path omits Pillow's intermediate uint8 rounding; the initial resize difference is recorded. |
@@ -107,10 +108,10 @@ generator. This is a documented analogue of the training/test pipeline.
 | E: strengths | `WM_STRENGTH = 0.5, 0.75, 1.0, 1.25, 1.5`; retain the package's bilinear residual merge and border feathering. |
 | E: measurements | Decode unchanged and JPEG50 (4:2:0, optimize=False, progressive=False). Embedding PSNR is against the cover before JPEG, including on JPEG rows. |
 
-Removal was not measured: the Q removal configuration and weights were absent
-from the released package files, cache and checkout used for the experiments.
-The API is present. C records a skipped status when these files are absent; it
-does not substitute another remover.
+Completed removal and re-watermarking records are in
+[../experiment3/results/](../experiment3/results/) and its README. The original
+A/B/D/E records below retain their historical availability metadata and row counts;
+experiment3 supplies the complete C measurements using the official Q remover.
 
 Raw payload accuracy counts the first 61 network bits before BCH. Packet
 accuracy counts all 100 bits. Exact recovery compares the API output after BCH
@@ -132,7 +133,8 @@ attack traces are in [results/summary.md](results/summary.md) and the run CSV/JS
 
 All four D outputs have detection=false and exact recovery=false after PNG.
 The final float packet accuracies are 46%, 46%, 45% and 49% in the table's order;
-all meet the float stopping criterion. C contributes no measurements.
+all meet the float stopping criterion. The separate experiment3 results contain
+20 C measurements per run, including controls and both re-watermarking paths.
 
 | E: strength | Unchanged exact (four image/size pairs) | JPEG50 exact | Embedding PSNR range, dB |
 |---|---:|---:|---:|

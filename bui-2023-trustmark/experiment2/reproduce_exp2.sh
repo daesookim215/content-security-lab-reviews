@@ -26,3 +26,4 @@ mkdir -p "$TMPDIR"
 ../.venv/bin/python -u run_exp2.py reproduced/run2 reproduced/run1/results.json > reproduced/run2.log 2>&1
 ../.venv/bin/python compare_runs.py reproduced
 ../.venv/bin/python report_exp2.py reproduced
+sh ../experiment3/reproduce_exp3.sh

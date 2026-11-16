@@ -34,7 +34,7 @@ def main() -> None:
     for row in data["summary"]:
         if row["experiment"] == "B":
             output.append(f"| {row['image']} | {row['resolution']} | {row['mean_raw_accuracy']:.2%} | {row['min_raw_accuracy']:.2%} | {row['exact_recovery_count']}/20 |")
-    output += ["", "### C: removal", "", f"API present: {data['removal']['api_present']}. Status: {data['removal']['status']}. {data['removal']['reason']}", ""]
+    output += ["", "### C: removal and re-watermarking", "", "Complete C1/C2/C3 results and reproduction instructions are in ../experiment3/README.md. The wrapper runs C separately after A/B/D/E.", ""]
     for name, size in pairs:
         selected = [r for r in rows if (r["image"], r["resolution"], r["experiment"]) == (name, size, "C")]
         if selected:
@@ -65,7 +65,7 @@ def main() -> None:
     determinism = json.loads((root / "determinism.json").read_text())
     output += ["", f"Byte-identical except timing: **{determinism['byte_identical_except_timing']}**. Compared {len(determinism['checked_files'])} files per run plus the logs; only timings.json was excluded.",
                f"Differences: {json.dumps(determinism['differences'])}", "", f"2048 attack eligibility: {data['attack_2048_reason']}; enabled={data['attack_2048_enabled']}.", "",
-               "The model/source hashes and all four marked PNG hashes matched the public baseline reference. C was skipped for all four image/size pairs when its configuration and weights were absent.", ""]
+               "The model/source hashes and all four marked PNG hashes matched the public baseline reference. C1/C2/C3 are recorded separately by experiment3.", ""]
     rendered = "\n".join(output)
     (root / "summary.md").write_text(rendered)
 

@@ -1,0 +1,221 @@
+{
+  "measurements": [
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.0979149560444057,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "input",
+      "decode_and_save_seconds": 0.0942920739762485,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "removed",
+      "decode_and_save_seconds": 0.09575666603632271,
+      "experiment": "C1",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "unmarked-control",
+      "decode_and_save_seconds": 0.09554329514503479,
+      "experiment": "C1",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "direct-second",
+      "decode_and_save_seconds": 0.09596953517757356,
+      "experiment": "C2",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "removed-second",
+      "decode_and_save_seconds": 0.09672316000796854,
+      "experiment": "C2",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "change": "jpeg50-removed",
+      "decode_and_save_seconds": 0.08054869202896953,
+      "experiment": "C3",
+      "image": "airplane",
+      "resolution": 512
+    },
+    {
+      "image": "airplane",
+      "operations_seconds": 2.7535693501122296,
+      "resolution": 512
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.8817332990001887,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "input",
+      "decode_and_save_seconds": 0.8190962730441242,
+      "experiment": "baseline",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "removed",
+      "decode_and_save_seconds": 0.8734204340726137,
+      "experiment": "C1",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "unmarked-control",
+      "decode_and_save_seconds": 0.8856764019001275,
+      "experiment": "C1",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "direct-second",
+      "decode_and_save_seconds": 0.8901779621373862,
+      "experiment": "C2",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "removed-second",
+      "decode_and_save_seconds": 0.9070253458339721,
+      "experiment": "C2",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "change": "jpeg50-removed",
+      "decode_and_save_seconds": 0.6012342770118266,
+      "experiment": "C3",
+      "image": "airplane",
+      "resolution": 2048
+    },
+    {
+      "image": "airplane",
+      "operations_seconds": 7.663347551133484,
+      "resolution": 2048
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.08391673397272825,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "input",
+      "decode_and_save_seconds": 0.07659850013442338,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "removed",
+      "decode_and_save_seconds": 0.08869902696460485,
+      "experiment": "C1",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "unmarked-control",
+      "decode_and_save_seconds": 0.07827145303599536,
+      "experiment": "C1",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "direct-second",
+      "decode_and_save_seconds": 0.0867793750949204,
+      "experiment": "C2",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "removed-second",
+      "decode_and_save_seconds": 0.08457032684236765,
+      "experiment": "C2",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "change": "jpeg50-removed",
+      "decode_and_save_seconds": 0.07457248400896788,
+      "experiment": "C3",
+      "image": "boat",
+      "resolution": 512
+    },
+    {
+      "image": "boat",
+      "operations_seconds": 2.6280863869469613,
+      "resolution": 512
+    },
+    {
+      "change": "marked",
+      "decode_and_save_seconds": 0.602889385772869,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "input",
+      "decode_and_save_seconds": 0.4592833467759192,
+      "experiment": "baseline",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "removed",
+      "decode_and_save_seconds": 0.6679563750512898,
+      "experiment": "C1",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "unmarked-control",
+      "decode_and_save_seconds": 0.5182362420018762,
+      "experiment": "C1",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "direct-second",
+      "decode_and_save_seconds": 0.6975991160143167,
+      "experiment": "C2",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "removed-second",
+      "decode_and_save_seconds": 0.7491133620496839,
+      "experiment": "C2",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "change": "jpeg50-removed",
+      "decode_and_save_seconds": 0.5240533370524645,
+      "experiment": "C3",
+      "image": "boat",
+      "resolution": 2048
+    },
+    {
+      "image": "boat",
+      "operations_seconds": 6.629795785993338,
+      "resolution": 2048
+    }
+  ],
+  "total_seconds": 24.861443075118586
+}
