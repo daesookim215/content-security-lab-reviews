@@ -1,0 +1,227 @@
+{
+  "yaml": {
+    "trustmark_Q.yaml": {
+      "model": {
+        "target": "trustmark.model.TrustMark_Arch",
+        "params": {
+          "cover_key": "image",
+          "secret_key": "secret",
+          "secret_len": 100,
+          "resolution": 256,
+          "use_ema": false,
+          "lr_scheduler": "CosineAnnealingRestartCyclicLR",
+          "secret_encoder_config": {
+            "target": "trustmark.unet.Unet1",
+            "params": {
+              "width": 32,
+              "ndown": 4,
+              "nmiddle": 1,
+              "activ": "silu"
+            }
+          },
+          "secret_decoder_config": {
+            "target": "trustmark.unet.SecretDecoder",
+            "params": {
+              "arch": "resnet50"
+            }
+          },
+          "discriminator_config": {
+            "target": "trustmark.munit.MsDCDisGP",
+            "params": {
+              "gp_weight": 10.0,
+              "num_scales": 1,
+              "norm": "none"
+            }
+          },
+          "loss_config": {
+            "target": "trustmark.loss.ImageSecretLoss",
+            "params": {
+              "recon_type": "ffl+yuv",
+              "recon_weight": 1.5,
+              "perceptual_weight": 1.0,
+              "kl_weight": 0.0,
+              "secret_weight": 20.0,
+              "generator_weight": 0.5,
+              "discriminator_weight": 1.0,
+              "generator_update_freq": 2,
+              "max_image_weight_ratio": 27.5
+            }
+          },
+          "noise_config": {
+            "target": "trustmark.utils.transformations2.TransformNet",
+            "params": {
+              "ramp": 10000,
+              "severity": "high",
+              "crop_mode": "resized_crop",
+              "gamma": false
+            }
+          }
+        }
+      },
+      "data": {
+        "target": "trustmark.utils.imgcap_dataset.DataModuleFromConfig",
+        "params": {
+          "batch_size": 32,
+          "num_workers": 4,
+          "wrap": false,
+          "use_worker_init_fn": true
+        }
+      },
+      "lightning": {
+        "callbacks": {
+          "image_logger": {
+            "target": "trustmark.logger.ImageLogger",
+            "params": {
+              "batch_frequency": 5000,
+              "max_images": 4,
+              "increase_log_steps": false,
+              "fixed_input": true
+            }
+          },
+          "progress_bar": {
+            "target": "lightning.pytorch.callbacks.TQDMProgressBar",
+            "params": {
+              "refresh_rate": 100
+            }
+          },
+          "checkpoint": {
+            "target": "lightning.pytorch.callbacks.ModelCheckpoint",
+            "params": {
+              "verbose": true,
+              "filename": "{epoch:06}-{step:09}",
+              "every_n_train_steps": 10000
+            }
+          }
+        },
+        "trainer": {
+          "benchmark": true,
+          "base_learning_rate": 4e-06,
+          "lr_mult": true,
+          "accumulate_grad_batches": 1,
+          "max_epochs": 150
+        }
+      }
+    },
+    "trustmark_rm_Q.yaml": {
+      "model": {
+        "target": "trustmark.denoise.WMRemover",
+        "params": {
+          "cover_key": "image",
+          "secret_key": "secret",
+          "secret_embedder_config_path": "trustmark/models/project.yaml",
+          "secret_embedder_ckpt_path": "trustmark/models/last.ckpt",
+          "denoise_config": {
+            "target": "trustmark.KBNet.kbnet_s_arch.KBNet_s",
+            "params": {
+              "lightweight": true,
+              "width": 32,
+              "ffn_scale": 1.5,
+              "middle_blk_num": 12,
+              "enc_blk_nums": [
+                2,
+                2,
+                4,
+                8
+              ],
+              "dec_blk_nums": [
+                2,
+                2,
+                2,
+                2
+              ]
+            }
+          },
+          "loss_config": {
+            "target": "models.loss.WMRemoverLossSimple",
+            "params": {
+              "recon_type": "rgb",
+              "recon_weight": 1,
+              "secret_weight": 0.0001
+            }
+          },
+          "discriminator_config": {
+            "target": "trustmark.munit.MsDCDisGP",
+            "params": {
+              "gp_weight": 10.0,
+              "num_scales": 1,
+              "norm": "none"
+            }
+          }
+        }
+      },
+      "data": {
+        "target": "trustmark.utils.imgcap_dataset.DataModuleFromConfig",
+        "params": {
+          "batch_size": 24,
+          "num_workers": 4,
+          "wrap": false,
+          "use_worker_init_fn": true
+        }
+      },
+      "lightning": {
+        "callbacks": {
+          "image_logger": {
+            "target": "trustmark.logger.ImageLogger",
+            "params": {
+              "batch_frequency": 5000,
+              "max_images": 4,
+              "increase_log_steps": false,
+              "fixed_input": true
+            }
+          },
+          "progress_bar": {
+            "target": "lightning.pytorch.callbacks.TQDMProgressBar",
+            "params": {
+              "refresh_rate": 100
+            }
+          },
+          "checkpoint": {
+            "target": "lightning.pytorch.callbacks.ModelCheckpoint",
+            "params": {
+              "verbose": true,
+              "filename": "{epoch:06}-{step:09}",
+              "every_n_train_steps": 10000
+            }
+          }
+        },
+        "trainer": {
+          "benchmark": true,
+          "base_learning_rate": 0.0003,
+          "lr_mult": false,
+          "accumulate_grad_batches": 1,
+          "max_epochs": 100
+        }
+      }
+    }
+  },
+  "observed": {
+    "message_length_l": 100,
+    "E_pre_d": 32,
+    "body_output_n": 32,
+    "downsampling_stages": 4,
+    "upsampling_stages": 4,
+    "residual_blocks": 1,
+    "E_post": [
+      "Conv2d(\n  (conv): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (activ): SiLU(inplace=True)\n)",
+      "Conv2d(\n  (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))\n  (activ): SiLU(inplace=True)\n)",
+      "Conv2d(\n  (conv): Conv2d(16, 3, kernel_size=(1, 1), stride=(1, 1))\n  (activ): Tanh()\n)"
+    ],
+    "activation_types": {
+      "embedder": [
+        "ReLU",
+        "SiLU",
+        "Tanh"
+      ],
+      "extractor": [
+        "ReLU"
+      ],
+      "remover": [
+        "SimpleGate"
+      ]
+    },
+    "decoder_api_resize": 245,
+    "decoder_wrapper_resolution": 224,
+    "encoder_resolution": 256,
+    "remover_resolution": 256
+  }
+}

@@ -1,0 +1,39 @@
+<trustmark-package-parent>/trustmark/trustmark.py:188: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(weight_path, map_location=torch.device('cpu'))
+{
+  "parameters": {
+    "embedder": 8642179,
+    "extractor": 23712932,
+    "remover": 38321379
+  },
+  "config": {
+    "message_length_l": 100,
+    "E_pre_d": 32,
+    "body_output_n": 32,
+    "downsampling_stages": 4,
+    "upsampling_stages": 4,
+    "residual_blocks": 1,
+    "E_post": [
+      "Conv2d(\n  (conv): Conv2d(32, 32, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))\n  (activ): SiLU(inplace=True)\n)",
+      "Conv2d(\n  (conv): Conv2d(32, 16, kernel_size=(1, 1), stride=(1, 1))\n  (activ): SiLU(inplace=True)\n)",
+      "Conv2d(\n  (conv): Conv2d(16, 3, kernel_size=(1, 1), stride=(1, 1))\n  (activ): Tanh()\n)"
+    ],
+    "activation_types": {
+      "embedder": [
+        "ReLU",
+        "SiLU",
+        "Tanh"
+      ],
+      "extractor": [
+        "ReLU"
+      ],
+      "remover": [
+        "SimpleGate"
+      ]
+    },
+    "decoder_api_resize": 245,
+    "decoder_wrapper_resolution": 224,
+    "encoder_resolution": 256,
+    "remover_resolution": 256
+  }
+}

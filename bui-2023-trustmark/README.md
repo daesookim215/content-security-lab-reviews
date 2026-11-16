@@ -27,4 +27,6 @@ The resolution-scaling example uses Boat at 2048×2048 with the same seed, paylo
 
 ## Extended experiments
 
+[experiment4/](experiment4/) measures the released Q embedder, extractor and remover networks on synthetic inputs with CPU inference. It includes configuration dumps, module trees, per-module parameter counts, stage-shape tables and sanitized reference results. Run `sh experiment4/reproduce_exp4.sh` with the parent Python environment; the wrapper downloads and verifies all five official model files in its own cache and writes measurements to `experiment4/results/`.
+
 [experiment2/](experiment2/) contains single-change tests, combined draws, I-FGSM attacks, and an inference-strength sweep for the same two inputs. After the reproduction above, run `sh experiment2/reproduce_exp2.sh` for two local CPU runs and their determinism comparison, followed by experiment C in [experiment3/](experiment3/). That folder contains completed removal, unmarked controls, direct re-watermarking, removal followed by re-watermarking, and removal after JPEG50, with numeric reference results. Its wrapper downloads only the official `trustmark_rm_Q.yaml` and `trustmark_rm_Q.ckpt` into `experiment3/.cache/models`, verifies each against the official MD5 constants, and runs two CPU repetitions. To run only C after the baseline reproduction, use `sh experiment3/reproduce_exp3.sh`.
