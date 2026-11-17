@@ -5,6 +5,7 @@ Code and our measurements for **Research Notes** reviews on
 implementations of the cited methods; we did not find the authors' experimental
 code. `bui-2023-trustmark` tests the authors' released TrustMark package instead.
 `zhu-2018-hidden` tests released checkpoints of a public PyTorch re-implementation of HiDDeN.
+`tancik-2020-stegastamp` tests the released StegaStamp SavedModel from a community mirror; original identity is unverified.
 The numeric results describe our stated settings and are not the papers' original
 results.
 
@@ -18,6 +19,7 @@ results.
 | A Digital Watermark | R. G. van Schyndel, A. Z. Tirkel, C. F. Osborne | 1994 | [10.1109/ICIP.1994.413536](https://doi.org/10.1109/ICIP.1994.413536) | [vanschyndel-1994-digital-watermark](vanschyndel-1994-digital-watermark/) | [Blog post](https://chickendays.com/vanschyndel-1994-digital-watermark/) |
 | TrustMark: Universal Watermarking for Arbitrary Resolution Images | T. Bui, S. Agarwal, J. Collomosse | 2023 | [10.48550/arXiv.2311.18297](https://doi.org/10.48550/arXiv.2311.18297) | [bui-2023-trustmark](bui-2023-trustmark/) | [Blog post](https://chickendays.com/bui-2023-trustmark/) |
 | HiDDeN: Hiding Data With Deep Networks | J. Zhu, R. Kaplan, J. Johnson, L. Fei-Fei | 2018 | [10.48550/arXiv.1807.09937](https://doi.org/10.48550/arXiv.1807.09937) | [zhu-2018-hidden](zhu-2018-hidden/) | [Blog post](https://chickendays.com/zhu-2018-hidden/) |
+| StegaStamp: Invisible Hyperlinks in Physical Photographs | M. Tancik, B. Mildenhall, R. Ng | 2020 | [10.48550/arXiv.1904.05343](https://doi.org/10.48550/arXiv.1904.05343) | [tancik-2020-stegastamp](tancik-2020-stegastamp/) | [Blog post](https://chickendays.com/tancik-2020-stegastamp/) |
 | Overwrite, cross-method and copy tests on TrustMark and Video Seal (our experiment) | - | 2026 | - | [wm-overwrite-copy-tests](wm-overwrite-copy-tests/) | [Blog post](https://chickendays.com/wm-overwrite-copy-tests/) |
 
 ## Quick start
@@ -41,6 +43,10 @@ and run `sh reproduce.sh` inside that folder.
 
 HiDDeN uses uv and CPU PyTorch: see [zhu-2018-hidden/README.md](zhu-2018-hidden/README.md)
 and run `uv run reproduce.py` inside that folder.
+
+StegaStamp uses micromamba or conda, Python 3.7 and TensorFlow 1.15.5 on CPU: see
+[tancik-2020-stegastamp/README.md](tancik-2020-stegastamp/README.md)
+and run `sh reproduce.sh` inside that folder.
 
 `wm-overwrite-copy-tests` needs an NVIDIA GPU and COCO val2017: see
 [wm-overwrite-copy-tests/README.md](wm-overwrite-copy-tests/README.md).

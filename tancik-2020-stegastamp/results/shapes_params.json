@@ -1,0 +1,4080 @@
+{
+  "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+  "measurement": "loaded SavedModel; actual intermediate fetches on Airplane",
+  "params_by_module": {
+    "gen_decoder": 11451332,
+    "gen_encoder": 991747,
+    "gen_secret": 757500,
+    "gen_stn": 41054150
+  },
+  "params_by_scope": {
+    "gen_decoder/dec_conv_1": 896,
+    "gen_decoder/dec_conv_2": 9248,
+    "gen_decoder/dec_conv_3": 18496,
+    "gen_decoder/dec_conv_4": 36928,
+    "gen_decoder/dec_conv_5": 36928,
+    "gen_decoder/dec_conv_6": 73856,
+    "gen_decoder/dec_conv_7": 147584,
+    "gen_decoder/dec_dense": 11076096,
+    "gen_decoder/decoder_out": 51300,
+    "gen_encoder/enc_conv_1": 1760,
+    "gen_encoder/enc_conv_10": 8224,
+    "gen_encoder/enc_conv_11": 18464,
+    "gen_encoder/enc_conv_12": 4128,
+    "gen_encoder/enc_conv_13": 20192,
+    "gen_encoder/enc_conv_14": 9248,
+    "gen_encoder/enc_conv_15": 99,
+    "gen_encoder/enc_conv_2": 9248,
+    "gen_encoder/enc_conv_3": 18496,
+    "gen_encoder/enc_conv_4": 73856,
+    "gen_encoder/enc_conv_5": 295168,
+    "gen_encoder/enc_conv_6": 131200,
+    "gen_encoder/enc_conv_7": 295040,
+    "gen_encoder/enc_conv_8": 32832,
+    "gen_encoder/enc_conv_9": 73792,
+    "gen_secret/dense": 757500,
+    "gen_stn": 774,
+    "gen_stn/dense_1": 40960128,
+    "gen_stn/stn_conv_1": 896,
+    "gen_stn/stn_conv_2": 18496,
+    "gen_stn/stn_conv_3": 73856
+  },
+  "params_total": 54254729,
+  "signatures": {
+    "serving_default": {
+      "inputs": {
+        "image": {
+          "dtype": 1,
+          "name": "input_hide:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        },
+        "secret": {
+          "dtype": 1,
+          "name": "input_prep:0",
+          "shape": [
+            -1,
+            100
+          ]
+        }
+      },
+      "method": "tensorflow/serving/predict",
+      "outputs": {
+        "decoded": {
+          "dtype": 1,
+          "name": "Round:0",
+          "shape": [
+            -1,
+            100
+          ]
+        },
+        "residual": {
+          "dtype": 1,
+          "name": "gen_encoder/enc_conv_15/BiasAdd:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        },
+        "stegastamp": {
+          "dtype": 1,
+          "name": "clip_by_value:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        }
+      }
+    }
+  },
+  "stages": [
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "input_prep:0",
+          "shape": "(?, 100)"
+        },
+        {
+          "name": "gen_secret/sub/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 0.5,
+      "min": -0.5,
+      "name": "gen_secret/sub",
+      "runtime_shape": [
+        1,
+        100
+      ],
+      "static_shape": "(?, 100)",
+      "tensor": "gen_secret/sub:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/sub:0",
+          "shape": "(?, 100)"
+        },
+        {
+          "name": "gen_secret/dense/MatMul/ReadVariableOp:0",
+          "shape": "(100, 7500)"
+        }
+      ],
+      "max": 2.762420892715454,
+      "min": -2.6337890625,
+      "name": "gen_secret/dense/MatMul",
+      "runtime_shape": [
+        1,
+        7500
+      ],
+      "static_shape": "(?, 7500)",
+      "tensor": "gen_secret/dense/MatMul:0",
+      "type": "MatMul"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/dense/MatMul:0",
+          "shape": "(?, 7500)"
+        },
+        {
+          "name": "gen_secret/dense/BiasAdd/ReadVariableOp:0",
+          "shape": "(7500,)"
+        }
+      ],
+      "max": 2.7540171146392822,
+      "min": -2.5368337631225586,
+      "name": "gen_secret/dense/BiasAdd",
+      "runtime_shape": [
+        1,
+        7500
+      ],
+      "static_shape": "(?, 7500)",
+      "tensor": "gen_secret/dense/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/dense/BiasAdd:0",
+          "shape": "(?, 7500)"
+        }
+      ],
+      "max": 2.7540171146392822,
+      "min": 0.0,
+      "name": "gen_secret/dense/Relu",
+      "runtime_shape": [
+        1,
+        7500
+      ],
+      "static_shape": "(?, 7500)",
+      "tensor": "gen_secret/dense/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/dense/Relu:0",
+          "shape": "(?, 7500)"
+        },
+        {
+          "name": "gen_secret/reshape/Reshape/shape:0",
+          "shape": "(4,)"
+        }
+      ],
+      "max": 2.7540171146392822,
+      "min": 0.0,
+      "name": "gen_secret/reshape/Reshape",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        3
+      ],
+      "static_shape": "(?, 50, 50, 3)",
+      "tensor": "gen_secret/reshape/Reshape:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {
+        "align_corners": false
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/reshape/Reshape:0",
+          "shape": "(?, 50, 50, 3)"
+        },
+        {
+          "name": "gen_secret/up_sampling2d/mul:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 2.7540171146392822,
+      "min": 0.0,
+      "name": "gen_secret/up_sampling2d/ResizeNearestNeighbor",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_secret/up_sampling2d/ResizeNearestNeighbor:0",
+      "type": "ResizeNearestNeighbor"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "input_hide:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_encoder/sub/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 0.4176470637321472,
+      "min": -0.49215686321258545,
+      "name": "gen_encoder/sub",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_encoder/sub:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_secret/up_sampling2d/ResizeNearestNeighbor:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_encoder/sub:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_encoder/concatenate/concat/axis:0",
+          "shape": "()"
+        }
+      ],
+      "max": 2.7540171146392822,
+      "min": -0.49215686321258545,
+      "name": "gen_encoder/concatenate/concat",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        6
+      ],
+      "static_shape": "(?, 400, 400, 6)",
+      "tensor": "gen_encoder/concatenate/concat:0",
+      "type": "ConcatV2"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/concatenate/concat:0",
+          "shape": "(?, 400, 400, 6)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_1/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 6, 32)"
+        }
+      ],
+      "max": 2.2469918727874756,
+      "min": -38.64033508300781,
+      "name": "gen_encoder/enc_conv_1/Conv2D",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_1/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_1/Conv2D:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_1/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 2.3580236434936523,
+      "min": -38.53046798706055,
+      "name": "gen_encoder/enc_conv_1/BiasAdd",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_1/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_1/BiasAdd:0",
+          "shape": "(?, 400, 400, 32)"
+        }
+      ],
+      "max": 2.3580236434936523,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_1/Relu",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_1/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_1/Relu:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_2/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 32)"
+        }
+      ],
+      "max": 3.5143232345581055,
+      "min": -3.6242706775665283,
+      "name": "gen_encoder/enc_conv_2/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_2/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_2/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_2/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 3.42885422706604,
+      "min": -3.655339002609253,
+      "name": "gen_encoder/enc_conv_2/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_2/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_2/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 3.42885422706604,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_2/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_2/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_2/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_3/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 64)"
+        }
+      ],
+      "max": 4.008100509643555,
+      "min": -5.985159873962402,
+      "name": "gen_encoder/enc_conv_3/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_3/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_3/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_3/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 3.9698588848114014,
+      "min": -6.216250896453857,
+      "name": "gen_encoder/enc_conv_3/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_3/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_3/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 3.9698588848114014,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_3/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_3/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_3/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_4/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 128)"
+        }
+      ],
+      "max": 5.403268814086914,
+      "min": -5.966797351837158,
+      "name": "gen_encoder/enc_conv_4/Conv2D",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_4/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_4/Conv2D:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_4/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 5.3726654052734375,
+      "min": -5.968024253845215,
+      "name": "gen_encoder/enc_conv_4/BiasAdd",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_4/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_4/BiasAdd:0",
+          "shape": "(?, 50, 50, 128)"
+        }
+      ],
+      "max": 5.3726654052734375,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_4/Relu",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_4/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_4/Relu:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_5/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 128, 256)"
+        }
+      ],
+      "max": 4.979990482330322,
+      "min": -14.16886043548584,
+      "name": "gen_encoder/enc_conv_5/Conv2D",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        256
+      ],
+      "static_shape": "(?, 25, 25, 256)",
+      "tensor": "gen_encoder/enc_conv_5/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_5/Conv2D:0",
+          "shape": "(?, 25, 25, 256)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_5/BiasAdd/ReadVariableOp:0",
+          "shape": "(256,)"
+        }
+      ],
+      "max": 4.921439170837402,
+      "min": -14.162991523742676,
+      "name": "gen_encoder/enc_conv_5/BiasAdd",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        256
+      ],
+      "static_shape": "(?, 25, 25, 256)",
+      "tensor": "gen_encoder/enc_conv_5/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_5/BiasAdd:0",
+          "shape": "(?, 25, 25, 256)"
+        }
+      ],
+      "max": 4.921439170837402,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_5/Relu",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        256
+      ],
+      "static_shape": "(?, 25, 25, 256)",
+      "tensor": "gen_encoder/enc_conv_5/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "align_corners": false
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_5/Relu:0",
+          "shape": "(?, 25, 25, 256)"
+        },
+        {
+          "name": "gen_encoder/up_sampling2d_1/mul:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 4.921439170837402,
+      "min": 0.0,
+      "name": "gen_encoder/up_sampling2d_1/ResizeNearestNeighbor",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        256
+      ],
+      "static_shape": "(?, 50, 50, 256)",
+      "tensor": "gen_encoder/up_sampling2d_1/ResizeNearestNeighbor:0",
+      "type": "ResizeNearestNeighbor"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/up_sampling2d_1/ResizeNearestNeighbor:0",
+          "shape": "(?, 50, 50, 256)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_6/Conv2D/ReadVariableOp:0",
+          "shape": "(2, 2, 256, 128)"
+        }
+      ],
+      "max": 3.652008295059204,
+      "min": -7.166008949279785,
+      "name": "gen_encoder/enc_conv_6/Conv2D",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_6/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_6/Conv2D:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_6/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 3.7631418704986572,
+      "min": -7.074521064758301,
+      "name": "gen_encoder/enc_conv_6/BiasAdd",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_6/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_6/BiasAdd:0",
+          "shape": "(?, 50, 50, 128)"
+        }
+      ],
+      "max": 3.7631418704986572,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_6/Relu",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_6/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_4/Relu:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_6/Relu:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/concatenate_1/concat/axis:0",
+          "shape": "()"
+        }
+      ],
+      "max": 5.3726654052734375,
+      "min": 0.0,
+      "name": "gen_encoder/concatenate_1/concat",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        256
+      ],
+      "static_shape": "(?, 50, 50, 256)",
+      "tensor": "gen_encoder/concatenate_1/concat:0",
+      "type": "ConcatV2"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/concatenate_1/concat:0",
+          "shape": "(?, 50, 50, 256)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_7/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 256, 128)"
+        }
+      ],
+      "max": 7.658061504364014,
+      "min": -11.280582427978516,
+      "name": "gen_encoder/enc_conv_7/Conv2D",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_7/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_7/Conv2D:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_7/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 7.602723121643066,
+      "min": -11.2500581741333,
+      "name": "gen_encoder/enc_conv_7/BiasAdd",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_7/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_7/BiasAdd:0",
+          "shape": "(?, 50, 50, 128)"
+        }
+      ],
+      "max": 7.602723121643066,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_7/Relu",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_encoder/enc_conv_7/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "align_corners": false
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_7/Relu:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_encoder/up_sampling2d_2/mul:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 7.602723121643066,
+      "min": 0.0,
+      "name": "gen_encoder/up_sampling2d_2/ResizeNearestNeighbor",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        128
+      ],
+      "static_shape": "(?, 100, 100, 128)",
+      "tensor": "gen_encoder/up_sampling2d_2/ResizeNearestNeighbor:0",
+      "type": "ResizeNearestNeighbor"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/up_sampling2d_2/ResizeNearestNeighbor:0",
+          "shape": "(?, 100, 100, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_8/Conv2D/ReadVariableOp:0",
+          "shape": "(2, 2, 128, 64)"
+        }
+      ],
+      "max": 5.490708827972412,
+      "min": -9.686488151550293,
+      "name": "gen_encoder/enc_conv_8/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_8/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_8/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_8/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 5.5212907791137695,
+      "min": -9.737792015075684,
+      "name": "gen_encoder/enc_conv_8/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_8/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_8/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 5.5212907791137695,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_8/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_8/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_3/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_8/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/concatenate_2/concat/axis:0",
+          "shape": "()"
+        }
+      ],
+      "max": 5.5212907791137695,
+      "min": 0.0,
+      "name": "gen_encoder/concatenate_2/concat",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        128
+      ],
+      "static_shape": "(?, 100, 100, 128)",
+      "tensor": "gen_encoder/concatenate_2/concat:0",
+      "type": "ConcatV2"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/concatenate_2/concat:0",
+          "shape": "(?, 100, 100, 128)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_9/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 128, 64)"
+        }
+      ],
+      "max": 7.631416320800781,
+      "min": -9.16129207611084,
+      "name": "gen_encoder/enc_conv_9/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_9/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_9/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_9/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 7.682332515716553,
+      "min": -9.261962890625,
+      "name": "gen_encoder/enc_conv_9/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_9/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_9/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 7.682332515716553,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_9/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_encoder/enc_conv_9/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "align_corners": false
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_9/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_encoder/up_sampling2d_3/mul:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 7.682332515716553,
+      "min": 0.0,
+      "name": "gen_encoder/up_sampling2d_3/ResizeNearestNeighbor",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        64
+      ],
+      "static_shape": "(?, 200, 200, 64)",
+      "tensor": "gen_encoder/up_sampling2d_3/ResizeNearestNeighbor:0",
+      "type": "ResizeNearestNeighbor"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/up_sampling2d_3/ResizeNearestNeighbor:0",
+          "shape": "(?, 200, 200, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_10/Conv2D/ReadVariableOp:0",
+          "shape": "(2, 2, 64, 32)"
+        }
+      ],
+      "max": 12.322836875915527,
+      "min": -9.886738777160645,
+      "name": "gen_encoder/enc_conv_10/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_10/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_10/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_10/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 12.344565391540527,
+      "min": -9.803619384765625,
+      "name": "gen_encoder/enc_conv_10/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_10/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_10/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 12.344565391540527,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_10/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_10/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_2/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_10/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/concatenate_3/concat/axis:0",
+          "shape": "()"
+        }
+      ],
+      "max": 12.344565391540527,
+      "min": 0.0,
+      "name": "gen_encoder/concatenate_3/concat",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        64
+      ],
+      "static_shape": "(?, 200, 200, 64)",
+      "tensor": "gen_encoder/concatenate_3/concat:0",
+      "type": "ConcatV2"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/concatenate_3/concat:0",
+          "shape": "(?, 200, 200, 64)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_11/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 32)"
+        }
+      ],
+      "max": 7.218845367431641,
+      "min": -21.74489402770996,
+      "name": "gen_encoder/enc_conv_11/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_11/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_11/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_11/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 7.2902302742004395,
+      "min": -21.75766372680664,
+      "name": "gen_encoder/enc_conv_11/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_11/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_11/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 7.2902302742004395,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_11/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_encoder/enc_conv_11/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "align_corners": false
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_11/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_encoder/up_sampling2d_4/mul:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 7.2902302742004395,
+      "min": 0.0,
+      "name": "gen_encoder/up_sampling2d_4/ResizeNearestNeighbor",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/up_sampling2d_4/ResizeNearestNeighbor:0",
+      "type": "ResizeNearestNeighbor"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/up_sampling2d_4/ResizeNearestNeighbor:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_12/Conv2D/ReadVariableOp:0",
+          "shape": "(2, 2, 32, 32)"
+        }
+      ],
+      "max": 5.99214506149292,
+      "min": -9.419659614562988,
+      "name": "gen_encoder/enc_conv_12/Conv2D",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_12/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_12/Conv2D:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_12/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 6.079052925109863,
+      "min": -9.429381370544434,
+      "name": "gen_encoder/enc_conv_12/BiasAdd",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_12/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_12/BiasAdd:0",
+          "shape": "(?, 400, 400, 32)"
+        }
+      ],
+      "max": 6.079052925109863,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_12/Relu",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_12/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_1/Relu:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_12/Relu:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/concatenate/concat:0",
+          "shape": "(?, 400, 400, 6)"
+        },
+        {
+          "name": "gen_encoder/concatenate_4/concat/axis:0",
+          "shape": "()"
+        }
+      ],
+      "max": 6.079052925109863,
+      "min": -0.49215686321258545,
+      "name": "gen_encoder/concatenate_4/concat",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        70
+      ],
+      "static_shape": "(?, 400, 400, 70)",
+      "tensor": "gen_encoder/concatenate_4/concat:0",
+      "type": "ConcatV2"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/concatenate_4/concat:0",
+          "shape": "(?, 400, 400, 70)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_13/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 70, 32)"
+        }
+      ],
+      "max": 3.332427501678467,
+      "min": -9.316095352172852,
+      "name": "gen_encoder/enc_conv_13/Conv2D",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_13/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_13/Conv2D:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_13/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 3.3704824447631836,
+      "min": -9.194449424743652,
+      "name": "gen_encoder/enc_conv_13/BiasAdd",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_13/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_13/BiasAdd:0",
+          "shape": "(?, 400, 400, 32)"
+        }
+      ],
+      "max": 3.3704824447631836,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_13/Relu",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_13/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_13/Relu:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_14/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 32)"
+        }
+      ],
+      "max": 1.033679485321045,
+      "min": -3.1067287921905518,
+      "name": "gen_encoder/enc_conv_14/Conv2D",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_14/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_14/Conv2D:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_14/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 1.034226894378662,
+      "min": -3.2183303833007812,
+      "name": "gen_encoder/enc_conv_14/BiasAdd",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_14/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_14/BiasAdd:0",
+          "shape": "(?, 400, 400, 32)"
+        }
+      ],
+      "max": 1.034226894378662,
+      "min": 0.0,
+      "name": "gen_encoder/enc_conv_14/Relu",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        32
+      ],
+      "static_shape": "(?, 400, 400, 32)",
+      "tensor": "gen_encoder/enc_conv_14/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_14/Relu:0",
+          "shape": "(?, 400, 400, 32)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_15/Conv2D/ReadVariableOp:0",
+          "shape": "(1, 1, 32, 3)"
+        }
+      ],
+      "max": 0.3660072088241577,
+      "min": -0.21640849113464355,
+      "name": "gen_encoder/enc_conv_15/Conv2D",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_encoder/enc_conv_15/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_15/Conv2D:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_encoder/enc_conv_15/BiasAdd/ReadVariableOp:0",
+          "shape": "(3,)"
+        }
+      ],
+      "max": 0.3186393976211548,
+      "min": -0.2462393343448639,
+      "name": "gen_encoder/enc_conv_15/BiasAdd",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_encoder/enc_conv_15/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_encoder/enc_conv_15/BiasAdd:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "input_hide:0",
+          "shape": "(?, 400, 400, 3)"
+        }
+      ],
+      "max": 1.099301815032959,
+      "min": -0.13006824254989624,
+      "name": "add",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "add:0",
+      "type": "Add"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "add:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "clip_by_value/Minimum/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 1.0,
+      "min": -0.13006824254989624,
+      "name": "clip_by_value/Minimum",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "clip_by_value/Minimum:0",
+      "type": "Minimum"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "clip_by_value/Minimum:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "clip_by_value/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 1.0,
+      "min": 0.0,
+      "name": "clip_by_value",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "clip_by_value:0",
+      "type": "Maximum"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "input_hide:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_stn/sub/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 0.4176470637321472,
+      "min": -0.49215686321258545,
+      "name": "gen_stn/sub",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_stn/sub:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/sub:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_stn/stn_conv_1/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 3, 32)"
+        }
+      ],
+      "max": 0.4876958727836609,
+      "min": -0.5104761123657227,
+      "name": "gen_stn/stn_conv_1/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_stn/stn_conv_1/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_1/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_stn/stn_conv_1/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 0.504771888256073,
+      "min": -0.49340012669563293,
+      "name": "gen_stn/stn_conv_1/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_stn/stn_conv_1/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_1/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 0.504771888256073,
+      "min": 0.0,
+      "name": "gen_stn/stn_conv_1/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_stn/stn_conv_1/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_1/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_stn/stn_conv_2/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 64)"
+        }
+      ],
+      "max": 0.24290713667869568,
+      "min": -0.7111942768096924,
+      "name": "gen_stn/stn_conv_2/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_stn/stn_conv_2/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_2/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_stn/stn_conv_2/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 0.2422371357679367,
+      "min": -0.6915837526321411,
+      "name": "gen_stn/stn_conv_2/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_stn/stn_conv_2/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_2/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 0.2422371357679367,
+      "min": 0.0,
+      "name": "gen_stn/stn_conv_2/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_stn/stn_conv_2/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_2/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_stn/stn_conv_3/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 128)"
+        }
+      ],
+      "max": 0.07432658225297928,
+      "min": -0.48159700632095337,
+      "name": "gen_stn/stn_conv_3/Conv2D",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_stn/stn_conv_3/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_3/Conv2D:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_stn/stn_conv_3/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 0.0945102721452713,
+      "min": -0.5049803853034973,
+      "name": "gen_stn/stn_conv_3/BiasAdd",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_stn/stn_conv_3/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_3/BiasAdd:0",
+          "shape": "(?, 50, 50, 128)"
+        }
+      ],
+      "max": 0.0945102721452713,
+      "min": 0.0,
+      "name": "gen_stn/stn_conv_3/Relu",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        128
+      ],
+      "static_shape": "(?, 50, 50, 128)",
+      "tensor": "gen_stn/stn_conv_3/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/stn_conv_3/Relu:0",
+          "shape": "(?, 50, 50, 128)"
+        },
+        {
+          "name": "gen_stn/flatten/Reshape/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 0.0945102721452713,
+      "min": 0.0,
+      "name": "gen_stn/flatten/Reshape",
+      "runtime_shape": [
+        1,
+        320000
+      ],
+      "static_shape": "(?, 320000)",
+      "tensor": "gen_stn/flatten/Reshape:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/flatten/Reshape:0",
+          "shape": "(?, 320000)"
+        },
+        {
+          "name": "gen_stn/dense_1/MatMul/ReadVariableOp:0",
+          "shape": "(320000, 128)"
+        }
+      ],
+      "max": 0.4203397333621979,
+      "min": -0.7409169673919678,
+      "name": "gen_stn/dense_1/MatMul",
+      "runtime_shape": [
+        1,
+        128
+      ],
+      "static_shape": "(?, 128)",
+      "tensor": "gen_stn/dense_1/MatMul:0",
+      "type": "MatMul"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/dense_1/MatMul:0",
+          "shape": "(?, 128)"
+        },
+        {
+          "name": "gen_stn/dense_1/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 0.46749475598335266,
+      "min": -0.7034929394721985,
+      "name": "gen_stn/dense_1/BiasAdd",
+      "runtime_shape": [
+        1,
+        128
+      ],
+      "static_shape": "(?, 128)",
+      "tensor": "gen_stn/dense_1/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/dense_1/BiasAdd:0",
+          "shape": "(?, 128)"
+        }
+      ],
+      "max": 0.46749475598335266,
+      "min": 0.0,
+      "name": "gen_stn/dense_1/Relu",
+      "runtime_shape": [
+        1,
+        128
+      ],
+      "static_shape": "(?, 128)",
+      "tensor": "gen_stn/dense_1/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/dense_1/Relu:0",
+          "shape": "(?, 128)"
+        },
+        {
+          "name": "gen_stn/W_fc1/read:0",
+          "shape": "(128, 6)"
+        }
+      ],
+      "max": 0.027499882504343987,
+      "min": -0.005458874627947807,
+      "name": "gen_stn/MatMul",
+      "runtime_shape": [
+        1,
+        6
+      ],
+      "static_shape": "(?, 6)",
+      "tensor": "gen_stn/MatMul:0",
+      "type": "MatMul"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/MatMul:0",
+          "shape": "(?, 6)"
+        },
+        {
+          "name": "gen_stn/b_fc1/read:0",
+          "shape": "(6,)"
+        }
+      ],
+      "max": 1.0361311435699463,
+      "min": -0.005908620543777943,
+      "name": "gen_stn/add",
+      "runtime_shape": [
+        1,
+        6
+      ],
+      "static_shape": "(?, 6)",
+      "tensor": "gen_stn/add:0",
+      "type": "Add"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/add:0",
+          "shape": "(?, 6)"
+        },
+        {
+          "name": "gen_stn/Reshape/shape:0",
+          "shape": "(3,)"
+        }
+      ],
+      "max": 1.0361311435699463,
+      "min": -0.005908620543777943,
+      "name": "gen_stn/Reshape",
+      "runtime_shape": [
+        1,
+        2,
+        3
+      ],
+      "static_shape": "(?, 2, 3)",
+      "tensor": "gen_stn/Reshape:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/LinSpace:0",
+          "shape": "(400,)"
+        },
+        {
+          "name": "gen_stn/meshgrid/Reshape/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/meshgrid/Reshape",
+      "runtime_shape": [
+        400,
+        1
+      ],
+      "static_shape": "(400, 1)",
+      "tensor": "gen_stn/meshgrid/Reshape:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/LinSpace_1:0",
+          "shape": "(400,)"
+        },
+        {
+          "name": "gen_stn/meshgrid/Reshape_1/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/meshgrid/Reshape_1",
+      "runtime_shape": [
+        1,
+        400
+      ],
+      "static_shape": "(1, 400)",
+      "tensor": "gen_stn/meshgrid/Reshape_1:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/meshgrid/Reshape:0",
+          "shape": "(400, 1)"
+        },
+        {
+          "name": "gen_stn/meshgrid/Reshape_2/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/meshgrid/Reshape_2",
+      "runtime_shape": [
+        1,
+        400
+      ],
+      "static_shape": "(1, 400)",
+      "tensor": "gen_stn/meshgrid/Reshape_2:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/meshgrid/Reshape_1:0",
+          "shape": "(1, 400)"
+        },
+        {
+          "name": "gen_stn/meshgrid/Reshape_3/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/meshgrid/Reshape_3",
+      "runtime_shape": [
+        400,
+        1
+      ],
+      "static_shape": "(400, 1)",
+      "tensor": "gen_stn/meshgrid/Reshape_3:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/meshgrid/mul:0",
+          "shape": "(400, 400)"
+        },
+        {
+          "name": "gen_stn/Reshape_1/shape:0",
+          "shape": "(1,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/Reshape_1",
+      "runtime_shape": [
+        160000
+      ],
+      "static_shape": "(160000,)",
+      "tensor": "gen_stn/Reshape_1:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/meshgrid/mul_1:0",
+          "shape": "(400, 400)"
+        },
+        {
+          "name": "gen_stn/Reshape_2/shape:0",
+          "shape": "(1,)"
+        }
+      ],
+      "max": 1.0,
+      "min": -1.0,
+      "name": "gen_stn/Reshape_2",
+      "runtime_shape": [
+        160000
+      ],
+      "static_shape": "(160000,)",
+      "tensor": "gen_stn/Reshape_2:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/MatMul_1:0",
+          "shape": "(?, 2, 160000)"
+        },
+        {
+          "name": "gen_stn/Reshape_3/shape:0",
+          "shape": "(4,)"
+        }
+      ],
+      "max": 1.0640366077423096,
+      "min": -1.020042896270752,
+      "name": "gen_stn/Reshape_3",
+      "runtime_shape": [
+        1,
+        2,
+        400,
+        400
+      ],
+      "static_shape": "(?, 2, 400, 400)",
+      "tensor": "gen_stn/Reshape_3:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/strided_slice_4:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/add_1/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 2.048124313354492,
+      "min": -0.010260701179504395,
+      "name": "gen_stn/add_1",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/add_1:0",
+      "type": "Add"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/strided_slice_5:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/add_2/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 2.0640366077423096,
+      "min": -0.020042896270751953,
+      "name": "gen_stn/add_2",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/add_2:0",
+      "type": "Add"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/Cast_5:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/mul_1:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 2.041879653930664,
+      "min": -8.576751708984375,
+      "name": "gen_stn/sub_5",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_5:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/Cast_7:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/mul_3:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 3.9885363578796387,
+      "min": -11.7432861328125,
+      "name": "gen_stn/sub_6",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_6:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/Cast_5:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/mul_1:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 2.041879653930664,
+      "min": -8.576751708984375,
+      "name": "gen_stn/sub_7",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_7:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/mul_3:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/Cast_6:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 11.7432861328125,
+      "min": -3.9885363578796387,
+      "name": "gen_stn/sub_8",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_8:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/mul_1:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/Cast_4:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 8.576751708984375,
+      "min": -2.041879653930664,
+      "name": "gen_stn/sub_9",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_9:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/Cast_7:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/mul_3:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 3.9885363578796387,
+      "min": -11.7432861328125,
+      "name": "gen_stn/sub_10",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_10:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/mul_1:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/Cast_4:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 8.576751708984375,
+      "min": -2.041879653930664,
+      "name": "gen_stn/sub_11",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_11:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/mul_3:0",
+          "shape": "(?, 400, 400)"
+        },
+        {
+          "name": "gen_stn/Cast_6:0",
+          "shape": "(?, 400, 400)"
+        }
+      ],
+      "max": 11.7432861328125,
+      "min": -3.9885363578796387,
+      "name": "gen_stn/sub_12",
+      "runtime_shape": [
+        1,
+        400,
+        400
+      ],
+      "static_shape": "(?, 400, 400)",
+      "tensor": "gen_stn/sub_12:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/mul_8:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_stn/mul_9:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_stn/mul_10:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_stn/mul_11:0",
+          "shape": "(?, 400, 400, 3)"
+        }
+      ],
+      "max": 0.9141061305999756,
+      "min": -4.76837158203125e-07,
+      "name": "gen_stn/AddN",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_stn/AddN:0",
+      "type": "AddN"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_stn/AddN:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_decoder/sub/y:0",
+          "shape": "()"
+        }
+      ],
+      "max": 0.4141061305999756,
+      "min": -0.5000004768371582,
+      "name": "gen_decoder/sub",
+      "runtime_shape": [
+        1,
+        400,
+        400,
+        3
+      ],
+      "static_shape": "(?, 400, 400, 3)",
+      "tensor": "gen_decoder/sub:0",
+      "type": "Sub"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/sub:0",
+          "shape": "(?, 400, 400, 3)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_1/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 3, 32)"
+        }
+      ],
+      "max": 0.7597396969795227,
+      "min": -0.8049060106277466,
+      "name": "gen_decoder/dec_conv_1/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_1/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_1/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_1/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 0.7845249772071838,
+      "min": -0.8002552390098572,
+      "name": "gen_decoder/dec_conv_1/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_1/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_1/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 0.7845249772071838,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_1/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_1/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_1/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_2/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 32)"
+        }
+      ],
+      "max": 1.3446986675262451,
+      "min": -2.646719217300415,
+      "name": "gen_decoder/dec_conv_2/Conv2D",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_2/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_2/Conv2D:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_2/BiasAdd/ReadVariableOp:0",
+          "shape": "(32,)"
+        }
+      ],
+      "max": 1.3427469730377197,
+      "min": -2.737119436264038,
+      "name": "gen_decoder/dec_conv_2/BiasAdd",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_2/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_2/BiasAdd:0",
+          "shape": "(?, 200, 200, 32)"
+        }
+      ],
+      "max": 1.3427469730377197,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_2/Relu",
+      "runtime_shape": [
+        1,
+        200,
+        200,
+        32
+      ],
+      "static_shape": "(?, 200, 200, 32)",
+      "tensor": "gen_decoder/dec_conv_2/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_2/Relu:0",
+          "shape": "(?, 200, 200, 32)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_3/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 32, 64)"
+        }
+      ],
+      "max": 1.9756102561950684,
+      "min": -5.181573867797852,
+      "name": "gen_decoder/dec_conv_3/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_3/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_3/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_3/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 1.9799256324768066,
+      "min": -5.278656959533691,
+      "name": "gen_decoder/dec_conv_3/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_3/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_3/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 1.9799256324768066,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_3/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_3/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_3/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_4/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 64)"
+        }
+      ],
+      "max": 2.972551107406616,
+      "min": -4.285098552703857,
+      "name": "gen_decoder/dec_conv_4/Conv2D",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_4/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_4/Conv2D:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_4/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 2.9296987056732178,
+      "min": -4.308537006378174,
+      "name": "gen_decoder/dec_conv_4/BiasAdd",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_4/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_4/BiasAdd:0",
+          "shape": "(?, 100, 100, 64)"
+        }
+      ],
+      "max": 2.9296987056732178,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_4/Relu",
+      "runtime_shape": [
+        1,
+        100,
+        100,
+        64
+      ],
+      "static_shape": "(?, 100, 100, 64)",
+      "tensor": "gen_decoder/dec_conv_4/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_4/Relu:0",
+          "shape": "(?, 100, 100, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_5/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 64)"
+        }
+      ],
+      "max": 1.921095371246338,
+      "min": -6.1972455978393555,
+      "name": "gen_decoder/dec_conv_5/Conv2D",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        64
+      ],
+      "static_shape": "(?, 50, 50, 64)",
+      "tensor": "gen_decoder/dec_conv_5/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_5/Conv2D:0",
+          "shape": "(?, 50, 50, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_5/BiasAdd/ReadVariableOp:0",
+          "shape": "(64,)"
+        }
+      ],
+      "max": 1.8351757526397705,
+      "min": -6.144838809967041,
+      "name": "gen_decoder/dec_conv_5/BiasAdd",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        64
+      ],
+      "static_shape": "(?, 50, 50, 64)",
+      "tensor": "gen_decoder/dec_conv_5/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_5/BiasAdd:0",
+          "shape": "(?, 50, 50, 64)"
+        }
+      ],
+      "max": 1.8351757526397705,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_5/Relu",
+      "runtime_shape": [
+        1,
+        50,
+        50,
+        64
+      ],
+      "static_shape": "(?, 50, 50, 64)",
+      "tensor": "gen_decoder/dec_conv_5/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_5/Relu:0",
+          "shape": "(?, 50, 50, 64)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_6/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 64, 128)"
+        }
+      ],
+      "max": 1.804609775543213,
+      "min": -3.434399127960205,
+      "name": "gen_decoder/dec_conv_6/Conv2D",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        128
+      ],
+      "static_shape": "(?, 25, 25, 128)",
+      "tensor": "gen_decoder/dec_conv_6/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_6/Conv2D:0",
+          "shape": "(?, 25, 25, 128)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_6/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 1.7118297815322876,
+      "min": -3.319507360458374,
+      "name": "gen_decoder/dec_conv_6/BiasAdd",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        128
+      ],
+      "static_shape": "(?, 25, 25, 128)",
+      "tensor": "gen_decoder/dec_conv_6/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_6/BiasAdd:0",
+          "shape": "(?, 25, 25, 128)"
+        }
+      ],
+      "max": 1.7118297815322876,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_6/Relu",
+      "runtime_shape": [
+        1,
+        25,
+        25,
+        128
+      ],
+      "static_shape": "(?, 25, 25, 128)",
+      "tensor": "gen_decoder/dec_conv_6/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {
+        "data_format": "NHWC",
+        "padding": "SAME",
+        "strides": [
+          1,
+          2,
+          2,
+          1
+        ]
+      },
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_6/Relu:0",
+          "shape": "(?, 25, 25, 128)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_7/Conv2D/ReadVariableOp:0",
+          "shape": "(3, 3, 128, 128)"
+        }
+      ],
+      "max": 1.176578402519226,
+      "min": -2.4986133575439453,
+      "name": "gen_decoder/dec_conv_7/Conv2D",
+      "runtime_shape": [
+        1,
+        13,
+        13,
+        128
+      ],
+      "static_shape": "(?, 13, 13, 128)",
+      "tensor": "gen_decoder/dec_conv_7/Conv2D:0",
+      "type": "Conv2D"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_7/Conv2D:0",
+          "shape": "(?, 13, 13, 128)"
+        },
+        {
+          "name": "gen_decoder/dec_conv_7/BiasAdd/ReadVariableOp:0",
+          "shape": "(128,)"
+        }
+      ],
+      "max": 1.2854543924331665,
+      "min": -2.48982834815979,
+      "name": "gen_decoder/dec_conv_7/BiasAdd",
+      "runtime_shape": [
+        1,
+        13,
+        13,
+        128
+      ],
+      "static_shape": "(?, 13, 13, 128)",
+      "tensor": "gen_decoder/dec_conv_7/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_7/BiasAdd:0",
+          "shape": "(?, 13, 13, 128)"
+        }
+      ],
+      "max": 1.2854543924331665,
+      "min": 0.0,
+      "name": "gen_decoder/dec_conv_7/Relu",
+      "runtime_shape": [
+        1,
+        13,
+        13,
+        128
+      ],
+      "static_shape": "(?, 13, 13, 128)",
+      "tensor": "gen_decoder/dec_conv_7/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_conv_7/Relu:0",
+          "shape": "(?, 13, 13, 128)"
+        },
+        {
+          "name": "gen_decoder/flatten_1/Reshape/shape:0",
+          "shape": "(2,)"
+        }
+      ],
+      "max": 1.2854543924331665,
+      "min": 0.0,
+      "name": "gen_decoder/flatten_1/Reshape",
+      "runtime_shape": [
+        1,
+        21632
+      ],
+      "static_shape": "(?, 21632)",
+      "tensor": "gen_decoder/flatten_1/Reshape:0",
+      "type": "Reshape"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/flatten_1/Reshape:0",
+          "shape": "(?, 21632)"
+        },
+        {
+          "name": "gen_decoder/dec_dense/MatMul/ReadVariableOp:0",
+          "shape": "(21632, 512)"
+        }
+      ],
+      "max": 16.052326202392578,
+      "min": -4.674442291259766,
+      "name": "gen_decoder/dec_dense/MatMul",
+      "runtime_shape": [
+        1,
+        512
+      ],
+      "static_shape": "(?, 512)",
+      "tensor": "gen_decoder/dec_dense/MatMul:0",
+      "type": "MatMul"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_dense/MatMul:0",
+          "shape": "(?, 512)"
+        },
+        {
+          "name": "gen_decoder/dec_dense/BiasAdd/ReadVariableOp:0",
+          "shape": "(512,)"
+        }
+      ],
+      "max": 16.05840492248535,
+      "min": -4.667660236358643,
+      "name": "gen_decoder/dec_dense/BiasAdd",
+      "runtime_shape": [
+        1,
+        512
+      ],
+      "static_shape": "(?, 512)",
+      "tensor": "gen_decoder/dec_dense/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_dense/BiasAdd:0",
+          "shape": "(?, 512)"
+        }
+      ],
+      "max": 16.05840492248535,
+      "min": 0.0,
+      "name": "gen_decoder/dec_dense/Relu",
+      "runtime_shape": [
+        1,
+        512
+      ],
+      "static_shape": "(?, 512)",
+      "tensor": "gen_decoder/dec_dense/Relu:0",
+      "type": "Relu"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/dec_dense/Relu:0",
+          "shape": "(?, 512)"
+        },
+        {
+          "name": "gen_decoder/decoder_out/MatMul/ReadVariableOp:0",
+          "shape": "(512, 100)"
+        }
+      ],
+      "max": 5.62729549407959,
+      "min": -6.712739944458008,
+      "name": "gen_decoder/decoder_out/MatMul",
+      "runtime_shape": [
+        1,
+        100
+      ],
+      "static_shape": "(?, 100)",
+      "tensor": "gen_decoder/decoder_out/MatMul:0",
+      "type": "MatMul"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/decoder_out/MatMul:0",
+          "shape": "(?, 100)"
+        },
+        {
+          "name": "gen_decoder/decoder_out/BiasAdd/ReadVariableOp:0",
+          "shape": "(100,)"
+        }
+      ],
+      "max": 5.639096736907959,
+      "min": -6.699882507324219,
+      "name": "gen_decoder/decoder_out/BiasAdd",
+      "runtime_shape": [
+        1,
+        100
+      ],
+      "static_shape": "(?, 100)",
+      "tensor": "gen_decoder/decoder_out/BiasAdd:0",
+      "type": "BiasAdd"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "gen_decoder/decoder_out/BiasAdd:0",
+          "shape": "(?, 100)"
+        }
+      ],
+      "max": 0.9964565634727478,
+      "min": 0.0012294948101043701,
+      "name": "Sigmoid",
+      "runtime_shape": [
+        1,
+        100
+      ],
+      "static_shape": "(?, 100)",
+      "tensor": "Sigmoid:0",
+      "type": "Sigmoid"
+    },
+    {
+      "attributes": {},
+      "finite": true,
+      "inputs": [
+        {
+          "name": "Sigmoid:0",
+          "shape": "(?, 100)"
+        }
+      ],
+      "max": 1.0,
+      "min": 0.0,
+      "name": "Round",
+      "runtime_shape": [
+        1,
+        100
+      ],
+      "static_shape": "(?, 100)",
+      "tensor": "Round:0",
+      "type": "Round"
+    }
+  ],
+  "variables": [
+    {
+      "name": "gen_secret/dense/kernel:0",
+      "params": 750000,
+      "scope": "gen_secret/dense",
+      "shape": [
+        100,
+        7500
+      ]
+    },
+    {
+      "name": "gen_secret/dense/bias:0",
+      "params": 7500,
+      "scope": "gen_secret/dense",
+      "shape": [
+        7500
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_1/kernel:0",
+      "params": 1728,
+      "scope": "gen_encoder/enc_conv_1",
+      "shape": [
+        3,
+        3,
+        6,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_1/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_1",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_2/kernel:0",
+      "params": 9216,
+      "scope": "gen_encoder/enc_conv_2",
+      "shape": [
+        3,
+        3,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_2/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_2",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_3/kernel:0",
+      "params": 18432,
+      "scope": "gen_encoder/enc_conv_3",
+      "shape": [
+        3,
+        3,
+        32,
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_3/bias:0",
+      "params": 64,
+      "scope": "gen_encoder/enc_conv_3",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_4/kernel:0",
+      "params": 73728,
+      "scope": "gen_encoder/enc_conv_4",
+      "shape": [
+        3,
+        3,
+        64,
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_4/bias:0",
+      "params": 128,
+      "scope": "gen_encoder/enc_conv_4",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_5/kernel:0",
+      "params": 294912,
+      "scope": "gen_encoder/enc_conv_5",
+      "shape": [
+        3,
+        3,
+        128,
+        256
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_5/bias:0",
+      "params": 256,
+      "scope": "gen_encoder/enc_conv_5",
+      "shape": [
+        256
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_6/kernel:0",
+      "params": 131072,
+      "scope": "gen_encoder/enc_conv_6",
+      "shape": [
+        2,
+        2,
+        256,
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_6/bias:0",
+      "params": 128,
+      "scope": "gen_encoder/enc_conv_6",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_7/kernel:0",
+      "params": 294912,
+      "scope": "gen_encoder/enc_conv_7",
+      "shape": [
+        3,
+        3,
+        256,
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_7/bias:0",
+      "params": 128,
+      "scope": "gen_encoder/enc_conv_7",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_8/kernel:0",
+      "params": 32768,
+      "scope": "gen_encoder/enc_conv_8",
+      "shape": [
+        2,
+        2,
+        128,
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_8/bias:0",
+      "params": 64,
+      "scope": "gen_encoder/enc_conv_8",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_9/kernel:0",
+      "params": 73728,
+      "scope": "gen_encoder/enc_conv_9",
+      "shape": [
+        3,
+        3,
+        128,
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_9/bias:0",
+      "params": 64,
+      "scope": "gen_encoder/enc_conv_9",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_10/kernel:0",
+      "params": 8192,
+      "scope": "gen_encoder/enc_conv_10",
+      "shape": [
+        2,
+        2,
+        64,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_10/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_10",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_11/kernel:0",
+      "params": 18432,
+      "scope": "gen_encoder/enc_conv_11",
+      "shape": [
+        3,
+        3,
+        64,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_11/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_11",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_12/kernel:0",
+      "params": 4096,
+      "scope": "gen_encoder/enc_conv_12",
+      "shape": [
+        2,
+        2,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_12/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_12",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_13/kernel:0",
+      "params": 20160,
+      "scope": "gen_encoder/enc_conv_13",
+      "shape": [
+        3,
+        3,
+        70,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_13/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_13",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_14/kernel:0",
+      "params": 9216,
+      "scope": "gen_encoder/enc_conv_14",
+      "shape": [
+        3,
+        3,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_14/bias:0",
+      "params": 32,
+      "scope": "gen_encoder/enc_conv_14",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_15/kernel:0",
+      "params": 96,
+      "scope": "gen_encoder/enc_conv_15",
+      "shape": [
+        1,
+        1,
+        32,
+        3
+      ]
+    },
+    {
+      "name": "gen_encoder/enc_conv_15/bias:0",
+      "params": 3,
+      "scope": "gen_encoder/enc_conv_15",
+      "shape": [
+        3
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_1/kernel:0",
+      "params": 864,
+      "scope": "gen_stn/stn_conv_1",
+      "shape": [
+        3,
+        3,
+        3,
+        32
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_1/bias:0",
+      "params": 32,
+      "scope": "gen_stn/stn_conv_1",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_2/kernel:0",
+      "params": 18432,
+      "scope": "gen_stn/stn_conv_2",
+      "shape": [
+        3,
+        3,
+        32,
+        64
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_2/bias:0",
+      "params": 64,
+      "scope": "gen_stn/stn_conv_2",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_3/kernel:0",
+      "params": 73728,
+      "scope": "gen_stn/stn_conv_3",
+      "shape": [
+        3,
+        3,
+        64,
+        128
+      ]
+    },
+    {
+      "name": "gen_stn/stn_conv_3/bias:0",
+      "params": 128,
+      "scope": "gen_stn/stn_conv_3",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_stn/dense_1/kernel:0",
+      "params": 40960000,
+      "scope": "gen_stn/dense_1",
+      "shape": [
+        320000,
+        128
+      ]
+    },
+    {
+      "name": "gen_stn/dense_1/bias:0",
+      "params": 128,
+      "scope": "gen_stn/dense_1",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_stn/W_fc1:0",
+      "params": 768,
+      "scope": "gen_stn",
+      "shape": [
+        128,
+        6
+      ]
+    },
+    {
+      "name": "gen_stn/b_fc1:0",
+      "params": 6,
+      "scope": "gen_stn",
+      "shape": [
+        6
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_1/kernel:0",
+      "params": 864,
+      "scope": "gen_decoder/dec_conv_1",
+      "shape": [
+        3,
+        3,
+        3,
+        32
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_1/bias:0",
+      "params": 32,
+      "scope": "gen_decoder/dec_conv_1",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_2/kernel:0",
+      "params": 9216,
+      "scope": "gen_decoder/dec_conv_2",
+      "shape": [
+        3,
+        3,
+        32,
+        32
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_2/bias:0",
+      "params": 32,
+      "scope": "gen_decoder/dec_conv_2",
+      "shape": [
+        32
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_3/kernel:0",
+      "params": 18432,
+      "scope": "gen_decoder/dec_conv_3",
+      "shape": [
+        3,
+        3,
+        32,
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_3/bias:0",
+      "params": 64,
+      "scope": "gen_decoder/dec_conv_3",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_4/kernel:0",
+      "params": 36864,
+      "scope": "gen_decoder/dec_conv_4",
+      "shape": [
+        3,
+        3,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_4/bias:0",
+      "params": 64,
+      "scope": "gen_decoder/dec_conv_4",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_5/kernel:0",
+      "params": 36864,
+      "scope": "gen_decoder/dec_conv_5",
+      "shape": [
+        3,
+        3,
+        64,
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_5/bias:0",
+      "params": 64,
+      "scope": "gen_decoder/dec_conv_5",
+      "shape": [
+        64
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_6/kernel:0",
+      "params": 73728,
+      "scope": "gen_decoder/dec_conv_6",
+      "shape": [
+        3,
+        3,
+        64,
+        128
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_6/bias:0",
+      "params": 128,
+      "scope": "gen_decoder/dec_conv_6",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_7/kernel:0",
+      "params": 147456,
+      "scope": "gen_decoder/dec_conv_7",
+      "shape": [
+        3,
+        3,
+        128,
+        128
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_conv_7/bias:0",
+      "params": 128,
+      "scope": "gen_decoder/dec_conv_7",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_dense/kernel:0",
+      "params": 11075584,
+      "scope": "gen_decoder/dec_dense",
+      "shape": [
+        21632,
+        512
+      ]
+    },
+    {
+      "name": "gen_decoder/dec_dense/bias:0",
+      "params": 512,
+      "scope": "gen_decoder/dec_dense",
+      "shape": [
+        512
+      ]
+    },
+    {
+      "name": "gen_decoder/decoder_out/kernel:0",
+      "params": 51200,
+      "scope": "gen_decoder/decoder_out",
+      "shape": [
+        512,
+        100
+      ]
+    },
+    {
+      "name": "gen_decoder/decoder_out/bias:0",
+      "params": 100,
+      "scope": "gen_decoder/decoder_out",
+      "shape": [
+        100
+      ]
+    }
+  ]
+}

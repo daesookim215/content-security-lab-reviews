@@ -1,0 +1,8 @@
+{
+  "attack_input": "official uint8 truncation encoded PNG, reloaded as float32/255",
+  "combined_order": "perspective white fill -> SAME zero-pad blur -> noise/clip -> contrast+RGB/brightness offsets/clip -> desaturation -> official JPEG surrogate",
+  "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+  "packet_bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+  "secret": "Stega!!",
+  "seed": 20231130
+}

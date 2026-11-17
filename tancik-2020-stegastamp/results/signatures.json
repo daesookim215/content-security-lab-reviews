@@ -1,0 +1,58 @@
+{
+  "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+  "signatures": {
+    "serving_default": {
+      "inputs": {
+        "image": {
+          "dtype": 1,
+          "name": "input_hide:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        },
+        "secret": {
+          "dtype": 1,
+          "name": "input_prep:0",
+          "shape": [
+            -1,
+            100
+          ]
+        }
+      },
+      "method": "tensorflow/serving/predict",
+      "outputs": {
+        "decoded": {
+          "dtype": 1,
+          "name": "Round:0",
+          "shape": [
+            -1,
+            100
+          ]
+        },
+        "residual": {
+          "dtype": 1,
+          "name": "gen_encoder/enc_conv_15/BiasAdd:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        },
+        "stegastamp": {
+          "dtype": 1,
+          "name": "clip_by_value:0",
+          "shape": [
+            -1,
+            400,
+            400,
+            3
+          ]
+        }
+      }
+    }
+  }
+}

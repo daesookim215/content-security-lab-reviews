@@ -1,0 +1,20 @@
+[
+  {
+    "bch_success_count": 17,
+    "draws": 20,
+    "exact_recovery_count": 17,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "mean_bits": 98.7,
+    "min_bits": 91
+  },
+  {
+    "bch_success_count": 20,
+    "draws": 20,
+    "exact_recovery_count": 20,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "mean_bits": 99.9,
+    "min_bits": 99
+  }
+]

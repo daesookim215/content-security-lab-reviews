@@ -1,0 +1,131 @@
+{
+  "byte_identical_excluding_timing": true,
+  "excluded": [
+    "run1/timing.json",
+    "run2/timing.json"
+  ],
+  "file_sets_equal": true,
+  "files": [
+    {
+      "cmp_exit": 0,
+      "file": "airplane_encoded_float.npy",
+      "identical": true,
+      "run1_sha256": "42e1fbcec153012191853c49a6f349c55a3baf301a9188dec5b3682788153b6c",
+      "run2_sha256": "42e1fbcec153012191853c49a6f349c55a3baf301a9188dec5b3682788153b6c"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "airplane_encoded_uint8.npy",
+      "identical": true,
+      "run1_sha256": "9458264388547ddd50e75878ca56b5c5af81aec0714fc5daaeff7c1279310465",
+      "run2_sha256": "9458264388547ddd50e75878ca56b5c5af81aec0714fc5daaeff7c1279310465"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "airplane_residual_float.npy",
+      "identical": true,
+      "run1_sha256": "e6394210e6e04cd619fb64f15cc4381272096fb3703fcc5208774ab693ea68ad",
+      "run2_sha256": "e6394210e6e04cd619fb64f15cc4381272096fb3703fcc5208774ab693ea68ad"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "boat_encoded_float.npy",
+      "identical": true,
+      "run1_sha256": "2bb2b025b1709bbc55ea176e27e3c6fd576e656dde5a22a3d308a136909a23c1",
+      "run2_sha256": "2bb2b025b1709bbc55ea176e27e3c6fd576e656dde5a22a3d308a136909a23c1"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "boat_encoded_uint8.npy",
+      "identical": true,
+      "run1_sha256": "7628fee3404af06052e63adea42e2504956ced47531183239a23c4bb4eeab160",
+      "run2_sha256": "7628fee3404af06052e63adea42e2504956ced47531183239a23c4bb4eeab160"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "boat_residual_float.npy",
+      "identical": true,
+      "run1_sha256": "67289e4bc69a1fb0ac9952a47a0cd3fc35091ba8218b2153fdbc11dc103aa548",
+      "run2_sha256": "67289e4bc69a1fb0ac9952a47a0cd3fc35091ba8218b2153fdbc11dc103aa548"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "combined_draws.csv",
+      "identical": true,
+      "run1_sha256": "d539d9b85632f38f2a78bef183014b4e546dbf2073e0bfe8b596fd1bc54f72df",
+      "run2_sha256": "d539d9b85632f38f2a78bef183014b4e546dbf2073e0bfe8b596fd1bc54f72df"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "combined_draws.json",
+      "identical": true,
+      "run1_sha256": "c543dd0bfb5b78a972cf18a5ea74089cb0c691d703b112c1a0d4776d21d63f66",
+      "run2_sha256": "c543dd0bfb5b78a972cf18a5ea74089cb0c691d703b112c1a0d4776d21d63f66"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "combined_summary.csv",
+      "identical": true,
+      "run1_sha256": "1ca0adcc6d520a3ea19fff427e3ae4e50016c2ce35b459b7dd54891c87866622",
+      "run2_sha256": "1ca0adcc6d520a3ea19fff427e3ae4e50016c2ce35b459b7dd54891c87866622"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "combined_summary.json",
+      "identical": true,
+      "run1_sha256": "8787a087cc8900291741931aab62f902c21b88e3a60e3b7a4fb02513c4d341a2",
+      "run2_sha256": "8787a087cc8900291741931aab62f902c21b88e3a60e3b7a4fb02513c4d341a2"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "quality.csv",
+      "identical": true,
+      "run1_sha256": "2ddeba1a7308c44459f196e751cd8cd396869daac1af4b12010c9f2746c46543",
+      "run2_sha256": "2ddeba1a7308c44459f196e751cd8cd396869daac1af4b12010c9f2746c46543"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "quality.json",
+      "identical": true,
+      "run1_sha256": "f404f515ef070eee46af7965d797590a33ea14fb09b758013ff0143636b55a4f",
+      "run2_sha256": "f404f515ef070eee46af7965d797590a33ea14fb09b758013ff0143636b55a4f"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "settings.json",
+      "identical": true,
+      "run1_sha256": "46b66ffdf483c8226e05522daebf4fd24f5537c1e77ce2b120e580216e467258",
+      "run2_sha256": "46b66ffdf483c8226e05522daebf4fd24f5537c1e77ce2b120e580216e467258"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "single_attacks.csv",
+      "identical": true,
+      "run1_sha256": "44e097650385e53b0066ba22b43df8044004299b7ed9f0d6de5a953b0b5b3d33",
+      "run2_sha256": "44e097650385e53b0066ba22b43df8044004299b7ed9f0d6de5a953b0b5b3d33"
+    },
+    {
+      "cmp_exit": 0,
+      "file": "single_attacks.json",
+      "identical": true,
+      "run1_sha256": "c024ac6cf3d7e1cea1f6485384502a8aafb9111dd6699364a428c1d41fffc521",
+      "run2_sha256": "c024ac6cf3d7e1cea1f6485384502a8aafb9111dd6699364a428c1d41fffc521"
+    }
+  ],
+  "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+  "log_data_lines_identical": true,
+  "log_differences": "TF timestamps and XLA memory addresses; separately checked 84 experiment lines per run",
+  "raw_logs_identical": false,
+  "timing": [
+    {
+      "inference_and_attacks_seconds": 3.766951495083049,
+      "model_and_chain_load_seconds": 0.2336833591107279,
+      "total_seconds": 4.013064929051325
+    },
+    {
+      "inference_and_attacks_seconds": 3.538340248167515,
+      "model_and_chain_load_seconds": 0.22279303893446922,
+      "total_seconds": 3.7719975009094924
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "commit": "c984446048b826587ca1875027b0a1dc1885fb30",
+  "url": "https://api.github.com/repos/tancik/StegaStamp/tarball/c984446048b826587ca1875027b0a1dc1885fb30",
+  "bytes": 213307,
+  "sha256": "70bb2c5a83e52abfdc6c6e82df1f64357e4e50d4db7f75ecbfd36e81e675ed4f",
+  "files": {
+    "LICENSE": "597e4c8e3110b6b9e67a5b1fee1d7461cdb25e03df590119583b26c9aade5f7f",
+    "encode_image.py": "87541f139a4e294803ecd3342eb52139b2252c11176112e476950ebcde382c57",
+    "decode_image.py": "cde96489e0734c605599bd5cf19a58f0fa11df761a9db2bdbaecc6fe01baf427",
+    "models.py": "72b89b7a152b4c6355238639b3693557664f73fe9439738e455836f7a5203853",
+    "train.py": "a4fa269ed546e5c3411bfa0d4eb39fd69ac034a5aa7102784ed0b450a8e50f9a",
+    "scripts/base.sh": "b0bf6874d04bd87aa3a00612c56431e4a7cca1420ffa29e21382766e959b929c",
+    "utils.py": "f8e7ccccc0be5e8e5eb9d8470d5c27995a9d0db0f3a9e348f89a850a80300195"
+  }
+}

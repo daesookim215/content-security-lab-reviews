@@ -1,0 +1,822 @@
+[
+  {
+    "attack": "clean",
+    "attack_params": {},
+    "attacked_tensor_sha256": "91856132b0db8e6a4b9fe3c78ad64791df652e3084372ed292d860040844da0e",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_90",
+    "attack_params": {
+      "quality": 90,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "51ad678cb8459ad55c1fda42bb43215222fd93e748e494bc2df9f9600b2974da",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_70",
+    "attack_params": {
+      "quality": 70,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "c7c07fbc217286ab2f429af5c0bd69e203af975ab7aa76f2870423b49b92cc81",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_50",
+    "attack_params": {
+      "quality": 50,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "5eff78602e72f1438201041d258124f87b73e2c490343b9aea193941ffc2c4b7",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_30",
+    "attack_params": {
+      "quality": 30,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "db8a5c0d27bd57399c24db704f208df5bb1d92cecf830a6190c9740a2300fb7e",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "blur_1",
+    "attack_params": {
+      "border": "reflect101",
+      "kernel": "OpenCV automatic",
+      "sigma_px": 1
+    },
+    "attacked_tensor_sha256": "a4a07bb75cd8001d3bb4ce34a9b525e8c8e8c98915f73b6d7740468dc40541cc",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "blur_2",
+    "attack_params": {
+      "border": "reflect101",
+      "kernel": "OpenCV automatic",
+      "sigma_px": 2
+    },
+    "attacked_tensor_sha256": "6c4ff1f19181410c7a5e6df8a954b6a572c874b65935e84a82ea44462122d03b",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "noise_0.02",
+    "attack_params": {
+      "seed": 20231330,
+      "std": 0.02
+    },
+    "attacked_tensor_sha256": "bd519fe7ecd94ff1b0b4d57ba23a56504e0f44129c0af88f55cc92fd3ff7cf48",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "noise_0.05",
+    "attack_params": {
+      "seed": 20231630,
+      "std": 0.05
+    },
+    "attacked_tensor_sha256": "e66adf6af5e4e43f926d1bae699e5ff46b462d28c5daaf52754554ae037b3114",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "brightness_0.7",
+    "attack_params": {
+      "factor": 0.7,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "2a03b84832e7c1f5d3c43b5f05a60bdd75a0eb0390d83fc30ecd33ba89e3e2cf",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "brightness_1.3",
+    "attack_params": {
+      "factor": 1.3,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "597424ab9b5f5b70ce64001c898059f54079957ca69311bf7167bff6dbed9b24",
+    "bch_corrections": 1,
+    "bch_success": true,
+    "bits": "0101001101110100011101010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 99,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "contrast_0.5",
+    "attack_params": {
+      "factor": 0.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "19d92b96f5011bda289a890ee5361cc2892086f0ffc231d46dfe07b62252e652",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "contrast_1.5",
+    "attack_params": {
+      "factor": 1.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "4964417d288a199bf3bdb977482071656bbf7cd42e40dc9048d44f745aadeeb1",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "saturation_0",
+    "attack_params": {
+      "factor": 0,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "f89056ad7373eaff48143d8d5be9ec5de0e14d15fdd5c9914a81dff326047889",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "saturation_1.5",
+    "attack_params": {
+      "factor": 1.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "e672630b8a086e310c1362430ca34d29b28a6f4db8ac718cb519a6f9502ca01b",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "hue_0.05",
+    "attack_params": {
+      "space": "float32 HSV",
+      "turns": 0.05
+    },
+    "attacked_tensor_sha256": "5b2ba409bd744150b760638c6bbde216d2bf42f8f0ff4cb4c0e47db976750c1e",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "resize_0.5",
+    "attack_params": {
+      "resampling": "Lanczos",
+      "scale": 0.5
+    },
+    "attacked_tensor_sha256": "afae9f6a48591f4de69356861f3911c700b211c3af25306edef3fb8d62b4670d",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "rotation_5",
+    "attack_params": {
+      "degrees_ccw": 5,
+      "fill": "black",
+      "resampling": "bicubic"
+    },
+    "attacked_tensor_sha256": "3670aeedd973c4cd970577ef31c9558a0c60db09df83a4b9dfe0ca42c88bb93f",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0101011101110100011101010110011001110001001000010010000110010000101010011111101101001110011000000001",
+    "exact_secret": false,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 92,
+    "recovered_secret": null
+  },
+  {
+    "attack": "rotation_10",
+    "attack_params": {
+      "degrees_ccw": 10,
+      "fill": "black",
+      "resampling": "bicubic"
+    },
+    "attacked_tensor_sha256": "2d7c61daf99f80eb5bb9ed53d5cd9a2e73294f81d060466e34b3a399b8c4ee6a",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0001011011111101110101010010000001010111100000000000010100010100110000011101100100001010011010001100",
+    "exact_secret": false,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 63,
+    "recovered_secret": null
+  },
+  {
+    "attack": "perspective_moderate",
+    "attack_params": {
+      "destination_corners": [
+        [
+          20.0,
+          15.0
+        ],
+        [
+          380.0,
+          0.0
+        ],
+        [
+          399.0,
+          380.0
+        ],
+        [
+          10.0,
+          399.0
+        ]
+      ],
+      "fill": "white",
+      "matrix_source_to_destination": [
+        [
+          0.9087149210376884,
+          -0.0269393833346027,
+          20.0
+        ],
+        [
+          -0.03759398496240601,
+          0.8875246199869464,
+          15.0
+        ],
+        [
+          1.6998110368273954e-05,
+          -0.00018767266929986849,
+          1.0
+        ]
+      ],
+      "resampling": "bilinear",
+      "source_corners": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          399.0,
+          0.0
+        ],
+        [
+          399.0,
+          399.0
+        ],
+        [
+          0.0,
+          399.0
+        ]
+      ]
+    },
+    "attacked_tensor_sha256": "15942744099585ccc30303e44073ce031568ac15c84edf03f33cfc06172999a2",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "crop_0.9",
+    "attack_params": {
+      "box": [
+        20,
+        20,
+        380,
+        380
+      ],
+      "resampling": "Lanczos"
+    },
+    "attacked_tensor_sha256": "7f4a96e925ff44bb7a62c6cd5efe25b2840411b19490e80327e5be6ce198d280",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0101001100010100011001010111011101000011001100010010100111001000101100011111101101001111010000000100",
+    "exact_secret": false,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 88,
+    "recovered_secret": null
+  },
+  {
+    "attack": "horizontal_flip",
+    "attack_params": {
+      "axis": "horizontal"
+    },
+    "attacked_tensor_sha256": "473adf6bcb3b0a8aba555783b5be8b3f0104fdb90ac3cb5fb9d9bafde4ed2645",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "1111100111100000111110010101010001000010100010010101101100110100100011010101111001011101000010001101",
+    "exact_secret": false,
+    "image": "airplane",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 55,
+    "recovered_secret": null
+  },
+  {
+    "attack": "clean",
+    "attack_params": {},
+    "attacked_tensor_sha256": "6e6ae66046bcbf58cf1a995e8e7ddb7be157383b7f466b7c32d9d1cd9a7ded2d",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_90",
+    "attack_params": {
+      "quality": 90,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "e9b6cd29bee0f9c9a8ddd9fa3d1763f6865d07b34e8da924c7f0fa603f7d94ba",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_70",
+    "attack_params": {
+      "quality": 70,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "ae003dbe28a9d17b00015d34086a1541d0862bb8ea2f27816d4c54307e0ed73d",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_50",
+    "attack_params": {
+      "quality": 50,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "f63e4d1b2c1f3364a4565858d5939d0e6525a790d61c1c6bc97fac0572711246",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "jpeg_30",
+    "attack_params": {
+      "quality": 30,
+      "subsampling": "4:2:0"
+    },
+    "attacked_tensor_sha256": "14f0d2e950fcca59d18af19596a113795fcc4dac077403aac9596dba409789d4",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "blur_1",
+    "attack_params": {
+      "border": "reflect101",
+      "kernel": "OpenCV automatic",
+      "sigma_px": 1
+    },
+    "attacked_tensor_sha256": "fd56e2e599f818d904f7c07420fa45bb165e775d841cbdfeae22a9265134ff9b",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "blur_2",
+    "attack_params": {
+      "border": "reflect101",
+      "kernel": "OpenCV automatic",
+      "sigma_px": 2
+    },
+    "attacked_tensor_sha256": "f09b76b31e24d7ff6f2933ec8eb5924f01c63c0eb5b74825783a484ad76f3122",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "noise_0.02",
+    "attack_params": {
+      "seed": 20231330,
+      "std": 0.02
+    },
+    "attacked_tensor_sha256": "2c14c20970860f6b4816a47bbbb6cdba48c2c24e2fa7a986be9a87defd0243c5",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "noise_0.05",
+    "attack_params": {
+      "seed": 20231630,
+      "std": 0.05
+    },
+    "attacked_tensor_sha256": "060dc8a5c3e43936700f0686788a830a6582ef390295f16e36a63a65ea0e4905",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "brightness_0.7",
+    "attack_params": {
+      "factor": 0.7,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "7a3fa461cfd87156b84e4713a029f5987227187254e4cac2c4e368bc133f9c67",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "brightness_1.3",
+    "attack_params": {
+      "factor": 1.3,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "e4d604fa2cb9581300f09b9c76c8a326b84897b9c27152d771f74ef3cdd20bd6",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "contrast_0.5",
+    "attack_params": {
+      "factor": 0.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "da4beb837c22d600ae5d2d0ecd988a258e97574bf19ff59869e6f87a475d1d94",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "contrast_1.5",
+    "attack_params": {
+      "factor": 1.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "016130a00872c3131d4b38040f9a274f084e38240301c15d663af9588d65b940",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "saturation_0",
+    "attack_params": {
+      "factor": 0,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "dfe5b75829633673d055ef802fa32bf8f1aab83caaebb0e8e537c204233534e0",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "saturation_1.5",
+    "attack_params": {
+      "factor": 1.5,
+      "implementation": "Pillow ImageEnhance, uint8"
+    },
+    "attacked_tensor_sha256": "4887e173182a7e74348a045b20bfdb46a5ca3f82b82cb8eba0f934113b7a4cba",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "hue_0.05",
+    "attack_params": {
+      "space": "float32 HSV",
+      "turns": 0.05
+    },
+    "attacked_tensor_sha256": "c1be8aed7f090b1f83b857c91dc22d3c73bc272216069d41ee7b09087708f981",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "resize_0.5",
+    "attack_params": {
+      "resampling": "Lanczos",
+      "scale": 0.5
+    },
+    "attacked_tensor_sha256": "aafd1f5a2ec4a1f8f121b720a7860b103e0781204d622d8193ad790be1473e23",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "rotation_5",
+    "attack_params": {
+      "degrees_ccw": 5,
+      "fill": "black",
+      "resampling": "bicubic"
+    },
+    "attacked_tensor_sha256": "52c976fe561fe32924d3521521d0f965413a2bfe00c22fb5e8410a8fb2044fe1",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0001011101110100011101010110010001100101001000010010000110111000101010011111101100001110010000001000",
+    "exact_secret": false,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 90,
+    "recovered_secret": null
+  },
+  {
+    "attack": "rotation_10",
+    "attack_params": {
+      "degrees_ccw": 10,
+      "fill": "black",
+      "resampling": "bicubic"
+    },
+    "attacked_tensor_sha256": "3abb913a5fc2da45b0cbf062e09f1f1c089c6aadc4089b83a6167dca8c8b4614",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0001111011101000101101010010110011010101100100010100010110110100110001001001100100000011011000001010",
+    "exact_secret": false,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 56,
+    "recovered_secret": null
+  },
+  {
+    "attack": "perspective_moderate",
+    "attack_params": {
+      "destination_corners": [
+        [
+          20.0,
+          15.0
+        ],
+        [
+          380.0,
+          0.0
+        ],
+        [
+          399.0,
+          380.0
+        ],
+        [
+          10.0,
+          399.0
+        ]
+      ],
+      "fill": "white",
+      "matrix_source_to_destination": [
+        [
+          0.9087149210376884,
+          -0.0269393833346027,
+          20.0
+        ],
+        [
+          -0.03759398496240601,
+          0.8875246199869464,
+          15.0
+        ],
+        [
+          1.6998110368273954e-05,
+          -0.00018767266929986849,
+          1.0
+        ]
+      ],
+      "resampling": "bilinear",
+      "source_corners": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          399.0,
+          0.0
+        ],
+        [
+          399.0,
+          399.0
+        ],
+        [
+          0.0,
+          399.0
+        ]
+      ]
+    },
+    "attacked_tensor_sha256": "beb406b1ef25ca76d10e1ade89b2948666b87cd92ac057cb66b95f196fe624e1",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "crop_0.9",
+    "attack_params": {
+      "box": [
+        20,
+        20,
+        380,
+        380
+      ],
+      "resampling": "Lanczos"
+    },
+    "attacked_tensor_sha256": "757ba6b470bd2d902fd2811fd62467217fca039f4aa92061212822b9bbe338ba",
+    "bch_corrections": 0,
+    "bch_success": true,
+    "bits": "0101001101110100011001010110011101100001001000010010000110001000101010011111101101001110010000000000",
+    "exact_secret": true,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 100,
+    "recovered_secret": "Stega!!"
+  },
+  {
+    "attack": "horizontal_flip",
+    "attack_params": {
+      "axis": "horizontal"
+    },
+    "attacked_tensor_sha256": "66e650c3c7c065b914eafc972e424909e1da897f236166fe3997377f0b37de5a",
+    "bch_corrections": -1,
+    "bch_success": false,
+    "bits": "0111101011100100111111010001010001000010110010110011101100110000100011010001111100011101100000001101",
+    "exact_secret": false,
+    "image": "boat",
+    "label": "community mirror (Gu-f), original identity unverified; M1/M3 byte-identical (3/3)",
+    "raw_bits_correct": 57,
+    "recovered_secret": null
+  }
+]

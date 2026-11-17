@@ -1,0 +1,75 @@
+{
+  "label": "community mirror (Gu-f), original identity unverified",
+  "downloads": [
+    {
+      "url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/saved_model.pb",
+      "requested_url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/saved_model.pb",
+      "path": "weights/m1/saved_models/stegastamp_pretrained/saved_model.pb",
+      "size": 241765,
+      "sha256": "42c4be663021a1d98f82eed425ac6643aa149d57e8bb5a60be2247e19937f095"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/variables/variables.data-00000-of-00001",
+      "requested_url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/variables/variables.data-00000-of-00001",
+      "path": "weights/m1/saved_models/stegastamp_pretrained/variables/variables.data-00000-of-00001",
+      "size": 217018916,
+      "sha256": "1ca5cd940906f57454fcf3d05d4f81edd87066903f7ced2ba57399614bca3bf0"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/variables/variables.index",
+      "requested_url": "https://media.githubusercontent.com/media/Gu-f/StegaStamp/d95ea307c73410c96557200656d2e0a59574eedb/saved_models/stegastamp_pretrained/variables/variables.index",
+      "path": "weights/m1/saved_models/stegastamp_pretrained/variables/variables.index",
+      "size": 2416,
+      "sha256": "8c038f8fa37dba430c59dd91a654f2aedffff27acf0efed657d2d15f46d5149c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.001",
+      "requested_url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.001",
+      "path": "weights/m3/stegastamp_pretrained.zip.001",
+      "size": 100000000,
+      "sha256": "b01fc5b39042965fccfac8149539e7fccca115ae565f2c426ef45e2d531cdb05"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.002",
+      "requested_url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.002",
+      "path": "weights/m3/stegastamp_pretrained.zip.002",
+      "size": 100000000,
+      "sha256": "23f3054b3cb76337d2c9748ff2410aba09c282c370eadaf1d2df24aa88a1462b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.003",
+      "requested_url": "https://raw.githubusercontent.com/ytfrdfiw/StegaStamp/84e34ef46e27b5fe847d474853a133b730a1ec03/saved_models/stegastamp_pretrained.zip.003",
+      "path": "weights/m3/stegastamp_pretrained.zip.003",
+      "size": 17264075,
+      "sha256": "0a48d3c68f5836e181b01d828abe28e20a716e9153593dce226b65c80e10bdab"
+    }
+  ],
+  "archive_sha256": "cd4aeb5dcd7c97be8d0907143d7e5103ea9f3b9e509490f0cf20f67bf6d8bcde",
+  "archive_size": 217264075,
+  "cross_check": [
+    {
+      "file": "saved_model.pb",
+      "m1_sha256": "42c4be663021a1d98f82eed425ac6643aa149d57e8bb5a60be2247e19937f095",
+      "m3_sha256": "42c4be663021a1d98f82eed425ac6643aa149d57e8bb5a60be2247e19937f095",
+      "m3_size": 241765,
+      "cmp_exit": 0,
+      "identical": true
+    },
+    {
+      "file": "variables/variables.data-00000-of-00001",
+      "m1_sha256": "1ca5cd940906f57454fcf3d05d4f81edd87066903f7ced2ba57399614bca3bf0",
+      "m3_sha256": "1ca5cd940906f57454fcf3d05d4f81edd87066903f7ced2ba57399614bca3bf0",
+      "m3_size": 217018916,
+      "cmp_exit": 0,
+      "identical": true
+    },
+    {
+      "file": "variables/variables.index",
+      "m1_sha256": "8c038f8fa37dba430c59dd91a654f2aedffff27acf0efed657d2d15f46d5149c",
+      "m3_sha256": "8c038f8fa37dba430c59dd91a654f2aedffff27acf0efed657d2d15f46d5149c",
+      "m3_size": 2416,
+      "cmp_exit": 0,
+      "identical": true
+    }
+  ]
+}

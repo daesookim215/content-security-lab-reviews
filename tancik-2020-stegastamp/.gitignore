@@ -1,0 +1,9 @@
+/.cache/
+/env/
+/run-output/
+/outputs/
+/downloads/
+/weights/
+/inputs/
+__pycache__/
+*.pyc

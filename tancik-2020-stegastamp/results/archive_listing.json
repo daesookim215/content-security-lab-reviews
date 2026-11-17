@@ -1,0 +1,27 @@
+[
+  {
+    "name": "stegastamp_pretrained/",
+    "size": 0,
+    "external_attr": 16
+  },
+  {
+    "name": "stegastamp_pretrained/saved_model.pb",
+    "size": 241765,
+    "external_attr": 32
+  },
+  {
+    "name": "stegastamp_pretrained/variables/",
+    "size": 0,
+    "external_attr": 16
+  },
+  {
+    "name": "stegastamp_pretrained/variables/variables.data-00000-of-00001",
+    "size": 217018916,
+    "external_attr": 32
+  },
+  {
+    "name": "stegastamp_pretrained/variables/variables.index",
+    "size": 2416,
+    "external_attr": 32
+  }
+]
