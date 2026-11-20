@@ -6,6 +6,7 @@ implementations of the cited methods; we did not find the authors' experimental
 code. `bui-2023-trustmark` tests the authors' released TrustMark package instead.
 `zhu-2018-hidden` tests released checkpoints of a public PyTorch re-implementation of HiDDeN.
 `tancik-2020-stegastamp` tests the released StegaStamp SavedModel from a community mirror; original identity is unverified.
+`fernandez-2023-stable-signature` tests the authors' released watermarked decoder and extractor with an SD 2.1 base VAE from a community mirror.
 The numeric results describe our stated settings and are not the papers' original
 results.
 
@@ -20,6 +21,7 @@ results.
 | TrustMark: Universal Watermarking for Arbitrary Resolution Images | T. Bui, S. Agarwal, J. Collomosse | 2023 | [10.48550/arXiv.2311.18297](https://doi.org/10.48550/arXiv.2311.18297) | [bui-2023-trustmark](bui-2023-trustmark/) | [Blog post](https://chickendays.com/bui-2023-trustmark/) |
 | HiDDeN: Hiding Data With Deep Networks | J. Zhu, R. Kaplan, J. Johnson, L. Fei-Fei | 2018 | [10.48550/arXiv.1807.09937](https://doi.org/10.48550/arXiv.1807.09937) | [zhu-2018-hidden](zhu-2018-hidden/) | [Blog post](https://chickendays.com/zhu-2018-hidden/) |
 | StegaStamp: Invisible Hyperlinks in Physical Photographs | M. Tancik, B. Mildenhall, R. Ng | 2020 | [10.48550/arXiv.1904.05343](https://doi.org/10.48550/arXiv.1904.05343) | [tancik-2020-stegastamp](tancik-2020-stegastamp/) | [Blog post](https://chickendays.com/tancik-2020-stegastamp/) |
+| The Stable Signature: Rooting Watermarks in Latent Diffusion Models | P. Fernandez, G. Couairon, H. Jégou, M. Douze, T. Furon | 2023 | [10.48550/arXiv.2303.15435](https://doi.org/10.48550/arXiv.2303.15435) | [fernandez-2023-stable-signature](fernandez-2023-stable-signature/) | [Blog post](https://chickendays.com/fernandez-2023-stable-signature/) |
 | Overwrite, cross-method and copy tests on TrustMark and Video Seal (our experiment) | - | 2026 | - | [wm-overwrite-copy-tests](wm-overwrite-copy-tests/) | [Blog post](https://chickendays.com/wm-overwrite-copy-tests/) |
 
 ## Quick start
@@ -43,6 +45,11 @@ and run `sh reproduce.sh` inside that folder.
 
 HiDDeN uses uv and CPU PyTorch: see [zhu-2018-hidden/README.md](zhu-2018-hidden/README.md)
 and run `uv run reproduce.py` inside that folder.
+
+Stable Signature uses uv and CPU PyTorch: see
+[fernandez-2023-stable-signature/README.md](fernandez-2023-stable-signature/README.md)
+and run `uv run reproduce.py` inside that folder. Its `code/stable_signature/` file
+keeps the official repository's license, not the MIT license.
 
 StegaStamp uses micromamba or conda, Python 3.7 and TensorFlow 1.15.5 on CPU: see
 [tancik-2020-stegastamp/README.md](tancik-2020-stegastamp/README.md)

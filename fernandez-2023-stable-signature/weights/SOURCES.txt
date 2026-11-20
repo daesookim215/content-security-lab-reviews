@@ -1,0 +1,2 @@
+mirror: sd2-community/stable-diffusion-2-1-base @ 4e63672c03103b6c636b8fb4119ba982469b2955 (license openrail++, created 2025-11-15); original stabilityai/stable-diffusion-2-1-base returned HTTP 401 on 2026-11-19
+meta: https://dl.fbaipublicfiles.com/ssl_watermarking/{dec_48b_whit.torchscript.pt,sd2_decoder.pth}

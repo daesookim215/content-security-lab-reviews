@@ -1,0 +1,38 @@
+[
+  {
+    "image": "Airplane",
+    "comparison": "watermarked_vs_plain",
+    "psnr_db": 31.181232693117153,
+    "ssim": 0.9076733523919559
+  },
+  {
+    "image": "Airplane",
+    "comparison": "watermarked_vs_original",
+    "psnr_db": 27.17358780710449,
+    "ssim": 0.820522583444883
+  },
+  {
+    "image": "Airplane",
+    "comparison": "plain_vs_original",
+    "psnr_db": 28.197729012722817,
+    "ssim": 0.8322266943931368
+  },
+  {
+    "image": "Boat",
+    "comparison": "watermarked_vs_plain",
+    "psnr_db": 31.75413937158375,
+    "ssim": 0.8962401328882589
+  },
+  {
+    "image": "Boat",
+    "comparison": "watermarked_vs_original",
+    "psnr_db": 27.27203790963565,
+    "ssim": 0.7617377723164188
+  },
+  {
+    "image": "Boat",
+    "comparison": "plain_vs_original",
+    "psnr_db": 27.95999420545889,
+    "ssim": 0.7706836612137451
+  }
+]

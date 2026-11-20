@@ -1,0 +1,4946 @@
+{
+  "mirror_revision": "4e63672c03103b6c636b8fb4119ba982469b2955",
+  "keys_identical_after_documented_mapping": true,
+  "shapes_identical_after_attention_reshape": true,
+  "tensor_count": 140,
+  "parameters": 49490199,
+  "overall_relative_l2": 0.03408937782222897,
+  "overall_difference_l2": 12.907422519513027,
+  "overall_reference_l2": 378.6347344566778,
+  "largest_relative_changes": [
+    {
+      "tensor": "decoder.up.1.block.0.nin_shortcut.weight",
+      "shape": [
+        256,
+        512,
+        1,
+        1
+      ],
+      "parameters": 131072,
+      "difference_l2": 0.6485094705711583,
+      "reference_l2": 5.948329779048269,
+      "relative_l2": 0.10902379233501738
+    },
+    {
+      "tensor": "decoder.conv_out.weight",
+      "shape": [
+        3,
+        128,
+        3,
+        3
+      ],
+      "parameters": 3456,
+      "difference_l2": 0.07725024502963496,
+      "reference_l2": 0.931926511778845,
+      "relative_l2": 0.08289306512182065
+    },
+    {
+      "tensor": "decoder.up.3.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.969076152032834,
+      "reference_l2": 42.77780980659411,
+      "relative_l2": 0.06940692301584729
+    },
+    {
+      "tensor": "decoder.up.2.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 3.0033952678519307,
+      "reference_l2": 55.12883474813749,
+      "relative_l2": 0.054479571018928516
+    },
+    {
+      "tensor": "decoder.up.1.upsample.conv.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.6865719183580963,
+      "reference_l2": 30.979429687680252,
+      "relative_l2": 0.05444167098495051
+    },
+    {
+      "tensor": "decoder.up.0.block.0.nin_shortcut.weight",
+      "shape": [
+        128,
+        256,
+        1,
+        1
+      ],
+      "parameters": 32768,
+      "difference_l2": 0.3026459162370391,
+      "reference_l2": 5.910169139814751,
+      "relative_l2": 0.0512076573575905
+    },
+    {
+      "tensor": "decoder.mid.attn_1.proj_out.weight",
+      "shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "parameters": 262144,
+      "difference_l2": 0.982081961904908,
+      "reference_l2": 19.533026530072483,
+      "relative_l2": 0.050278023244013065
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7298999681692218,
+      "reference_l2": 64.34999736867302,
+      "relative_l2": 0.04242268966273799
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.844181381217414,
+      "reference_l2": 67.75973686111232,
+      "relative_l2": 0.04197450452098354
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.81289866980714,
+      "reference_l2": 67.963587641163,
+      "relative_l2": 0.041388319355046416
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.787246079099441,
+      "reference_l2": 68.49540896274836,
+      "relative_l2": 0.040692451089901535
+    },
+    {
+      "tensor": "decoder.up.1.block.1.conv1.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.5996436922369837,
+      "reference_l2": 40.234541211291784,
+      "relative_l2": 0.03975797024343961
+    },
+    {
+      "tensor": "decoder.up.1.block.2.conv1.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.635933726952646,
+      "reference_l2": 41.60890430907871,
+      "relative_l2": 0.039316914350847235
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7162223671226586,
+      "reference_l2": 69.82341294570287,
+      "relative_l2": 0.03890131193149909
+    },
+    {
+      "tensor": "decoder.up.0.block.0.conv1.weight",
+      "shape": [
+        128,
+        256,
+        3,
+        3
+      ],
+      "parameters": 294912,
+      "difference_l2": 1.1027727078880853,
+      "reference_l2": 29.518719298137984,
+      "relative_l2": 0.03735841981320807
+    }
+  ],
+  "largest_absolute_changes": [
+    {
+      "tensor": "decoder.up.2.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 3.0033952678519307,
+      "reference_l2": 55.12883474813749,
+      "relative_l2": 0.054479571018928516
+    },
+    {
+      "tensor": "decoder.up.3.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.969076152032834,
+      "reference_l2": 42.77780980659411,
+      "relative_l2": 0.06940692301584729
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8463505445103405,
+      "reference_l2": 90.45150943049278,
+      "relative_l2": 0.031468248152316476
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.844181381217414,
+      "reference_l2": 67.75973686111232,
+      "relative_l2": 0.04197450452098354
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.83096197000366,
+      "reference_l2": 84.23191398010309,
+      "relative_l2": 0.03360913739503032
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.81289866980714,
+      "reference_l2": 67.963587641163,
+      "relative_l2": 0.041388319355046416
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8098790226617294,
+      "reference_l2": 83.37611572150563,
+      "relative_l2": 0.03370124643425867
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8036819135059976,
+      "reference_l2": 85.76638474173402,
+      "relative_l2": 0.032689752773754535
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.787246079099441,
+      "reference_l2": 68.49540896274836,
+      "relative_l2": 0.040692451089901535
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.783808648159051,
+      "reference_l2": 92.68732386095948,
+      "relative_l2": 0.03003440526921513
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7385772289715544,
+      "reference_l2": 80.96749756666289,
+      "relative_l2": 0.03382316745947106
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7298999681692218,
+      "reference_l2": 64.34999736867302,
+      "relative_l2": 0.04242268966273799
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7162223671226586,
+      "reference_l2": 69.82341294570287,
+      "relative_l2": 0.03890131193149909
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7153644622142115,
+      "reference_l2": 81.61995972596803,
+      "relative_l2": 0.03326838767540211
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.681811430103701,
+      "reference_l2": 83.93827531857679,
+      "relative_l2": 0.03194980382817297
+    }
+  ],
+  "largest_changed_layers": [
+    {
+      "layer": "decoder.up.1.block.0.nin_shortcut",
+      "relative_l2": 0.10728665875588374,
+      "difference_l2": 0.648873812477413,
+      "reference_l2": 6.048038218375665
+    },
+    {
+      "layer": "decoder.conv_out",
+      "relative_l2": 0.08275986026323899,
+      "difference_l2": 0.07725077323029772,
+      "reference_l2": 0.9334328620732539
+    },
+    {
+      "layer": "decoder.up.3.upsample.conv",
+      "relative_l2": 0.0693442468168945,
+      "difference_l2": 2.969135071888766,
+      "reference_l2": 42.81732383262961
+    },
+    {
+      "layer": "decoder.up.2.upsample.conv",
+      "relative_l2": 0.054463947746369104,
+      "difference_l2": 3.0035219128079773,
+      "reference_l2": 55.14697404593134
+    },
+    {
+      "layer": "decoder.up.1.upsample.conv",
+      "relative_l2": 0.054383073409219114,
+      "difference_l2": 1.6867002969445342,
+      "reference_l2": 31.01517055228809
+    },
+    {
+      "layer": "decoder.up.0.block.0.nin_shortcut",
+      "relative_l2": 0.050915755536597426,
+      "difference_l2": 0.30286796225286144,
+      "reference_l2": 5.948413395047527
+    },
+    {
+      "layer": "decoder.mid.attn_1.proj_out",
+      "relative_l2": 0.05015149544779025,
+      "difference_l2": 0.9822164797407696,
+      "reference_l2": 19.584988861664097
+    },
+    {
+      "layer": "decoder.mid.block_1.conv2",
+      "relative_l2": 0.04241927596883155,
+      "difference_l2": 2.729941459232406,
+      "reference_l2": 64.356154056903
+    },
+    {
+      "layer": "decoder.mid.block_2.conv2",
+      "relative_l2": 0.04196680488563446,
+      "difference_l2": 2.844225831157622,
+      "reference_l2": 67.77322788590992
+    },
+    {
+      "layer": "decoder.up.3.block.0.conv2",
+      "relative_l2": 0.041380670590608196,
+      "difference_l2": 2.8129360597682087,
+      "reference_l2": 67.97705352814259
+    },
+    {
+      "layer": "decoder.up.3.block.1.conv2",
+      "relative_l2": 0.04068886557227116,
+      "difference_l2": 2.787293859511786,
+      "reference_l2": 68.50261909025267
+    },
+    {
+      "layer": "decoder.up.1.block.1.conv1",
+      "relative_l2": 0.03975190388962136,
+      "difference_l2": 1.5998443361764507,
+      "reference_l2": 40.245728622677284
+    },
+    {
+      "layer": "decoder.up.1.block.2.conv1",
+      "relative_l2": 0.03931457609103464,
+      "difference_l2": 1.6360957055703256,
+      "reference_l2": 41.615499090766576
+    },
+    {
+      "layer": "decoder.up.3.block.2.conv2",
+      "relative_l2": 0.03889587659277544,
+      "difference_l2": 2.7162526265415203,
+      "reference_l2": 69.83394808091404
+    },
+    {
+      "layer": "decoder.up.0.block.0.conv1",
+      "relative_l2": 0.03735400849315773,
+      "difference_l2": 1.1029205586680617,
+      "reference_l2": 29.52616340680245
+    }
+  ],
+  "per_tensor": [
+    {
+      "tensor": "decoder.conv_in.weight",
+      "shape": [
+        512,
+        4,
+        3,
+        3
+      ],
+      "parameters": 18432,
+      "difference_l2": 0.17755295455755546,
+      "reference_l2": 14.511854277934518,
+      "relative_l2": 0.012235028767311099
+    },
+    {
+      "tensor": "decoder.conv_in.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016731696598330462,
+      "reference_l2": 4.062207749120168,
+      "relative_l2": 0.004118867776261413
+    },
+    {
+      "tensor": "decoder.mid.block_1.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.026244179299940867,
+      "reference_l2": 25.30007270512291,
+      "relative_l2": 0.0010373163589615607
+    },
+    {
+      "tensor": "decoder.mid.block_1.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.020250022448937435,
+      "reference_l2": 3.9307524300676873,
+      "relative_l2": 0.0051516911352742535
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.47077410807643,
+      "reference_l2": 84.28522164588848,
+      "relative_l2": 0.029314440418238573
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.015859865620504204,
+      "reference_l2": 1.3089110472466174,
+      "relative_l2": 0.012116839913504054
+    },
+    {
+      "tensor": "decoder.mid.block_1.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.02477002259751446,
+      "reference_l2": 18.280230626920176,
+      "relative_l2": 0.0013550169635735978
+    },
+    {
+      "tensor": "decoder.mid.block_1.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.0168982314127171,
+      "reference_l2": 4.857114604073621,
+      "relative_l2": 0.003479067880865874
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7298999681692218,
+      "reference_l2": 64.34999736867302,
+      "relative_l2": 0.04242268966273799
+    },
+    {
+      "tensor": "decoder.mid.block_1.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.015051067259210809,
+      "reference_l2": 0.89017057219812,
+      "relative_l2": 0.016908071025134926
+    },
+    {
+      "tensor": "decoder.mid.attn_1.norm.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.034017101476270226,
+      "reference_l2": 17.638244811486427,
+      "relative_l2": 0.001928599009699509
+    },
+    {
+      "tensor": "decoder.mid.attn_1.norm.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.01532378073794459,
+      "reference_l2": 2.0211603108028355,
+      "relative_l2": 0.007581675068544044
+    },
+    {
+      "tensor": "decoder.mid.attn_1.q.weight",
+      "shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "parameters": 262144,
+      "difference_l2": 0.9105427827986525,
+      "reference_l2": 29.319821254766783,
+      "relative_l2": 0.031055536624413002
+    },
+    {
+      "tensor": "decoder.mid.attn_1.q.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03055713588671976,
+      "reference_l2": 4.4527927666127205,
+      "relative_l2": 0.006862465308477593
+    },
+    {
+      "tensor": "decoder.mid.attn_1.k.weight",
+      "shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "parameters": 262144,
+      "difference_l2": 0.8982709174624585,
+      "reference_l2": 29.886569380502966,
+      "relative_l2": 0.03005600629587354
+    },
+    {
+      "tensor": "decoder.mid.attn_1.k.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.0024116790737556404,
+      "reference_l2": 9.360341060149507,
+      "relative_l2": 0.0002576486324865944
+    },
+    {
+      "tensor": "decoder.mid.attn_1.v.weight",
+      "shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "parameters": 262144,
+      "difference_l2": 0.7421135332008099,
+      "reference_l2": 21.672833462582396,
+      "relative_l2": 0.034241647935977094
+    },
+    {
+      "tensor": "decoder.mid.attn_1.v.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016043303766321192,
+      "reference_l2": 0.9731894621100584,
+      "relative_l2": 0.016485283072770106
+    },
+    {
+      "tensor": "decoder.mid.attn_1.proj_out.weight",
+      "shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "parameters": 262144,
+      "difference_l2": 0.982081961904908,
+      "reference_l2": 19.533026530072483,
+      "relative_l2": 0.050278023244013065
+    },
+    {
+      "tensor": "decoder.mid.attn_1.proj_out.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016255250701125223,
+      "reference_l2": 1.4257150090362547,
+      "relative_l2": 0.011401472663259214
+    },
+    {
+      "tensor": "decoder.mid.block_2.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03371982870407774,
+      "reference_l2": 23.1560184767074,
+      "relative_l2": 0.0014562014941384015
+    },
+    {
+      "tensor": "decoder.mid.block_2.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.02136969680262048,
+      "reference_l2": 5.093617774572717,
+      "relative_l2": 0.004195386805287545
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7153644622142115,
+      "reference_l2": 81.61995972596803,
+      "relative_l2": 0.03326838767540211
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.01933066830673233,
+      "reference_l2": 0.7292994867979362,
+      "relative_l2": 0.026505802700623853
+    },
+    {
+      "tensor": "decoder.mid.block_2.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03263286041053516,
+      "reference_l2": 16.058847410647484,
+      "relative_l2": 0.0020320798607812054
+    },
+    {
+      "tensor": "decoder.mid.block_2.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.020035163483589014,
+      "reference_l2": 3.3751123716352014,
+      "relative_l2": 0.005936147090084061
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.844181381217414,
+      "reference_l2": 67.75973686111232,
+      "relative_l2": 0.04197450452098354
+    },
+    {
+      "tensor": "decoder.mid.block_2.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.015901237702375254,
+      "reference_l2": 1.3522124789745964,
+      "relative_l2": 0.011759422390801636
+    },
+    {
+      "tensor": "decoder.up.0.block.0.norm1.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.03413162688233222,
+      "reference_l2": 17.192723731379477,
+      "relative_l2": 0.0019852367440789226
+    },
+    {
+      "tensor": "decoder.up.0.block.0.norm1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02611374990594049,
+      "reference_l2": 3.8902033445335493,
+      "relative_l2": 0.006712695351165925
+    },
+    {
+      "tensor": "decoder.up.0.block.0.conv1.weight",
+      "shape": [
+        128,
+        256,
+        3,
+        3
+      ],
+      "parameters": 294912,
+      "difference_l2": 1.1027727078880853,
+      "reference_l2": 29.518719298137984,
+      "relative_l2": 0.03735841981320807
+    },
+    {
+      "tensor": "decoder.up.0.block.0.conv1.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.018058612068733798,
+      "reference_l2": 0.6629755070408793,
+      "relative_l2": 0.02723873186407217
+    },
+    {
+      "tensor": "decoder.up.0.block.0.norm2.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.02825994570814131,
+      "reference_l2": 16.175716677916146,
+      "relative_l2": 0.001747059884321733
+    },
+    {
+      "tensor": "decoder.up.0.block.0.norm2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.017208237130310115,
+      "reference_l2": 1.7022883267634576,
+      "relative_l2": 0.01010888511644085
+    },
+    {
+      "tensor": "decoder.up.0.block.0.conv2.weight",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "difference_l2": 0.7939251885061726,
+      "reference_l2": 33.392894834297095,
+      "relative_l2": 0.02377527292694462
+    },
+    {
+      "tensor": "decoder.up.0.block.0.conv2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.011601122753613075,
+      "reference_l2": 0.5783176914775929,
+      "relative_l2": 0.020060120803104573
+    },
+    {
+      "tensor": "decoder.up.0.block.0.nin_shortcut.weight",
+      "shape": [
+        128,
+        256,
+        1,
+        1
+      ],
+      "parameters": 32768,
+      "difference_l2": 0.3026459162370391,
+      "reference_l2": 5.910169139814751,
+      "relative_l2": 0.0512076573575905
+    },
+    {
+      "tensor": "decoder.up.0.block.0.nin_shortcut.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.011595341488881803,
+      "reference_l2": 0.6734409084412799,
+      "relative_l2": 0.017218053348912125
+    },
+    {
+      "tensor": "decoder.up.0.block.1.norm1.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.02189789233869314,
+      "reference_l2": 10.99637661461551,
+      "relative_l2": 0.0019913734411013354
+    },
+    {
+      "tensor": "decoder.up.0.block.1.norm1.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.015705178848707986,
+      "reference_l2": 0.9505697610276479,
+      "relative_l2": 0.016521858250287
+    },
+    {
+      "tensor": "decoder.up.0.block.1.conv1.weight",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "difference_l2": 0.7855190958266164,
+      "reference_l2": 22.601621744759864,
+      "relative_l2": 0.03475498814631464
+    },
+    {
+      "tensor": "decoder.up.0.block.1.conv1.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.01764615900372677,
+      "reference_l2": 0.6723462778156531,
+      "relative_l2": 0.02624564095313557
+    },
+    {
+      "tensor": "decoder.up.0.block.1.norm2.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.028370685906767983,
+      "reference_l2": 17.632373231843225,
+      "relative_l2": 0.0016090111939969533
+    },
+    {
+      "tensor": "decoder.up.0.block.1.norm2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.01848848593609423,
+      "reference_l2": 1.895197652387117,
+      "relative_l2": 0.009755439446016013
+    },
+    {
+      "tensor": "decoder.up.0.block.1.conv2.weight",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "difference_l2": 0.7669903671141216,
+      "reference_l2": 31.804301525789295,
+      "relative_l2": 0.024115931817970872
+    },
+    {
+      "tensor": "decoder.up.0.block.1.conv2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.009726814608812407,
+      "reference_l2": 0.5595945207375056,
+      "relative_l2": 0.017381897513923404
+    },
+    {
+      "tensor": "decoder.up.0.block.2.norm1.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.02185291100002766,
+      "reference_l2": 11.590776063449692,
+      "relative_l2": 0.0018853708224886292
+    },
+    {
+      "tensor": "decoder.up.0.block.2.norm1.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.011627161081704116,
+      "reference_l2": 1.1244507472752379,
+      "relative_l2": 0.010340302685447968
+    },
+    {
+      "tensor": "decoder.up.0.block.2.conv1.weight",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "difference_l2": 0.7821402375667857,
+      "reference_l2": 23.582201914142566,
+      "relative_l2": 0.033166548247461396
+    },
+    {
+      "tensor": "decoder.up.0.block.2.conv1.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.01462875258182628,
+      "reference_l2": 0.5999644968302013,
+      "relative_l2": 0.02438269707476779
+    },
+    {
+      "tensor": "decoder.up.0.block.2.norm2.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.02342005742465565,
+      "reference_l2": 15.412631139084287,
+      "relative_l2": 0.0015195366198874148
+    },
+    {
+      "tensor": "decoder.up.0.block.2.norm2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.0170781807449889,
+      "reference_l2": 1.3008375528777179,
+      "relative_l2": 0.013128603727043766
+    },
+    {
+      "tensor": "decoder.up.0.block.2.conv2.weight",
+      "shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "parameters": 147456,
+      "difference_l2": 0.7290463499607197,
+      "reference_l2": 33.804144540900275,
+      "relative_l2": 0.021566774129682022
+    },
+    {
+      "tensor": "decoder.up.0.block.2.conv2.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.009465599597090129,
+      "reference_l2": 0.4898615263614832,
+      "relative_l2": 0.01932301086675908
+    },
+    {
+      "tensor": "decoder.up.1.block.0.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.040506009994080994,
+      "reference_l2": 23.388292390609642,
+      "relative_l2": 0.0017318925776019492
+    },
+    {
+      "tensor": "decoder.up.1.block.0.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.034118142502237,
+      "reference_l2": 6.6640611765953945,
+      "relative_l2": 0.005119722283172021
+    },
+    {
+      "tensor": "decoder.up.1.block.0.conv1.weight",
+      "shape": [
+        256,
+        512,
+        3,
+        3
+      ],
+      "parameters": 1179648,
+      "difference_l2": 2.118699932931942,
+      "reference_l2": 58.62653002601954,
+      "relative_l2": 0.03613892775150812
+    },
+    {
+      "tensor": "decoder.up.1.block.0.conv1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02305917415336878,
+      "reference_l2": 0.9702040849676312,
+      "relative_l2": 0.02376734391315009
+    },
+    {
+      "tensor": "decoder.up.1.block.0.norm2.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.03236757846058521,
+      "reference_l2": 21.005644150908232,
+      "relative_l2": 0.001540899113973885
+    },
+    {
+      "tensor": "decoder.up.1.block.0.norm2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.023799097306434362,
+      "reference_l2": 3.3909494883550306,
+      "relative_l2": 0.0070184169325327945
+    },
+    {
+      "tensor": "decoder.up.1.block.0.conv2.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.5363556361132658,
+      "reference_l2": 50.87546687407473,
+      "relative_l2": 0.030198359455177133
+    },
+    {
+      "tensor": "decoder.up.1.block.0.conv2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.021733379206075692,
+      "reference_l2": 1.0496573425344733,
+      "relative_l2": 0.020705213335238414
+    },
+    {
+      "tensor": "decoder.up.1.block.0.nin_shortcut.weight",
+      "shape": [
+        256,
+        512,
+        1,
+        1
+      ],
+      "parameters": 131072,
+      "difference_l2": 0.6485094705711583,
+      "reference_l2": 5.948329779048269,
+      "relative_l2": 0.10902379233501738
+    },
+    {
+      "tensor": "decoder.up.1.block.0.nin_shortcut.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.021741460357782606,
+      "reference_l2": 1.0936814575644356,
+      "relative_l2": 0.019879152387020958
+    },
+    {
+      "tensor": "decoder.up.1.block.1.norm1.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.03436073180138104,
+      "reference_l2": 15.450622543689285,
+      "relative_l2": 0.002223905975582549
+    },
+    {
+      "tensor": "decoder.up.1.block.1.norm1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02865564723755705,
+      "reference_l2": 3.4322159864764537,
+      "relative_l2": 0.008349022133357992
+    },
+    {
+      "tensor": "decoder.up.1.block.1.conv1.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.5996436922369837,
+      "reference_l2": 40.234541211291784,
+      "relative_l2": 0.03975797024343961
+    },
+    {
+      "tensor": "decoder.up.1.block.1.conv1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02533688777846558,
+      "reference_l2": 0.9488761178618594,
+      "relative_l2": 0.026701997554283697
+    },
+    {
+      "tensor": "decoder.up.1.block.1.norm2.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.03348968963063935,
+      "reference_l2": 23.1416897342295,
+      "relative_l2": 0.0014471583542624306
+    },
+    {
+      "tensor": "decoder.up.1.block.1.norm2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.026190131795461577,
+      "reference_l2": 3.4648054568520004,
+      "relative_l2": 0.0075589039908916
+    },
+    {
+      "tensor": "decoder.up.1.block.1.conv2.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.6500826435409548,
+      "reference_l2": 53.02189049535875,
+      "relative_l2": 0.031120781023177477
+    },
+    {
+      "tensor": "decoder.up.1.block.1.conv2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.021755510578362662,
+      "reference_l2": 0.9002267337534091,
+      "relative_l2": 0.024166701301632253
+    },
+    {
+      "tensor": "decoder.up.1.block.2.norm1.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.03261092336835276,
+      "reference_l2": 14.99024032311014,
+      "relative_l2": 0.00217547702141087
+    },
+    {
+      "tensor": "decoder.up.1.block.2.norm1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02435595559239417,
+      "reference_l2": 2.8200146886024933,
+      "relative_l2": 0.00863681869843883
+    },
+    {
+      "tensor": "decoder.up.1.block.2.conv1.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.635933726952646,
+      "reference_l2": 41.60890430907871,
+      "relative_l2": 0.039316914350847235
+    },
+    {
+      "tensor": "decoder.up.1.block.2.conv1.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.023021702901542374,
+      "reference_l2": 0.7408419342374353,
+      "relative_l2": 0.03107505371606578
+    },
+    {
+      "tensor": "decoder.up.1.block.2.norm2.weight",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.032681703773177584,
+      "reference_l2": 23.52482400288627,
+      "relative_l2": 0.0013892432848453128
+    },
+    {
+      "tensor": "decoder.up.1.block.2.norm2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.02444248579179591,
+      "reference_l2": 3.746948901602393,
+      "relative_l2": 0.0065233037422375885
+    },
+    {
+      "tensor": "decoder.up.1.block.2.conv2.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.6684278672385746,
+      "reference_l2": 60.40698411568467,
+      "relative_l2": 0.02761978422964121
+    },
+    {
+      "tensor": "decoder.up.1.block.2.conv2.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.019057276816179906,
+      "reference_l2": 0.7629023539458398,
+      "relative_l2": 0.02497996856034452
+    },
+    {
+      "tensor": "decoder.up.1.upsample.conv.weight",
+      "shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "parameters": 589824,
+      "difference_l2": 1.6865719183580963,
+      "reference_l2": 30.979429687680252,
+      "relative_l2": 0.05444167098495051
+    },
+    {
+      "tensor": "decoder.up.1.upsample.conv.bias",
+      "shape": [
+        256
+      ],
+      "parameters": 256,
+      "difference_l2": 0.0208099956432183,
+      "reference_l2": 1.4885363998215795,
+      "relative_l2": 0.013980172500795177
+    },
+    {
+      "tensor": "decoder.up.2.block.0.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.030998592134055848,
+      "reference_l2": 22.898075778005545,
+      "relative_l2": 0.0013537640644822719
+    },
+    {
+      "tensor": "decoder.up.2.block.0.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.023153655186415097,
+      "reference_l2": 6.968627505021207,
+      "relative_l2": 0.0033225560083003226
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7385772289715544,
+      "reference_l2": 80.96749756666289,
+      "relative_l2": 0.03382316745947106
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.024117138730276426,
+      "reference_l2": 1.673638740183226,
+      "relative_l2": 0.014410002679333378
+    },
+    {
+      "tensor": "decoder.up.2.block.0.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.030049253659568356,
+      "reference_l2": 24.350807861637204,
+      "relative_l2": 0.0012340146507791477
+    },
+    {
+      "tensor": "decoder.up.2.block.0.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.023462474474302178,
+      "reference_l2": 8.307051893802884,
+      "relative_l2": 0.0028244044667405216
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8036819135059976,
+      "reference_l2": 85.76638474173402,
+      "relative_l2": 0.032689752773754535
+    },
+    {
+      "tensor": "decoder.up.2.block.0.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.02047470523213102,
+      "reference_l2": 1.5612130245190479,
+      "relative_l2": 0.013114613387521873
+    },
+    {
+      "tensor": "decoder.up.2.block.1.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.033231642949237625,
+      "reference_l2": 22.761484214022396,
+      "relative_l2": 0.0014599945520584728
+    },
+    {
+      "tensor": "decoder.up.2.block.1.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.025850619122962205,
+      "reference_l2": 7.227707375121722,
+      "relative_l2": 0.0035766001279938166
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.83096197000366,
+      "reference_l2": 84.23191398010309,
+      "relative_l2": 0.03360913739503032
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.025154699720826602,
+      "reference_l2": 1.6088577935376378,
+      "relative_l2": 0.015635129358148665
+    },
+    {
+      "tensor": "decoder.up.2.block.1.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03403463672304396,
+      "reference_l2": 26.119210621848858,
+      "relative_l2": 0.0013030499740514288
+    },
+    {
+      "tensor": "decoder.up.2.block.1.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.025038241493166354,
+      "reference_l2": 9.461266596865059,
+      "relative_l2": 0.0026463942471996976
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8463505445103405,
+      "reference_l2": 90.45150943049278,
+      "relative_l2": 0.031468248152316476
+    },
+    {
+      "tensor": "decoder.up.2.block.1.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.022935225642381627,
+      "reference_l2": 1.1896092868197348,
+      "relative_l2": 0.01927962894749751
+    },
+    {
+      "tensor": "decoder.up.2.block.2.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03585881386265816,
+      "reference_l2": 20.949798137152833,
+      "relative_l2": 0.0017116543857797538
+    },
+    {
+      "tensor": "decoder.up.2.block.2.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.026046863751169654,
+      "reference_l2": 5.960131457394503,
+      "relative_l2": 0.00437018276146482
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.8098790226617294,
+      "reference_l2": 83.37611572150563,
+      "relative_l2": 0.03370124643425867
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.026539184524114745,
+      "reference_l2": 1.226985896204394,
+      "relative_l2": 0.021629575862454564
+    },
+    {
+      "tensor": "decoder.up.2.block.2.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.033572961247984326,
+      "reference_l2": 25.845369229726792,
+      "relative_l2": 0.001298993291586232
+    },
+    {
+      "tensor": "decoder.up.2.block.2.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.02583711177128673,
+      "reference_l2": 9.036184019678581,
+      "relative_l2": 0.0028592945556464838
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.783808648159051,
+      "reference_l2": 92.68732386095948,
+      "relative_l2": 0.03003440526921513
+    },
+    {
+      "tensor": "decoder.up.2.block.2.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.025679937553213506,
+      "reference_l2": 1.4062513242525598,
+      "relative_l2": 0.018261271730259678
+    },
+    {
+      "tensor": "decoder.up.2.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 3.0033952678519307,
+      "reference_l2": 55.12883474813749,
+      "relative_l2": 0.054479571018928516
+    },
+    {
+      "tensor": "decoder.up.2.upsample.conv.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.027581620009008326,
+      "reference_l2": 1.4143287224589132,
+      "relative_l2": 0.019501562522930085
+    },
+    {
+      "tensor": "decoder.up.3.block.0.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.02982105006359226,
+      "reference_l2": 21.935132571745037,
+      "relative_l2": 0.0013595108197342373
+    },
+    {
+      "tensor": "decoder.up.3.block.0.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.020059434397004562,
+      "reference_l2": 5.974538866736027,
+      "relative_l2": 0.0033574866352762234
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.650300205424143,
+      "reference_l2": 78.44288445436477,
+      "relative_l2": 0.03378636856432774
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016389427153969058,
+      "reference_l2": 0.7760945017612365,
+      "relative_l2": 0.02111782407525833
+    },
+    {
+      "tensor": "decoder.up.3.block.0.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.03356846597216148,
+      "reference_l2": 16.32205570068722,
+      "relative_l2": 0.0020566322396968735
+    },
+    {
+      "tensor": "decoder.up.3.block.0.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016034536411445994,
+      "reference_l2": 3.4004631111154744,
+      "relative_l2": 0.004715397840674145
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.81289866980714,
+      "reference_l2": 67.963587641163,
+      "relative_l2": 0.041388319355046416
+    },
+    {
+      "tensor": "decoder.up.3.block.0.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.014503438954887999,
+      "reference_l2": 1.3529823760560755,
+      "relative_l2": 0.010719606708525885
+    },
+    {
+      "tensor": "decoder.up.3.block.1.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.025077627477939065,
+      "reference_l2": 22.093374425301025,
+      "relative_l2": 0.0011350745701037192
+    },
+    {
+      "tensor": "decoder.up.3.block.1.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.01582679408410365,
+      "reference_l2": 6.431443591929891,
+      "relative_l2": 0.0024608462871326345
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.638511642075452,
+      "reference_l2": 79.35915993228157,
+      "relative_l2": 0.033247726466950206
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016248176156649606,
+      "reference_l2": 0.8961891413683344,
+      "relative_l2": 0.01813029795456046
+    },
+    {
+      "tensor": "decoder.up.3.block.1.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.032753123484041816,
+      "reference_l2": 17.305790819004883,
+      "relative_l2": 0.0018926106195663115
+    },
+    {
+      "tensor": "decoder.up.3.block.1.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016020208388402186,
+      "reference_l2": 4.083970765893879,
+      "relative_l2": 0.003922703982651003
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.787246079099441,
+      "reference_l2": 68.49540896274836,
+      "relative_l2": 0.040692451089901535
+    },
+    {
+      "tensor": "decoder.up.3.block.1.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.016320349778829676,
+      "reference_l2": 0.9938678232546471,
+      "relative_l2": 0.01642104653854772
+    },
+    {
+      "tensor": "decoder.up.3.block.2.norm1.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.026922999448361972,
+      "reference_l2": 20.91186970192739,
+      "relative_l2": 0.0012874506121220023
+    },
+    {
+      "tensor": "decoder.up.3.block.2.norm1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.019309359773599776,
+      "reference_l2": 4.834248508862137,
+      "relative_l2": 0.003994283648886044
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv1.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.681811430103701,
+      "reference_l2": 83.93827531857679,
+      "relative_l2": 0.03194980382817297
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv1.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.015035074114277092,
+      "reference_l2": 1.0550893490444049,
+      "relative_l2": 0.014250048233255663
+    },
+    {
+      "tensor": "decoder.up.3.block.2.norm2.weight",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.026422956528080133,
+      "reference_l2": 17.952836344585485,
+      "relative_l2": 0.0014717984401416999
+    },
+    {
+      "tensor": "decoder.up.3.block.2.norm2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.012453534651088399,
+      "reference_l2": 4.914630295254862,
+      "relative_l2": 0.00253397181535963
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv2.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.7162223671226586,
+      "reference_l2": 69.82341294570287,
+      "relative_l2": 0.03890131193149909
+    },
+    {
+      "tensor": "decoder.up.3.block.2.conv2.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.012821214306327223,
+      "reference_l2": 1.212975342556817,
+      "relative_l2": 0.01057005353406569
+    },
+    {
+      "tensor": "decoder.up.3.upsample.conv.weight",
+      "shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "parameters": 2359296,
+      "difference_l2": 2.969076152032834,
+      "reference_l2": 42.77780980659411,
+      "relative_l2": 0.06940692301584729
+    },
+    {
+      "tensor": "decoder.up.3.upsample.conv.bias",
+      "shape": [
+        512
+      ],
+      "parameters": 512,
+      "difference_l2": 0.018705040759303716,
+      "reference_l2": 1.8390781220852273,
+      "relative_l2": 0.010170878841239829
+    },
+    {
+      "tensor": "decoder.norm_out.weight",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.028148188547832097,
+      "reference_l2": 9.326287390824104,
+      "relative_l2": 0.003018155817879511
+    },
+    {
+      "tensor": "decoder.norm_out.bias",
+      "shape": [
+        128
+      ],
+      "parameters": 128,
+      "difference_l2": 0.012058424839666113,
+      "reference_l2": 1.2782357416781451,
+      "relative_l2": 0.009433647054677944
+    },
+    {
+      "tensor": "decoder.conv_out.weight",
+      "shape": [
+        3,
+        128,
+        3,
+        3
+      ],
+      "parameters": 3456,
+      "difference_l2": 0.07725024502963496,
+      "reference_l2": 0.931926511778845,
+      "relative_l2": 0.08289306512182065
+    },
+    {
+      "tensor": "decoder.conv_out.bias",
+      "shape": [
+        3
+      ],
+      "parameters": 3,
+      "difference_l2": 0.0002856703349016244,
+      "reference_l2": 0.0530083450220875,
+      "relative_l2": 0.005389157778508108
+    },
+    {
+      "tensor": "post_quant_conv.weight",
+      "shape": [
+        4,
+        4,
+        1,
+        1
+      ],
+      "parameters": 16,
+      "difference_l2": 0.005971219107363482,
+      "reference_l2": 1.0081888131336547,
+      "relative_l2": 0.005922719067675156
+    },
+    {
+      "tensor": "post_quant_conv.bias",
+      "shape": [
+        4
+      ],
+      "parameters": 4,
+      "difference_l2": 0.0010699637695602087,
+      "reference_l2": 0.29085757780560745,
+      "relative_l2": 0.0036786518598986313
+    }
+  ],
+  "key_mapping": [
+    {
+      "official": "encoder.conv_in.weight",
+      "mirror": "encoder.conv_in.weight",
+      "official_shape": [
+        128,
+        3,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.conv_in.bias",
+      "mirror": "encoder.conv_in.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.norm1.weight",
+      "mirror": "encoder.down_blocks.0.resnets.0.norm1.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.norm1.bias",
+      "mirror": "encoder.down_blocks.0.resnets.0.norm1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.conv1.weight",
+      "mirror": "encoder.down_blocks.0.resnets.0.conv1.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.conv1.bias",
+      "mirror": "encoder.down_blocks.0.resnets.0.conv1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.norm2.weight",
+      "mirror": "encoder.down_blocks.0.resnets.0.norm2.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.norm2.bias",
+      "mirror": "encoder.down_blocks.0.resnets.0.norm2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.conv2.weight",
+      "mirror": "encoder.down_blocks.0.resnets.0.conv2.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.0.conv2.bias",
+      "mirror": "encoder.down_blocks.0.resnets.0.conv2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.norm1.weight",
+      "mirror": "encoder.down_blocks.0.resnets.1.norm1.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.norm1.bias",
+      "mirror": "encoder.down_blocks.0.resnets.1.norm1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.conv1.weight",
+      "mirror": "encoder.down_blocks.0.resnets.1.conv1.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.conv1.bias",
+      "mirror": "encoder.down_blocks.0.resnets.1.conv1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.norm2.weight",
+      "mirror": "encoder.down_blocks.0.resnets.1.norm2.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.norm2.bias",
+      "mirror": "encoder.down_blocks.0.resnets.1.norm2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.conv2.weight",
+      "mirror": "encoder.down_blocks.0.resnets.1.conv2.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.0.block.1.conv2.bias",
+      "mirror": "encoder.down_blocks.0.resnets.1.conv2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.0.downsample.conv.weight",
+      "mirror": "encoder.down_blocks.0.downsamplers.0.conv.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.0.downsample.conv.bias",
+      "mirror": "encoder.down_blocks.0.downsamplers.0.conv.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.norm1.weight",
+      "mirror": "encoder.down_blocks.1.resnets.0.norm1.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.norm1.bias",
+      "mirror": "encoder.down_blocks.1.resnets.0.norm1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.conv1.weight",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv1.weight",
+      "official_shape": [
+        256,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.conv1.bias",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.norm2.weight",
+      "mirror": "encoder.down_blocks.1.resnets.0.norm2.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.norm2.bias",
+      "mirror": "encoder.down_blocks.1.resnets.0.norm2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.conv2.weight",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv2.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.conv2.bias",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.nin_shortcut.weight",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv_shortcut.weight",
+      "official_shape": [
+        256,
+        128,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        256,
+        128,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.0.nin_shortcut.bias",
+      "mirror": "encoder.down_blocks.1.resnets.0.conv_shortcut.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.norm1.weight",
+      "mirror": "encoder.down_blocks.1.resnets.1.norm1.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.norm1.bias",
+      "mirror": "encoder.down_blocks.1.resnets.1.norm1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.conv1.weight",
+      "mirror": "encoder.down_blocks.1.resnets.1.conv1.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.conv1.bias",
+      "mirror": "encoder.down_blocks.1.resnets.1.conv1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.norm2.weight",
+      "mirror": "encoder.down_blocks.1.resnets.1.norm2.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.norm2.bias",
+      "mirror": "encoder.down_blocks.1.resnets.1.norm2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.conv2.weight",
+      "mirror": "encoder.down_blocks.1.resnets.1.conv2.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.1.block.1.conv2.bias",
+      "mirror": "encoder.down_blocks.1.resnets.1.conv2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.1.downsample.conv.weight",
+      "mirror": "encoder.down_blocks.1.downsamplers.0.conv.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.1.downsample.conv.bias",
+      "mirror": "encoder.down_blocks.1.downsamplers.0.conv.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.norm1.weight",
+      "mirror": "encoder.down_blocks.2.resnets.0.norm1.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.norm1.bias",
+      "mirror": "encoder.down_blocks.2.resnets.0.norm1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.conv1.weight",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.conv1.bias",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.norm2.weight",
+      "mirror": "encoder.down_blocks.2.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.norm2.bias",
+      "mirror": "encoder.down_blocks.2.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.conv2.weight",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.conv2.bias",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.nin_shortcut.weight",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv_shortcut.weight",
+      "official_shape": [
+        512,
+        256,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        256,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.0.nin_shortcut.bias",
+      "mirror": "encoder.down_blocks.2.resnets.0.conv_shortcut.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.norm1.weight",
+      "mirror": "encoder.down_blocks.2.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.norm1.bias",
+      "mirror": "encoder.down_blocks.2.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.conv1.weight",
+      "mirror": "encoder.down_blocks.2.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.conv1.bias",
+      "mirror": "encoder.down_blocks.2.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.norm2.weight",
+      "mirror": "encoder.down_blocks.2.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.norm2.bias",
+      "mirror": "encoder.down_blocks.2.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.conv2.weight",
+      "mirror": "encoder.down_blocks.2.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.2.block.1.conv2.bias",
+      "mirror": "encoder.down_blocks.2.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.2.downsample.conv.weight",
+      "mirror": "encoder.down_blocks.2.downsamplers.0.conv.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.2.downsample.conv.bias",
+      "mirror": "encoder.down_blocks.2.downsamplers.0.conv.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.norm1.weight",
+      "mirror": "encoder.down_blocks.3.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.norm1.bias",
+      "mirror": "encoder.down_blocks.3.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.conv1.weight",
+      "mirror": "encoder.down_blocks.3.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.conv1.bias",
+      "mirror": "encoder.down_blocks.3.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.norm2.weight",
+      "mirror": "encoder.down_blocks.3.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.norm2.bias",
+      "mirror": "encoder.down_blocks.3.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.conv2.weight",
+      "mirror": "encoder.down_blocks.3.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.0.conv2.bias",
+      "mirror": "encoder.down_blocks.3.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.norm1.weight",
+      "mirror": "encoder.down_blocks.3.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.norm1.bias",
+      "mirror": "encoder.down_blocks.3.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.conv1.weight",
+      "mirror": "encoder.down_blocks.3.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.conv1.bias",
+      "mirror": "encoder.down_blocks.3.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.norm2.weight",
+      "mirror": "encoder.down_blocks.3.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.norm2.bias",
+      "mirror": "encoder.down_blocks.3.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.conv2.weight",
+      "mirror": "encoder.down_blocks.3.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.down.3.block.1.conv2.bias",
+      "mirror": "encoder.down_blocks.3.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.norm1.weight",
+      "mirror": "encoder.mid_block.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.norm1.bias",
+      "mirror": "encoder.mid_block.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.conv1.weight",
+      "mirror": "encoder.mid_block.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.conv1.bias",
+      "mirror": "encoder.mid_block.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.norm2.weight",
+      "mirror": "encoder.mid_block.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.norm2.bias",
+      "mirror": "encoder.mid_block.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.conv2.weight",
+      "mirror": "encoder.mid_block.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.mid.block_1.conv2.bias",
+      "mirror": "encoder.mid_block.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.norm.weight",
+      "mirror": "encoder.mid_block.attentions.0.group_norm.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.norm.bias",
+      "mirror": "encoder.mid_block.attentions.0.group_norm.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.q.weight",
+      "mirror": "encoder.mid_block.attentions.0.query.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.q.bias",
+      "mirror": "encoder.mid_block.attentions.0.query.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.k.weight",
+      "mirror": "encoder.mid_block.attentions.0.key.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.k.bias",
+      "mirror": "encoder.mid_block.attentions.0.key.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.v.weight",
+      "mirror": "encoder.mid_block.attentions.0.value.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.v.bias",
+      "mirror": "encoder.mid_block.attentions.0.value.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.proj_out.weight",
+      "mirror": "encoder.mid_block.attentions.0.proj_attn.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.attn_1.proj_out.bias",
+      "mirror": "encoder.mid_block.attentions.0.proj_attn.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.norm1.weight",
+      "mirror": "encoder.mid_block.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.norm1.bias",
+      "mirror": "encoder.mid_block.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.conv1.weight",
+      "mirror": "encoder.mid_block.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.conv1.bias",
+      "mirror": "encoder.mid_block.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.norm2.weight",
+      "mirror": "encoder.mid_block.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.norm2.bias",
+      "mirror": "encoder.mid_block.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.conv2.weight",
+      "mirror": "encoder.mid_block.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.mid.block_2.conv2.bias",
+      "mirror": "encoder.mid_block.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.norm_out.weight",
+      "mirror": "encoder.conv_norm_out.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.norm_out.bias",
+      "mirror": "encoder.conv_norm_out.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "encoder.conv_out.weight",
+      "mirror": "encoder.conv_out.weight",
+      "official_shape": [
+        8,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        8,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "encoder.conv_out.bias",
+      "mirror": "encoder.conv_out.bias",
+      "official_shape": [
+        8
+      ],
+      "mirror_shape": [
+        8
+      ]
+    },
+    {
+      "official": "decoder.conv_in.weight",
+      "mirror": "decoder.conv_in.weight",
+      "official_shape": [
+        512,
+        4,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.conv_in.bias",
+      "mirror": "decoder.conv_in.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.norm1.weight",
+      "mirror": "decoder.mid_block.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.norm1.bias",
+      "mirror": "decoder.mid_block.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.conv1.weight",
+      "mirror": "decoder.mid_block.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.conv1.bias",
+      "mirror": "decoder.mid_block.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.norm2.weight",
+      "mirror": "decoder.mid_block.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.norm2.bias",
+      "mirror": "decoder.mid_block.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.conv2.weight",
+      "mirror": "decoder.mid_block.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.mid.block_1.conv2.bias",
+      "mirror": "decoder.mid_block.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.norm.weight",
+      "mirror": "decoder.mid_block.attentions.0.group_norm.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.norm.bias",
+      "mirror": "decoder.mid_block.attentions.0.group_norm.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.q.weight",
+      "mirror": "decoder.mid_block.attentions.0.query.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.q.bias",
+      "mirror": "decoder.mid_block.attentions.0.query.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.k.weight",
+      "mirror": "decoder.mid_block.attentions.0.key.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.k.bias",
+      "mirror": "decoder.mid_block.attentions.0.key.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.v.weight",
+      "mirror": "decoder.mid_block.attentions.0.value.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.v.bias",
+      "mirror": "decoder.mid_block.attentions.0.value.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.proj_out.weight",
+      "mirror": "decoder.mid_block.attentions.0.proj_attn.weight",
+      "official_shape": [
+        512,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        512,
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.attn_1.proj_out.bias",
+      "mirror": "decoder.mid_block.attentions.0.proj_attn.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.norm1.weight",
+      "mirror": "decoder.mid_block.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.norm1.bias",
+      "mirror": "decoder.mid_block.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.conv1.weight",
+      "mirror": "decoder.mid_block.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.conv1.bias",
+      "mirror": "decoder.mid_block.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.norm2.weight",
+      "mirror": "decoder.mid_block.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.norm2.bias",
+      "mirror": "decoder.mid_block.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.conv2.weight",
+      "mirror": "decoder.mid_block.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.mid.block_2.conv2.bias",
+      "mirror": "decoder.mid_block.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.norm1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.0.norm1.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.norm1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.0.norm1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.conv1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv1.weight",
+      "official_shape": [
+        128,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.conv1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.norm2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.0.norm2.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.norm2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.0.norm2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.conv2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv2.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.conv2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.nin_shortcut.weight",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv_shortcut.weight",
+      "official_shape": [
+        128,
+        256,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        128,
+        256,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.0.nin_shortcut.bias",
+      "mirror": "decoder.up_blocks.3.resnets.0.conv_shortcut.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.norm1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.1.norm1.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.norm1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.1.norm1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.conv1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.1.conv1.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.conv1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.1.conv1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.norm2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.1.norm2.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.norm2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.1.norm2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.conv2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.1.conv2.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.1.conv2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.1.conv2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.norm1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.2.norm1.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.norm1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.2.norm1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.conv1.weight",
+      "mirror": "decoder.up_blocks.3.resnets.2.conv1.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.conv1.bias",
+      "mirror": "decoder.up_blocks.3.resnets.2.conv1.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.norm2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.2.norm2.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.norm2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.2.norm2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.conv2.weight",
+      "mirror": "decoder.up_blocks.3.resnets.2.conv2.weight",
+      "official_shape": [
+        128,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        128,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.0.block.2.conv2.bias",
+      "mirror": "decoder.up_blocks.3.resnets.2.conv2.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.norm1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.norm1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.conv1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv1.weight",
+      "official_shape": [
+        256,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.conv1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.norm2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.0.norm2.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.norm2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.0.norm2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.conv2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv2.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.conv2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.nin_shortcut.weight",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv_shortcut.weight",
+      "official_shape": [
+        256,
+        512,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        256,
+        512,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.0.nin_shortcut.bias",
+      "mirror": "decoder.up_blocks.2.resnets.0.conv_shortcut.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.norm1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.1.norm1.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.norm1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.1.norm1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.conv1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.1.conv1.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.conv1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.1.conv1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.norm2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.1.norm2.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.norm2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.1.norm2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.conv2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.1.conv2.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.1.conv2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.1.conv2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.norm1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.2.norm1.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.norm1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.2.norm1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.conv1.weight",
+      "mirror": "decoder.up_blocks.2.resnets.2.conv1.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.conv1.bias",
+      "mirror": "decoder.up_blocks.2.resnets.2.conv1.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.norm2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.2.norm2.weight",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.norm2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.2.norm2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.conv2.weight",
+      "mirror": "decoder.up_blocks.2.resnets.2.conv2.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.block.2.conv2.bias",
+      "mirror": "decoder.up_blocks.2.resnets.2.conv2.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.1.upsample.conv.weight",
+      "mirror": "decoder.up_blocks.2.upsamplers.0.conv.weight",
+      "official_shape": [
+        256,
+        256,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        256,
+        256,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.1.upsample.conv.bias",
+      "mirror": "decoder.up_blocks.2.upsamplers.0.conv.bias",
+      "official_shape": [
+        256
+      ],
+      "mirror_shape": [
+        256
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.norm1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.norm1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.conv1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.conv1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.norm2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.norm2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.conv2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.0.conv2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.norm1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.norm1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.conv1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.conv1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.norm2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.norm2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.conv2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.1.conv2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.norm1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.2.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.norm1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.2.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.conv1.weight",
+      "mirror": "decoder.up_blocks.1.resnets.2.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.conv1.bias",
+      "mirror": "decoder.up_blocks.1.resnets.2.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.norm2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.2.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.norm2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.2.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.conv2.weight",
+      "mirror": "decoder.up_blocks.1.resnets.2.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.block.2.conv2.bias",
+      "mirror": "decoder.up_blocks.1.resnets.2.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.2.upsample.conv.weight",
+      "mirror": "decoder.up_blocks.1.upsamplers.0.conv.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.2.upsample.conv.bias",
+      "mirror": "decoder.up_blocks.1.upsamplers.0.conv.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.norm1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.0.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.norm1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.0.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.conv1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.0.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.conv1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.0.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.norm2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.0.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.norm2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.0.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.conv2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.0.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.0.conv2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.0.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.norm1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.1.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.norm1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.1.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.conv1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.1.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.conv1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.1.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.norm2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.1.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.norm2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.1.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.conv2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.1.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.1.conv2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.1.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.norm1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.2.norm1.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.norm1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.2.norm1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.conv1.weight",
+      "mirror": "decoder.up_blocks.0.resnets.2.conv1.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.conv1.bias",
+      "mirror": "decoder.up_blocks.0.resnets.2.conv1.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.norm2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.2.norm2.weight",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.norm2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.2.norm2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.conv2.weight",
+      "mirror": "decoder.up_blocks.0.resnets.2.conv2.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.block.2.conv2.bias",
+      "mirror": "decoder.up_blocks.0.resnets.2.conv2.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.up.3.upsample.conv.weight",
+      "mirror": "decoder.up_blocks.0.upsamplers.0.conv.weight",
+      "official_shape": [
+        512,
+        512,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        512,
+        512,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.up.3.upsample.conv.bias",
+      "mirror": "decoder.up_blocks.0.upsamplers.0.conv.bias",
+      "official_shape": [
+        512
+      ],
+      "mirror_shape": [
+        512
+      ]
+    },
+    {
+      "official": "decoder.norm_out.weight",
+      "mirror": "decoder.conv_norm_out.weight",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.norm_out.bias",
+      "mirror": "decoder.conv_norm_out.bias",
+      "official_shape": [
+        128
+      ],
+      "mirror_shape": [
+        128
+      ]
+    },
+    {
+      "official": "decoder.conv_out.weight",
+      "mirror": "decoder.conv_out.weight",
+      "official_shape": [
+        3,
+        128,
+        3,
+        3
+      ],
+      "mirror_shape": [
+        3,
+        128,
+        3,
+        3
+      ]
+    },
+    {
+      "official": "decoder.conv_out.bias",
+      "mirror": "decoder.conv_out.bias",
+      "official_shape": [
+        3
+      ],
+      "mirror_shape": [
+        3
+      ]
+    },
+    {
+      "official": "quant_conv.weight",
+      "mirror": "quant_conv.weight",
+      "official_shape": [
+        8,
+        8,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        8,
+        8,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "quant_conv.bias",
+      "mirror": "quant_conv.bias",
+      "official_shape": [
+        8
+      ],
+      "mirror_shape": [
+        8
+      ]
+    },
+    {
+      "official": "post_quant_conv.weight",
+      "mirror": "post_quant_conv.weight",
+      "official_shape": [
+        4,
+        4,
+        1,
+        1
+      ],
+      "mirror_shape": [
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "official": "post_quant_conv.bias",
+      "mirror": "post_quant_conv.bias",
+      "official_shape": [
+        4
+      ],
+      "mirror_shape": [
+        4
+      ]
+    }
+  ],
+  "interpretation": "Compatible architecture; difference includes watermark adaptation and any unknown base-weight differences. Mirror identity with the authors' private baseline is unestablished.",
+  "mirror_vae_config": {
+    "_class_name": "AutoencoderKL",
+    "_diffusers_version": "0.10.0.dev0",
+    "act_fn": "silu",
+    "block_out_channels": [
+      128,
+      256,
+      512,
+      512
+    ],
+    "down_block_types": [
+      "DownEncoderBlock2D",
+      "DownEncoderBlock2D",
+      "DownEncoderBlock2D",
+      "DownEncoderBlock2D"
+    ],
+    "in_channels": 3,
+    "latent_channels": 4,
+    "layers_per_block": 2,
+    "norm_num_groups": 32,
+    "out_channels": 3,
+    "sample_size": 768,
+    "up_block_types": [
+      "UpDecoderBlock2D",
+      "UpDecoderBlock2D",
+      "UpDecoderBlock2D",
+      "UpDecoderBlock2D"
+    ]
+  }
+}

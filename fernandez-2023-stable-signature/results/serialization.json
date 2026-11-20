@@ -1,0 +1,18 @@
+[
+  {
+    "image": "Airplane",
+    "clipped_values": {
+      "plain": 0,
+      "watermarked": 5
+    },
+    "rounding": "clip [0,1], multiply 255, round ties to even, uint8"
+  },
+  {
+    "image": "Boat",
+    "clipped_values": {
+      "plain": 0,
+      "watermarked": 5
+    },
+    "rounding": "clip [0,1], multiply 255, round ties to even, uint8"
+  }
+]

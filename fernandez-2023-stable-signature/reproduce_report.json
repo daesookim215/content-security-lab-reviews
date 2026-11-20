@@ -1,0 +1,48 @@
+{
+  "all_identical": true,
+  "files": [
+    {
+      "file": "results.json",
+      "identical": true,
+      "actual_sha256": "0e93b180fe13fcf16015eb0e03af1880d599d15e732d6f063bc167e727f2fb2d"
+    },
+    {
+      "file": "quality.json",
+      "identical": true,
+      "actual_sha256": "d12547ae47bd5191626d01e9dcf7ec5f358f32c570c7be21bd9680ea408bc540"
+    },
+    {
+      "file": "example_values.json",
+      "identical": true,
+      "actual_sha256": "45b6283cee23d430ec3e2a8a47e45339fe9c4ae063c086672fc358826d5b5fbd"
+    },
+    {
+      "file": "measurements.csv",
+      "identical": true,
+      "actual_sha256": "01767269e9773c2b1e3aaf0f45db234abc80bc6dfbf4a70870c98ef1a2e80301"
+    },
+    {
+      "file": "quality.csv",
+      "identical": true,
+      "actual_sha256": "bc2ce0e2361d011d60e164609fab475b300d456fe92c1ba0ee6c7646f6ee58e9"
+    },
+    {
+      "file": "settings.json",
+      "identical": true,
+      "actual_sha256": "9d3f871515fb78a40dec0c64bd1de42004aac4d1a7937ce10afe488bd5631f5b"
+    },
+    {
+      "file": "load_report.json",
+      "identical": true,
+      "actual_sha256": "297929345aa54506783440068b79d2ee4d5847d22190bb859d3dde93ccb2bb09"
+    },
+    {
+      "file": "serialization.json",
+      "identical": true,
+      "actual_sha256": "168aadb27f368a2e20cc4a5a03f861f866ca716b9743baa1babe5374ded546fe"
+    }
+  ],
+  "comparison": "Byte-exact results; settings parsed with only environment.Python and environment.torch excluded",
+  "download_branch_exercised": true,
+  "received_images": 52
+}
