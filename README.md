@@ -7,6 +7,7 @@ code. `bui-2023-trustmark` tests the authors' released TrustMark package instead
 `zhu-2018-hidden` tests released checkpoints of a public PyTorch re-implementation of HiDDeN.
 `tancik-2020-stegastamp` tests the released StegaStamp SavedModel from a community mirror; original identity is unverified.
 `fernandez-2023-stable-signature` tests the authors' released watermarked decoder and extractor with an SD 2.1 base VAE from a community mirror.
+`jia-2021-mbrs` tests the authors' official pretrained MBRS models; the official source is downloaded at a pinned commit, not included.
 The numeric results describe our stated settings and are not the papers' original
 results.
 
@@ -22,6 +23,7 @@ results.
 | HiDDeN: Hiding Data With Deep Networks | J. Zhu, R. Kaplan, J. Johnson, L. Fei-Fei | 2018 | [10.48550/arXiv.1807.09937](https://doi.org/10.48550/arXiv.1807.09937) | [zhu-2018-hidden](zhu-2018-hidden/) | [Blog post](https://chickendays.com/zhu-2018-hidden/) |
 | StegaStamp: Invisible Hyperlinks in Physical Photographs | M. Tancik, B. Mildenhall, R. Ng | 2020 | [10.48550/arXiv.1904.05343](https://doi.org/10.48550/arXiv.1904.05343) | [tancik-2020-stegastamp](tancik-2020-stegastamp/) | [Blog post](https://chickendays.com/tancik-2020-stegastamp/) |
 | The Stable Signature: Rooting Watermarks in Latent Diffusion Models | P. Fernandez, G. Couairon, H. Jégou, M. Douze, T. Furon | 2023 | [10.48550/arXiv.2303.15435](https://doi.org/10.48550/arXiv.2303.15435) | [fernandez-2023-stable-signature](fernandez-2023-stable-signature/) | [Blog post](https://chickendays.com/fernandez-2023-stable-signature/) |
+| MBRS: Enhancing Robustness of DNN-based Watermarking by Mini-Batch of Real and Simulated JPEG Compression | Z. Jia, H. Fang, W. Zhang | 2021 | [10.1145/3474085.3475324](https://doi.org/10.1145/3474085.3475324) | [jia-2021-mbrs](jia-2021-mbrs/) | [Blog post](https://chickendays.com/jia-2021-mbrs/) |
 | Overwrite, cross-method and copy tests on TrustMark and Video Seal (our experiment) | - | 2026 | - | [wm-overwrite-copy-tests](wm-overwrite-copy-tests/) | [Blog post](https://chickendays.com/wm-overwrite-copy-tests/) |
 
 ## Quick start
@@ -50,6 +52,10 @@ Stable Signature uses uv and CPU PyTorch: see
 [fernandez-2023-stable-signature/README.md](fernandez-2023-stable-signature/README.md)
 and run `uv run reproduce.py` inside that folder. Its `code/stable_signature/` file
 keeps the official repository's license, not the MIT license.
+
+MBRS uses uv and CPU PyTorch: see [jia-2021-mbrs/README.md](jia-2021-mbrs/README.md)
+and run `uv run reproduce.py` inside that folder. The official MBRS repository
+states no license, so its source is downloaded at run time rather than included.
 
 StegaStamp uses micromamba or conda, Python 3.7 and TensorFlow 1.15.5 on CPU: see
 [tancik-2020-stegastamp/README.md](tancik-2020-stegastamp/README.md)

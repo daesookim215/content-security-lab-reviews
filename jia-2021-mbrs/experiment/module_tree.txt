@@ -1,0 +1,978 @@
+MBRS_256_m256 / encoder
+Encoder_MP(
+  (image_pre_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (image_first_layer): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (1): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (2): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (3): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (message_pre_layer): Sequential(
+    (0): ConvBNRelu(
+      (layers): Sequential(
+        (0): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        (2): ReLU(inplace=True)
+      )
+    )
+    (1): ExpandNet(
+      (layers): Sequential(
+        (0): ConvTBNRelu(
+          (layers): Sequential(
+            (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (1): ConvTBNRelu(
+          (layers): Sequential(
+            (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (2): ConvTBNRelu(
+          (layers): Sequential(
+            (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (3): ConvTBNRelu(
+          (layers): Sequential(
+            (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+      )
+    )
+    (2): SENet(
+      (layers): Sequential(
+        (0): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+      )
+    )
+  )
+  (message_first_layer): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (1): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (2): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (3): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (after_concat_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (final_layer): Conv2d(67, 3, kernel_size=(1, 1), stride=(1, 1))
+)
+
+MBRS_256_m256 / decoder
+Decoder(
+  (first_layers): Sequential(
+    (0): ConvBNRelu(
+      (layers): Sequential(
+        (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        (2): ReLU(inplace=True)
+      )
+    )
+    (1): SENet_decoder(
+      (layers): Sequential(
+        (0): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (1): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (2): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(128, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(16, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (3): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(128, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(16, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (4): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(256, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(32, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (5): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(256, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(32, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (6): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(512, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (7): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(512, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (8): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(1024, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(1024, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(1024, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(128, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+      )
+    )
+    (2): ConvBNRelu(
+      (layers): Sequential(
+        (0): Conv2d(1024, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        (2): ReLU(inplace=True)
+      )
+    )
+  )
+  (keep_layers): SENet(
+    (layers): Sequential()
+  )
+  (final_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(1, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+)
+
+MBRS_256_m256 / discriminator
+Discriminator(
+  (layers): Sequential(
+    (0): ConvNet(
+      (layers): Sequential(
+        (0): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (1): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (2): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (3): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+      )
+    )
+    (1): AdaptiveAvgPool2d(output_size=(1, 1))
+  )
+  (linear): Linear(in_features=64, out_features=1, bias=True)
+)
+
+MBRS_Diffusion_128_m30 / encoder
+Encoder_MP_Diffusion(
+  (image_pre_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (image_first_layer): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (1): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (2): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (3): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (message_duplicate_layer): Linear(in_features=30, out_features=256, bias=True)
+  (message_pre_layer_0): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (message_pre_layer_1): ExpandNet(
+    (layers): Sequential(
+      (0): ConvTBNRelu(
+        (layers): Sequential(
+          (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+        )
+      )
+      (1): ConvTBNRelu(
+        (layers): Sequential(
+          (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+        )
+      )
+      (2): ConvTBNRelu(
+        (layers): Sequential(
+          (0): ConvTranspose2d(64, 64, kernel_size=(2, 2), stride=(2, 2))
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+        )
+      )
+    )
+  )
+  (message_pre_layer_2): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (message_first_layer): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (1): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (2): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+      (3): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (after_concat_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(128, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (final_layer): Conv2d(67, 3, kernel_size=(1, 1), stride=(1, 1))
+)
+
+MBRS_Diffusion_128_m30 / decoder
+Decoder_Diffusion(
+  (first_layers): Sequential(
+    (0): ConvBNRelu(
+      (layers): Sequential(
+        (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        (2): ReLU(inplace=True)
+      )
+    )
+    (1): SENet_decoder(
+      (layers): Sequential(
+        (0): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (1): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (2): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(128, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(16, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (3): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(128, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(128, 16, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(16, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (4): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(256, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(32, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (5): BottleneckBlock(
+          (left): Sequential(
+            (0): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(256, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(256, 32, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(32, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+        (6): BottleneckBlock(
+          (downsample): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (left): Sequential(
+            (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+            (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+            (4): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (5): ReLU(inplace=True)
+            (6): Conv2d(512, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (7): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          )
+          (se): Sequential(
+            (0): AdaptiveAvgPool2d(output_size=(1, 1))
+            (1): Conv2d(512, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (2): ReLU(inplace=True)
+            (3): Conv2d(64, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+            (4): Sigmoid()
+          )
+        )
+      )
+    )
+    (2): ConvBNRelu(
+      (layers): Sequential(
+        (0): Conv2d(512, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+        (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        (2): ReLU(inplace=True)
+      )
+    )
+  )
+  (keep_layers): SENet(
+    (layers): Sequential(
+      (0): BottleneckBlock(
+        (left): Sequential(
+          (0): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+          (4): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+          (5): ReLU(inplace=True)
+          (6): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (7): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+        )
+        (se): Sequential(
+          (0): AdaptiveAvgPool2d(output_size=(1, 1))
+          (1): Conv2d(64, 8, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (2): ReLU(inplace=True)
+          (3): Conv2d(8, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (4): Sigmoid()
+        )
+      )
+    )
+  )
+  (final_layer): ConvBNRelu(
+    (layers): Sequential(
+      (0): Conv2d(64, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+      (1): BatchNorm2d(1, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+      (2): ReLU(inplace=True)
+    )
+  )
+  (message_layer): Linear(in_features=256, out_features=30, bias=True)
+)
+
+MBRS_Diffusion_128_m30 / discriminator
+Discriminator(
+  (layers): Sequential(
+    (0): ConvNet(
+      (layers): Sequential(
+        (0): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (1): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (2): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+        (3): ConvBNRelu(
+          (layers): Sequential(
+            (0): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+            (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, bias=True, track_running_stats=True)
+            (2): ReLU(inplace=True)
+          )
+        )
+      )
+    )
+    (1): AdaptiveAvgPool2d(output_size=(1, 1))
+  )
+  (linear): Linear(in_features=64, out_features=1, bias=True)
+)

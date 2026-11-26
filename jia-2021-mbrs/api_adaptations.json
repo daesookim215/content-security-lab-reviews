@@ -1,0 +1,6 @@
+{
+  "changes": [],
+  "reason": "Official network and selected noise APIs execute unchanged with the pinned environment. No runtime patch is needed.",
+  "loader": "Our caller uses map_location=cpu, weights_only=True and strict=True. It does not edit official code.",
+  "metric": "Our reported SSIM uses scikit-image 7x7 uniform RGB windows; deprecated official metric harness is not invoked."
+}

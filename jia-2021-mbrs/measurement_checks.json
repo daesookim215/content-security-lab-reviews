@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "comparison": "byte-for-byte, including environment",
+  "files": {
+    "results.json": true,
+    "measurements.csv": true,
+    "quality.json": true,
+    "quality.csv": true,
+    "settings.json": true,
+    "example_values.json": true
+  },
+  "bit_accuracy": "matching bits / message length as Python division for every row"
+}
